@@ -1,0 +1,5 @@
+LazarusResources.Add('TAbstractManager','FORMDATA',[
+  'TPF0'#16'TAbstractManager'#15'AbstractManager'#4'Left'#2#0#6'Height'#3#240#0
+  +#3'Top'#2#0#5'Width'#3'@'#1#7'Caption'#6#15'AbstractManager'#10'LCLVersion'#6
+  +#8'0.9.28.2'#0#0
+]);

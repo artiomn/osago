@@ -1,0 +1,75 @@
+osago_new [2010-08-23 17:50:26.671 Info] Logging activation for "D:\free_pascal\DIPLOME\osago_new.exe"
+osago_new [2010-08-23 17:50:26.671 Debug] Initializing...
+osago_new [2010-08-23 17:50:26.703 Debug] Creating dmData.
+osago_new [2010-08-23 17:50:26.890 Debug] Creating dmCoefs.
+osago_new [2010-08-23 17:50:26.890 Debug] Creating dmReports.
+osago_new [2010-08-23 17:50:26.953 Debug] Creating Login form.
+osago_new [2010-08-23 17:50:29.140 Debug] Creating main form.
+osago_new [2010-08-23 17:50:29.328 Debug] Creating client manager.
+osago_new [2010-08-23 17:50:29.359 Debug] Creating car manager.
+osago_new [2010-08-23 17:50:29.375 Debug] Creating frmBlankContracts.
+osago_new [2010-08-23 17:50:29.375 Debug] Creating frmInputPhone.
+osago_new [2010-08-23 17:50:29.390 Debug] List filling.
+osago_new [2010-08-23 17:50:29.421 Debug] Run...
+osago_new [2010-08-23 17:52:51.218 Debug] Terminated...
+osago_new [2010-08-23 17:52:51.218 Info] Try logging deactivation
+osago_new [2010-08-23 17:52:51.515 Info] Logging activation
+osago_new [2010-08-23 17:52:51.515 Error] Func: ; src: ; line: 6184 (class: EAccessViolation [addr: 499B10]): Access violation)
+osago_new [2010-08-23 17:52:52.765 Info] Logging activation for "D:\free_pascal\DIPLOME\osago_new.exe"
+osago_new [2010-08-23 17:52:52.765 Debug] Initializing...
+osago_new [2010-08-23 17:52:52.781 Debug] Creating dmData.
+osago_new [2010-08-23 17:52:52.968 Debug] Creating dmCoefs.
+osago_new [2010-08-23 17:52:52.968 Debug] Creating dmReports.
+osago_new [2010-08-23 17:52:52.984 Debug] Creating Login form.
+osago_new [2010-08-23 17:52:55.218 Debug] Creating main form.
+osago_new [2010-08-23 17:52:55.390 Debug] Creating client manager.
+osago_new [2010-08-23 17:52:55.421 Debug] Creating car manager.
+osago_new [2010-08-23 17:52:55.437 Debug] Creating frmBlankContracts.
+osago_new [2010-08-23 17:52:55.453 Debug] Creating frmInputPhone.
+osago_new [2010-08-23 17:52:55.453 Debug] List filling.
+osago_new [2010-08-23 17:52:55.484 Debug] Run...
+osago_new [2010-08-23 17:53:03.484 Debug] Terminated...
+osago_new [2010-08-23 17:53:03.484 Info] Try logging deactivation
+osago_new [2010-08-23 17:53:03.750 Info] Logging activation
+osago_new [2010-08-23 17:53:03.750 Error] Func: ; src: ; line: 6184 (class: EAccessViolation [addr: 499B10]): Access violation)
+osago_new [2010-08-23 17:53:29.734 Info] Logging activation for "D:\free_pascal\DIPLOME\osago_new.exe"
+osago_new [2010-08-23 17:53:29.734 Debug] Initializing...
+osago_new [2010-08-23 17:53:29.765 Debug] Creating dmData.
+osago_new [2010-08-23 17:53:29.937 Debug] Creating dmCoefs.
+osago_new [2010-08-23 17:53:29.953 Debug] Creating dmReports.
+osago_new [2010-08-23 17:53:29.953 Debug] Creating Login form.
+osago_new [2010-08-23 17:53:32.437 Debug] Creating main form.
+osago_new [2010-08-23 17:53:32.625 Debug] Creating client manager.
+osago_new [2010-08-23 17:53:32.640 Debug] Creating car manager.
+osago_new [2010-08-23 17:53:32.671 Debug] Creating frmBlankContracts.
+osago_new [2010-08-23 17:53:32.671 Debug] Creating frmInputPhone.
+osago_new [2010-08-23 17:53:32.687 Debug] List filling.
+osago_new [2010-08-23 17:53:32.718 Debug] Run...
+osago_new [2010-08-23 17:53:48.937 Debug] Terminated...
+osago_new [2010-08-23 17:53:48.937 Info] Try logging deactivation
+osago_new [2010-08-23 17:53:49.218 Info] Logging activation
+osago_new [2010-08-23 17:53:49.218 Error] Func: ; src: ; line: 6184 (class: EAccessViolation [addr: 499B10]): Access violation)
+osago_new [2010-08-23 18:40:20.546 Info] Logging activation for "D:\free_pascal\DIPLOME\osago_new.exe"
+osago_new [2010-08-23 18:40:20.546 Debug] Initializing...
+osago_new [2010-08-23 18:40:20.578 Debug] Creating dmData.
+osago_new [2010-08-23 18:40:20.781 Debug] Creating dmCoefs.
+osago_new [2010-08-23 18:40:20.796 Debug] Creating dmReports.
+osago_new [2010-08-23 18:40:20.796 Debug] Creating Login form.
+osago_new [2010-08-23 18:40:24.078 Debug] Creating main form.
+osago_new [2010-08-23 18:40:24.265 Debug] Creating client manager.
+osago_new [2010-08-23 18:40:24.312 Debug] Creating car manager.
+osago_new [2010-08-23 18:40:24.328 Debug] Creating frmBlankContracts.
+osago_new [2010-08-23 18:40:24.343 Debug] Creating frmInputPhone.
+osago_new [2010-08-23 18:40:24.343 Debug] List filling.
+osago_new [2010-08-23 18:40:24.375 Debug] Run...
+osago_new [2010-08-23 18:43:16.437 Debug] data_unit.FindContract: select  dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR, dogovor.DOG_SER as CNT_DOG_SER, dogovor.DOGNUMB as CNT_DOGNUMB, dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE, dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT, dogovor.DATE_START as CNT_DATE_START, dogovor.DATE_END as CNT_DATE_END, dogovor.START_USE as CNT_START_USE, dogovor.END_USE as CNT_END_USE, dogovor.START_USE1 as CNT_START_USE1, dogovor.END_USE1 as CNT_END_USE1, dogovor.START_USE2 as CNT_START_USE2, dogovor.END_USE2 as CNT_END_USE2, dogovor.ZNAK_SER as CNT_ZNAK_SER, dogovor.ZNAK_NO as CNT_ZNAK_NO, dogovor.COMMENT as CNT_COMMENT, dogovor.ID_CLIENT as CNT_ID_CLIENT, dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE, dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY, dogovor.TRANSIT as CNT_TRANSIT, dogovor.ID_CAR as CNT_ID_CAR, dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE, dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS, dogovor.INS_SUM as CNT_INS_SUM, dogovor.INS_PREM as CNT_INS_PREM, dogovor.KOEF_TER as CNT_KOEF_TER, dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS, dogovor.KOEF_STAG as CNT_KOEF_STAG, dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED, dogovor.KOEF_POWER as CNT_KOEF_POWER, dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE, dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS, dogovor.KOEF_KN as CNT_KOEF_KN, dogovor.BASE_SUM as CNT_BASE_SUM, dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS, dogovor.DATE_WRITE as CNT_DATE_WRITE, dogovor.DATE_BEGIN as CNT_DATE_BEGIN, dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG, dogovor.TICKET_SER as CNT_TICKET_SER, dogovor.TICKET_NUM as CNT_TICKET_NUM, dogovor.TICKET_DATE as CNT_TICKET_DATE, dogovor.DATE_INSERT as CNT_DATE_INSERT, dogovor.DATE_UPDATE as CNT_DATE_UPDATE, dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME, dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME , car.ARENDA as CAR_ARENDA, car.ID_CAR as CAR_ID_CAR, car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE, car.ID_CAR_TYPE as CAR_ID_CAR_TYPE, car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE, car.ID_CLIENT as CAR_ID_CLIENT, car.PTS_DATE as CAR_PTS_DATE, car.DATE_INSERT as CAR_DATE_INSERT, car.CAR_MARK as CAR_CAR_MARK, car.DATE_UPDATE as CAR_DATE_UPDATE, car.CAR_MODEL as CAR_CAR_MODEL, car.VIN_NUM as CAR_VIN_NUM, car.YEAR_ISSUE as CAR_YEAR_ISSUE, car.POWER_KVT as CAR_POWER_KVT, car.POWER_LS as CAR_POWER_LS, car.MAX_KG as CAR_MAX_KG, car.NUM_PLACES as CAR_NUM_PLACES, car.SHASSI as CAR_SHASSI, car.KUSOV as CAR_KUSOV, car.GOS_NUM as CAR_GOS_NUM, car.PTS_SER as CAR_PTS_SER, car.PTS_NO as CAR_PTS_NO, car.FOREING as CAR_FOREING, car.COMMENTS as CAR_COMMENTS, car.USER_INSERT_NAME as CAR_USER_INSERT_NAME, car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME , client.ID_CLIENT as CLN_ID_CLIENT, client.SURNAME as CLN_SURNAME, client.NAME as CLN_NAME, client.MIDDLENAME as CLN_MIDDLENAME, client.INN as CLN_INN, client.DOC_SER as CLN_DOC_SER, client.POSTINDEX as CLN_POSTINDEX, client.BIRTHDAY as CLN_BIRTHDAY, client.ID_CITY as CLN_ID_CITY, client.ID_REGION as CLN_ID_REGION, client.ID_COUNTRY as CLN_ID_COUNTRY, client.TOWN as CLN_TOWN, client.STREET as CLN_STREET, client.HOME as CLN_HOME, client.KORPUS as CLN_KORPUS, client.FLAT as CLN_FLAT, client.HOME_PHONE as CLN_HOME_PHONE, client.DOC_NUM as CLN_DOC_NUM, client.ID_SEX as CLN_ID_SEX, client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE, client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE, client.ID_TYPE_DOC as CLN_ID_TYPE_DOC, client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS, client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS, client.LICENCE_SER as CLN_LICENCE_SER, client.LICENCE_NO as CLN_LICENCE_NO, client.START_DRIVING_DATE as CLN_START_DRIVING_DATE, client.DATE_INSERT as CLN_DATE_INSERT, client.DATE_UPDATE as CLN_DATE_UPDATE, client.WRITER_NAME as CLN_WRITER_NAME, client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED, client.CELL_PHONE as CLN_CELL_PHONE, client.BUSINESS_PHONE as CLN_BUSINESS_PHONE, client.LAST_CALL_DATE as CLN_LAST_CALL_DATE, client.COMMENTS as CLN_COMMENTS, client.USER_INSERT_NAME as CLN_USER_INSERT_NAME, client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME , CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM, CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL, CONCAT_WS(" ", client.surname, client.name, client.middlename) as FULL_NAME , CONCAT_WS(", ", if(client.town = '', null, client.town), if(client.street = '', null, client.street), if(client.home = '', null, client.home), if(client.korpus = '', null, client.korpus), if(client.flat = '', null, client.flat)) as FULL_ADDRESS from 
+(
+select dogovor.ID_DOGOVOR as CNT_ID, dogovor.ID_CAR as CAR_ID, dogovor.ID_CLIENT as CLN_ID from dogovor where 
+DOGNUMB like '%123%'  
+) subq 
+join dogovor on dogovor.ID_DOGOVOR = subq.CNT_ID join car on car.ID_CAR = subq.CAR_ID join client on client.ID_CLIENT = subq.CLN_ID join car_type on car.ID_CAR_TYPE = car_type.ID_CAR_TYPE join carmark on carmark.ID_CARMARK = car.CAR_MARK 
+
+osago_new [2010-08-23 18:44:16.046 Debug] Terminated...
+osago_new [2010-08-23 18:44:16.046 Info] Try logging deactivation
+osago_new [2010-08-23 18:44:16.406 Info] Logging activation
+osago_new [2010-08-23 18:44:16.406 Error] Func: ; src: ; line: 6184 (class: EAccessViolation [addr: 499B10]): Access violation)

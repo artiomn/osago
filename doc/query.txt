@@ -1,0 +1,45 @@
+select
+      ctg.ID_CLIENT_TYPE_GROUP as TYPE_GROUP
+      SUM(dogovor.INS_PREM) as INS_PREM,
+      COUNT(ID_DOGOVOR) as CNT_CNT,
+      1 as Q_TYPE,
+      NULL as BLANKS_DAMAGED
+from dogovor
+join client
+     on dogovor.ID_CLIENT = client.ID_CLIENT
+join client_types
+     on client.ID_CLIENT_TYPE = client_types.ID_CLIENT_TYPE
+join client_type_group ctg
+  on client_types.ID_CLIENT_TYPE_GROUP = ctg.ID_CLIENT_TYPE_GROUP
+  and ctg.ID_CLIENT_TYPE_GROUP = 1
+WHERE
+     d.DATE_START between :dt_start and :dt_end
+     -- если мне не изменяет склероз, то IN как-то не очень хорошо влияет 
+     --на использование индекса, если изменяет то лучше переписать на IN 
+     AND (ctg.ID_CLIENT_TYPE_GROUP = 1 OR ctg.ID_CLIENT_TYPE_GROUP = 2)
+GROUP BY ctg.ID_CLIENT_TYPE_GROUP
+
+Здесь надо посмотреть устраивает ли скорость и если нет, то создать таблицу с двумя колонками ID_DOGOVOR и ID_CLIENT_TYPE_GROUP, которая будет заполняться триггером.
+
+select
+      SUM(dogovor.INS_PREM) as INS_PREM,
+      COUNT(ID_DOGOVOR) as CNT_CNT,
+      3 as Q_TYPE,
+      NULL as BLANKS_DAMAGED
+from dogovor
+--зачем нужен этот джоин? Если не для проверки на то, что договор принадлежит клиенту, то убрать его на фиг.
+join client
+     on dogovor.ID_CLIENT = client.ID_CLIENT
+WHERE
+     d.DATE_START between :dt_start and :dt_end
+
+и
+
+select
+      COUNT(*) as BLANKS_DAMAGED,
+      4 as Q_TYPE,
+      NULL as INS_PREM, NULL as CNT_CNT
+from blanks_journal
+where
+     ID_BSO_STATUS = 3
+     and DATE_UPDATE between :dt_start and :dt_end;

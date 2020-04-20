@@ -1,0 +1,8 @@
+object AbstractManager: TAbstractManager
+  Left = 0
+  Height = 240
+  Top = 0
+  Width = 320
+  Caption = 'AbstractManager'
+  LCLVersion = '0.9.28.2'
+end

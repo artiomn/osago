@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <SaveClosedFiles Value="False"/>
+        <SaveOnlyProjectUnits Value="True"/>
+        <AlwaysBuild Value="False"/>
+      </Flags>
+      <SessionStorage Value="None"/>
+      <MainUnit Value="0"/>
+      <Title Value="Страхование Автогражданской Ответственности"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N Value="True"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MinorVersionNr Value="1"/>
+      <Language Value="0419"/>
+      <CharSet Value="04E3"/>
+      <StringTable CompanyName="Artiomsoft" FileDescription="OSAGO program complex client" InternalName="osago_new.exe" LegalCopyright="Artiomsoft(c)2010" OriginalFilename="osago_new.exe" ProductName="OSAGO program complex" ProductVersion=""/>
+    </VersionInfo>
+    <PublishOptions>
+      <Version Value="2"/>
+      <IgnoreBinaries Value="False"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|ppw|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <LaunchingApplication PathPlusParams="/usr/X11R6/bin/xterm -T 'Lazarus Run Output' -e $(LazarusDir)/tools/runwait.sh $(TargetCmdLine)"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="11">
+      <Item1>
+        <PackageName Value="mydacvcl10"/>
+        <MinVersion Major="1" Minor="1" Release="1" Build="1" Valid="True"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="mydac10"/>
+        <MinVersion Major="5" Minor="70" Build="44" Valid="True"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="ZVDateTimeCtrls"/>
+        <MinVersion Major="1" Minor="2" Valid="True"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="Printer4Lazarus"/>
+        <MinVersion Minor="5" Valid="True"/>
+      </Item4>
+      <Item5>
+        <PackageName Value="gradienti"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item5>
+      <Item6>
+        <PackageName Value="lazreport"/>
+        <MinVersion Minor="9" Release="5" Valid="True"/>
+      </Item6>
+      <Item7>
+        <PackageName Value="SynEdit"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item7>
+      <Item8>
+        <PackageName Value="FCL"/>
+        <MinVersion Major="1" Valid="True"/>
+      </Item8>
+      <Item9>
+        <PackageName Value="RunTimeTypeInfoControls"/>
+        <MinVersion Minor="1" Valid="True"/>
+      </Item9>
+      <Item10>
+        <PackageName Value="zcomponent"/>
+        <MinVersion Major="6" Minor="6" Release="6" Valid="True"/>
+      </Item10>
+      <Item11>
+        <PackageName Value="LCL"/>
+      </Item11>
+    </RequiredPackages>
+    <Units Count="34">
+      <Unit0>
+        <Filename Value="osago_new.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="osago_new"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="main_unit"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="data_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmData"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="data_unit"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="car_manager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmCarManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="car_manager"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="client_manager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmClientManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="client_manager"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="strings_l10n.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="strings_l10n"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="user_manager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmUserManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="user_manager"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="info_manager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmInfoManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="info_manager"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="contract_history.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmContractHistory"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="contract_history"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="login_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="login_unit"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="common_list_filer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="common_list_filer"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="common_consts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="common_consts"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="sqltool.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSQLTool"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="SQLTool"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="waiter_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmWaiter"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="waiter_unit"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="abstract_manager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="AbstractManager"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="abstract_manager"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="contracts_input.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmContractsInput"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="contracts_input"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="about_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="about_unit"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="common_functions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="common_functions"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="reports_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmReports"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="reports_unit"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="blank_contracts.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmBlankContracts"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="blank_contracts"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="obj_int\orm_abstract.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="orm_abstract"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="obj_int\orm_car.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="orm_car"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="obj_int\orm_client.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="orm_client"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="obj_int\orm_contract.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="orm_contract"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="obj_int\orm_infos_inscompany.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="orm_infos_inscompany"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="phone_input.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmInputPhone"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="phone_input"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="update_dispatcher.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="update_dispatcher"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="obj_int\orm_group.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="orm_group"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="ms_helper_dll\dll_exports.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="dll_exports"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="data_coefs.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="dmCoefs"/>
+        <ResourceBaseClass Value="DataModule"/>
+        <UnitName Value="data_coefs"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="ins_prem_calc.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ins_prem_calc"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="rep_filter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRepFilter"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="rep_filter"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="logger.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="logger"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="settings.inc"/>
+        <IsPartOfProject Value="True"/>
+      </Unit33>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)\"/>
+      <OtherUnitFiles Value="obj_int\"/>
+      <UnitOutputDirectory Value="bin\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Parsing>
+      <SyntaxOptions>
+        <UseAnsiStrings Value="False"/>
+      </SyntaxOptions>
+    </Parsing>
+    <CodeGeneration>
+      <SmartLinkUnit Value="True"/>
+      <Checks>
+        <IOChecks Value="True"/>
+        <RangeChecks Value="True"/>
+        <OverflowChecks Value="True"/>
+        <StackChecks Value="True"/>
+      </Checks>
+      <VerifyObjMethodCallValidity Value="True"/>
+      <TargetOS Value="Win32"/>
+    </CodeGeneration>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>

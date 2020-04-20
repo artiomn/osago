@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <Compiler Value="D:\free_pascal\lazarus\fpc\2.4.0\bin\i386-win32\fpc.exe" Date="1025579596"/>
+  <Params Value=" -MObjFPC -Scgi -CX -CirotR -O1 -TWin32 -g -gl -WG -vewnhi -l -FiD:\free_pascal\DIPLOME\bin\i386-win32\ -FuD:\free_pascal\DIPLOME\obj_int\ -FuD:\free_pascal\lazarus\components\zeos\src\build\ -FuD:\free_pascal\lazarus\components\rtticontrols\lib\i386-win32\win32\ -FuD:\free_pascal\lazarus\components\lazreport\source\lib\i386-win32\ -FuD:\free_pascal\lazarus\components\synedit\units\i386-win32\ -FuD:\free_pascal\lazarus\components\gradienti\lib\ -FuD:\free_pascal\lazarus\components\printers\lib\i386-win32\win32\ -FuD:\free_pascal\lazarus\components\ZVDateTimeCtrls\lib\i386-win32\ -FuD:\free_pascal\lazarus\ideintf\units\i386-win32\ -FuD:\free_pascal\lazarus\components\MyDAC\Source\Lazarus1\lib\ -FuD:\free_pascal\lazarus\lcl\units\i386-win32\ -FuD:\free_pascal\lazarus\lcl\units\i386-win32\win32\ -FuD:\free_pascal\lazarus\packager\units\i386-win32\ -FuD:\free_pascal\DIPLOME\ -Fu. -FUD:\free_pascal\DIPLOME\bin\i386-win32\ -FED:\free_pascal\DIPLOME\bin\i386-win32\ -oosago_new.exe -dLCL -dLCLwin32 osago_new.lpr"/>
+</CONFIG>

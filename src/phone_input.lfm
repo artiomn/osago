@@ -1,0 +1,739 @@
+object frmInputPhone: TfrmInputPhone
+  Left = 396
+  Height = 160
+  Top = 215
+  Width = 210
+  BorderIcons = []
+  BorderStyle = bsNone
+  Caption = 'frmInputPhone'
+  ClientHeight = 160
+  ClientWidth = 210
+  Color = clWindow
+  OnDeactivate = FormDeactivate
+  LCLVersion = '0.9.28.2'
+  object bevelTop: TBevel
+    Left = 0
+    Height = 160
+    Top = 0
+    Width = 210
+    Align = alClient
+    Shape = bsFrame
+    Style = bsRaised
+  end
+  object sbtnsPL: TSpeedButton
+    Left = 182
+    Height = 22
+    Top = 8
+    Width = 23
+    Caption = '('
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnsPR: TSpeedButton
+    Left = 182
+    Height = 22
+    Top = 33
+    Width = 23
+    Caption = ')'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnsDefis: TSpeedButton
+    Left = 182
+    Height = 22
+    Top = 58
+    Width = 23
+    Caption = '-'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnsPlus: TSpeedButton
+    Left = 182
+    Height = 22
+    Top = 83
+    Width = 23
+    Caption = '+'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnsDot: TSpeedButton
+    Left = 132
+    Height = 22
+    Top = 8
+    Width = 23
+    Caption = '.'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnsFsp: TSpeedButton
+    Left = 157
+    Height = 22
+    Top = 8
+    Width = 23
+    Caption = '_'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnsSlash: TSpeedButton
+    Left = 107
+    Height = 22
+    Top = 8
+    Width = 23
+    Caption = '/'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnsBsp: TSpeedButton
+    Left = 182
+    Height = 22
+    Top = 108
+    Width = 23
+    Caption = ' '
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlA: TSpeedButton
+    Left = 5
+    Height = 22
+    Top = 8
+    Width = 23
+    Caption = 'A'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlB: TSpeedButton
+    Left = 30
+    Height = 22
+    Top = 8
+    Width = 23
+    Caption = 'B'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlC: TSpeedButton
+    Left = 55
+    Height = 22
+    Top = 8
+    Width = 23
+    Caption = 'C'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlD: TSpeedButton
+    Left = 80
+    Height = 22
+    Top = 8
+    Width = 23
+    Caption = 'D'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlE: TSpeedButton
+    Left = 5
+    Height = 22
+    Top = 33
+    Width = 23
+    Caption = 'E'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlF: TSpeedButton
+    Left = 30
+    Height = 22
+    Top = 33
+    Width = 23
+    Caption = 'F'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlG: TSpeedButton
+    Left = 55
+    Height = 22
+    Top = 33
+    Width = 23
+    Caption = 'G'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlH: TSpeedButton
+    Left = 80
+    Height = 22
+    Top = 33
+    Width = 23
+    Caption = 'H'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlI: TSpeedButton
+    Left = 5
+    Height = 22
+    Top = 58
+    Width = 23
+    Caption = 'I'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlJ: TSpeedButton
+    Left = 30
+    Height = 22
+    Top = 58
+    Width = 23
+    Caption = 'J'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlK: TSpeedButton
+    Left = 55
+    Height = 22
+    Top = 58
+    Width = 23
+    Caption = 'K'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlL: TSpeedButton
+    Left = 80
+    Height = 22
+    Top = 58
+    Width = 23
+    Caption = 'L'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlM: TSpeedButton
+    Left = 5
+    Height = 22
+    Top = 83
+    Width = 23
+    Caption = 'M'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlN: TSpeedButton
+    Left = 30
+    Height = 22
+    Top = 83
+    Width = 23
+    Caption = 'N'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlO: TSpeedButton
+    Left = 55
+    Height = 22
+    Top = 83
+    Width = 23
+    Caption = 'O'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlP: TSpeedButton
+    Left = 80
+    Height = 22
+    Top = 83
+    Width = 23
+    Caption = 'P'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlR: TSpeedButton
+    Left = 5
+    Height = 22
+    Top = 108
+    Width = 23
+    Caption = 'R'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlS: TSpeedButton
+    Left = 30
+    Height = 22
+    Top = 108
+    Width = 23
+    Caption = 'S'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlT: TSpeedButton
+    Left = 55
+    Height = 22
+    Top = 108
+    Width = 23
+    Caption = 'T'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlU: TSpeedButton
+    Left = 80
+    Height = 22
+    Top = 108
+    Width = 23
+    Caption = 'U'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlV: TSpeedButton
+    Left = 5
+    Height = 22
+    Top = 133
+    Width = 23
+    Caption = 'V'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlW: TSpeedButton
+    Left = 30
+    Height = 22
+    Top = 133
+    Width = 23
+    Caption = 'W'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlX: TSpeedButton
+    Left = 55
+    Height = 22
+    Top = 133
+    Width = 23
+    Caption = 'X'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnlY: TSpeedButton
+    Left = 80
+    Height = 22
+    Top = 133
+    Width = 23
+    Caption = 'Y'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtns3: TSpeedButton
+    Left = 157
+    Height = 22
+    Top = 108
+    Width = 23
+    Caption = '#'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd0: TSpeedButton
+    Left = 132
+    Height = 22
+    Top = 108
+    Width = 23
+    Caption = '0'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnsAsteriks: TSpeedButton
+    Left = 107
+    Height = 22
+    Top = 108
+    Width = 23
+    Caption = '*'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd7: TSpeedButton
+    Left = 107
+    Height = 22
+    Top = 83
+    Width = 23
+    Caption = '7'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd8: TSpeedButton
+    Left = 132
+    Height = 22
+    Top = 83
+    Width = 23
+    Caption = '8'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd9: TSpeedButton
+    Left = 157
+    Height = 22
+    Top = 83
+    Width = 23
+    Caption = '9'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd6: TSpeedButton
+    Left = 157
+    Height = 22
+    Top = 58
+    Width = 23
+    Caption = '6'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd5: TSpeedButton
+    Left = 132
+    Height = 22
+    Top = 58
+    Width = 23
+    Caption = '5'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd4: TSpeedButton
+    Left = 107
+    Height = 22
+    Top = 58
+    Width = 23
+    Caption = '4'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd1: TSpeedButton
+    Left = 107
+    Height = 22
+    Top = 33
+    Width = 23
+    Caption = '1'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd2: TSpeedButton
+    Left = 132
+    Height = 22
+    Top = 33
+    Width = 23
+    Caption = '2'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnd3: TSpeedButton
+    Left = 157
+    Height = 22
+    Top = 33
+    Width = 23
+    Caption = '3'
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    NumGlyphs = 0
+    OnClick = sbtnsInputClick
+    ParentFont = False
+  end
+  object sbtnOk: TSpeedButton
+    Left = 182
+    Height = 22
+    Top = 133
+    Width = 23
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF001C811F231B7E1F7D1B7A1FDB1A731EF31A701EF31B71
+      1FDB1B711F7D1B6C1F23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF001C8A21531B831FE642A052FF87CA9AFF9BD3ABFF9BD2ABFF83C7
+      96FF3D974CFF1A6E1EE61B701F53FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF001C912B531B8A20F46DBE83FFA8DBB5FF87CC98FF66BC7DFF64BA7CFF86CB
+      98FFA5D9B4FF66B77DFF1A6C1DF41B711F53FFFFFF00FFFFFF00FFFFFF001D9B
+      36221C962FE572C287FFA8DBB2FF60BC77FF5CBA73FF59B870FF59B56FFF58B5
+      6FFF5BB774FFA5D9B3FF69B87FFF1A711EE51B711F22FFFFFF00FFFFFF001EA4
+      3D7E4CB064FFAADDB4FF64C179FF5FBE71FF75C585FFD4ECD9FF8ACD99FF56B6
+      6CFF58B56EFF5CB774FFA6DAB4FF419B4EFF1B771F7EFFFFFF00FFFFFF001FA9
+      42DB91D29FFF8DD49AFF64C374FF79C987FFF2FAF4FFFFFFFFFFFDFEFDFF86CB
+      96FF57B76DFF5BB972FF85CC97FF87C79AFF1B781FDBFFFFFF00FFFFFF001FAD
+      42F6A6DCAFFF70CA7FFF73CA80FFF0F9F1FFFFFFFFFFEBF7EDFFFFFFFFFFFBFD
+      FCFF88CD96FF5BB971FF67BE7DFFA0D7AFFF1B7A1EF6FFFFFF00FFFFFF0026B4
+      4BF6A7DDB1FF72CC80FF66C773FFB0E1B7FFD2EED6FF63C170FFB8E3BFFFFFFF
+      FFFFFBFDFCFF8CD099FF69C17EFFA1D7AEFF1B7F1EF6FFFFFF00FFFFFF002DBB
+      54DB95D7A1FF91D79BFF69C976FF64C66FFF61C46EFF61C36FFF61C26FFFB9E4
+      C0FFFFFFFFFFE3F4E6FF8BD199FF8BCE9DFF1C8820DBFFFFFF00FFFFFF0034BE
+      597E57BF70FFAFE1B7FF6DCC7AFF68C872FF65C770FF63C56EFF62C46EFF63C4
+      71FFB6E3BEFF6FC77EFFACDFB5FF48A95EFF1C8F267EFFFFFF00FFFFFF0039C2
+      5C2234BE55E57FCE90FFAEE1B5FF6DCC7AFF6ACA76FF68C872FF68C874FF68C8
+      75FF6BC979FFACDFB4FF76C489FF1C962DE51C942D22FFFFFF00FFFFFF00FFFF
+      FF003BC55E5334C055F47FCE90FFAFE1B7FF92D89DFF77CE83FF77CE83FF92D8
+      9DFFAEE1B5FF78C88BFF1D9D32F41D9D3653FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF003DC7605336C259E659C274FF96D7A3FFA5DCAEFFA5DCAEFF95D6
+      A1FF50B96AFF1FAB42E61FA94253FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF0040C962233BC55E7D39C25BDB31BD54F32DBB52F32BB9
+      52DB2BB7527D28B44E23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    NumGlyphs = 0
+    OnClick = sbtnsCtrlClick
+    ParentFont = False
+  end
+  object sbtnCancel: TSpeedButton
+    Left = 157
+    Height = 22
+    Top = 133
+    Width = 23
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF003F54C3233A50C27D3853BEDB3551BDF3304BBCF32E4E
+      B8DB2B4CB77D2748B523FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF004658C8534255C6E63C52CCFF757AE8FF8F92EEFF8F92EEFF7178
+      E4FF334DC1FF2B4AB7E6294BB553FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF004D5ACD534959CBF45C65E0FFA1A6F5FF7E86EFFF5B63E9FF595DE7FF7D84
+      EEFF9EA0F4FF515DD7FF2B4AB7F4294BB553FFFFFF00FFFFFF00FFFFFF00545F
+      D2225361CFE5616BE3FFA1ACF5FF545FECFF505CEAFF4D59E9FF4E59E6FF4C56
+      E6FF5056E6FF9EA2F4FF5460D6FF2A4AB8E5294BB522FFFFFF00FFFFFF005860
+      D47E4B56DBFFA2ABF6FF5664F0FF5266EEFF4D59E9FF4D59E9FF4D59E9FF4D59
+      E9FF4C58E6FF525AE6FF9FA3F5FF3450C4FF2A4AB87EFFFFFF00FFFFFF005C62
+      D7DB818CEEFF7E91F7FF5D73F3FF4D59E9FF4D59E9FF4D59E9FF4D59E9FF4D59
+      E9FF4D59E9FF4F5BE9FF7B83F0FF757BE2FF2E4BBADBFFFFFF00FFFFFF005F63
+      DAF6A1ABF7FF7086F8FF6882F6FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFF4D59E9FF5C66EAFF969CF1FF3250BCF6FFFFFF00FFFFFF006469
+      DBF6AFB9F9FF7F93FAFF7085F0FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFFFFFFFFF4D59E9FF5E6AEEFF969DF1FF364FBEF6FFFFFF00FFFFFF00676A
+      DEDBA5AFF5FF9DABFAFF778CF0FF545FECFF545FECFF545FECFF545FECFF545F
+      ECFF545FECFF6377F2FF818EF4FF787FE9FF3A53C0DBFFFFFF00FFFFFF006A69
+      E07E7D83EAFFCDD4FCFF8B9DFAFF7E93F7FF758AEEFF6C84F6FF6C84F6FF6C84
+      F6FF6C84F6FF6379F3FFA4AFF8FF3E4FD0FF3E54C27EFFFFFF00FFFFFF006C6C
+      E1226A69E0E5A3A7F3FFD4DBFDFF879AFAFF7F91F0FF7A8EF1FF7F94F8FF7E92
+      F9FF768CF8FFA8B6F8FF636EE3FF4557C7E54156C522FFFFFF00FFFFFF00FFFF
+      FF006D6CE3536A69E0F4AAADF2FFD8DCFDFFAEBAFAFF91A3FAFF8B9DFAFF9CA9
+      FBFFBAC7FCFF707BE9FF4C5BCCF44858CA53FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF006D6CE3536A6ADFE68E93EDFFBEC3F8FFCCD3F9FFC4CBF9FFAAB4
+      F4FF6670E2FF535ED1E6505DCE53FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF006D6DE2236B6AE17D686ADDDB6364DCF36164DAF35D63
+      D9DB5B63D67D5862D423FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    NumGlyphs = 0
+    OnClick = sbtnsCtrlClick
+    ParentFont = False
+  end
+  object sbtnBacksp: TSpeedButton
+    Left = 132
+    Height = 22
+    Top = 133
+    Width = 23
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000018A6C3691AA7C46900A0C4180000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000A0C45D66DBEAB211A6C2AE0000000000000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000A0C42243C4DBFC43C5D8FE23A6C07F00000000000000000000
+      00000000000000000000000000000000000000A0C4FF00000000000000000000
+      000000000000000000000EAACBFE5DDAE9FE23A6C0EF00000000000000000000
+      000000000000000000000000000000A0C4FF00A0C4FF00000000000000000000
+      000000000000009EC11A02ACC8FF88E7F2FE11A2C2FF00000000000000000000
+      00000000000005797D1100A0C4FF76EDFBFF00A0C4FF000000000000000000A0
+      C4300099B95000A0C4C96DE6F5FF76E2EFFF19A3C1FF00000000000000000000
+      000005797D1100A0C4FF76EDFBFF76EDFBFF00A0C4FF00A0C4FF00A0C4FF00A0
+      C4FF01A9C4FF6EE1EEFF0FC9DFFF69E4F2FF1AA4C0F800000000000000000579
+      7D1100A0C4FF76EDFBFF04C3DAFF76EDFBFF69EAF9FF69EAF9FF69EAF9FF69EA
+      F9FF05DDF7FF0AC8DFFF07C2D8FF6FDCEBFF1BA3BFF40000000005797E1100A0
+      C4FF79EDFBFF32E2F8FF2CDFF4FF04C0D6FF04C0D6FF04C0D6FF1DD2E8FF1DD2
+      E8FF1DD2E8FF0BC8DFFF6AE5F3FF1BABC5F815A0BCCB0000000000A0C4FFADF3
+      FBFF2FE0F6FF32E2F8FF32E2F7FF32E2F7FF2FE0F5FF29DBF1FF1DD2E8FF1DD2
+      E8FF1DD2E8FF36D9ECFF40CDE1FF16A1BDCA05797D0A0000000005797D0A00A0
+      C4FFADF3FBFF2FE0F6FF32E2F7FF29DBF1FF2FE0F5FF29DBF1FF16CDE3FF36D9
+      ECFF69E7F6FF41CEE3FE13A3C1E405797D320000000000000000000000000579
+      7D1100A0C4FFADF3FBFF31E1F6FF20E3FAFF73ECFAFF6FEBFAFF6EE8F7FF6CE8
+      F7F814A1BCD414A3C1D505797D1C000000000000000000000000000000000000
+      000005797D1100A0C4FFADF3FBFF25E4FBFF00A0C4FF00A0C4FF13A1BEE7159F
+      BBCF1BA1BBA4067A7C0B00000000000000000000000000000000000000000000
+      00000000000005797D1100A0C4FFADF3FBFF00A0C4FF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000009DBF1400A0C4FF00A0C4FF00000000000000000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000000000000000000000000000000000A0C4FF00000000000000000000
+      0000000000000000000000000000000000000000000000000000
+    }
+    NumGlyphs = 0
+    OnClick = sbtnsCtrlClick
+    ParentFont = False
+  end
+  object sbtnClear: TSpeedButton
+    Left = 107
+    Height = 22
+    Top = 133
+    Width = 23
+    Color = clBtnFace
+    Font.Style = [fsBold]
+    Glyph.Data = {
+      36040000424D3604000000000000360000002800000010000000100000000100
+      2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00008B9C1F008C9DED008D9EEC008D
+      9E9E008B9C21FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00008B9C13008D9EE24FC3D2FD5BD3E1FF30B5
+      C6FA0890A1F6008D9FA9008B9C14FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00008E9FC536B5C5FA5FD8E7FF26CADFFF4ED4
+      E5FF6DD9E7FF32B4C5FB008D9EE6008B9C26FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00008B9C431A9BABF66CDAE8FF10C5DCFF03C2DAFF03C2
+      DAFF15C6DCFF5BD7E7FF56C8D6FE058FA0F1008B9C3FFFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00018EA0D45ECFDDFF46DAEDFF18D0E7FF11CBE3FF07C4
+      DCFF03C2DAFF03C2DAFF4CD3E4FF58CDDCFF048E9FF4008B9C1CFFFFFF00FFFF
+      FF00FFFFFF00008B9C1A1194A5F78BEDFBFF3CE5FCFF37E4FBFF2FDEF6FF23D7
+      EEFF14CDE5FF04C3DBFF03C2DAFF56D6E6FF33B6C6FB008E9FA8FFFFFF00FFFF
+      FF00FFFFFF00007F9C5F2FB0C0F58AEFFDFF5FEAFDFF61EBFDFF52E9FDFF3CE6
+      FDFF2ADBF3FF18D0E7FF10C6DCFF49D2E4FF67D4E2FF018D9FE9FFFFFF00FFFF
+      FF00008B9C070024A1D71342ADFC84EAFBFF6BECFDFF84EFFDFF6DECFDFF52E9
+      FDFF44E5FBFF65E3F3FF77DDEBFF49C1CFFE1B9EAEF3008C9DEAFFFFFF00008B
+      9C5F008D9EEB29A5BBF6284ABBFF1D38B8FF61D8F6FF63EAFDFF6CEBFDFF7DEE
+      FDFF88EAF8FF45BECDFA058F9FF7008E9FA3008B9C40008B9C02FFFFFF00008B
+      9C5A018D9EF64FC8D8FF68DCECFF336DC8FF0D1BABFF62B1D7FF72DCEAFF43BD
+      CCF70990A2F6018E9F9F008B9C1BFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF000064878100889CFE41BDCDFF77DEEBFF1769B0F70036A0E4018FA0D2008C
+      9D77008B9C15FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF0000487802004A
+      7B95014E80F40B76B2FF0188A1FF32AEBEFE1DA0B1F2008B9C3DFFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000049796F0352
+      86F40F7ABCFF107DC1FF015284F200859ACE008B9CFF008B9C29FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00004A7BED0C72
+      B2FF107DC1FF0A6BA9FF004A7BDA00698A02008B9C82008B9C13FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00004A7BE50A69
+      A6FF0B6DABFF004A7BF500487844FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF000048783B004B
+      7CDA004A7BE300487847FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+      FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+    }
+    NumGlyphs = 0
+    OnClick = sbtnsCtrlClick
+    ParentFont = False
+  end
+end

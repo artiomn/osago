@@ -1,0 +1,535 @@
+091007 19:36:55 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+091007 19:36:55  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+091007 19:36:56  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+091007 19:36:57  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+091007 19:36:59  InnoDB: Started; log sequence number 0 0
+091007 19:36:59 [Note] Event Scheduler: Loaded 0 events
+091007 19:36:59 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091009 22:47:28 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091009 22:47:32  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091009 22:47:35  InnoDB: Started; log sequence number 0 44233
+091009 22:47:37 [Note] Event Scheduler: Loaded 0 events
+091009 22:47:37 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091015 10:25:19 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091015 10:25:21  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091015 10:25:25  InnoDB: Started; log sequence number 0 44233
+091015 10:25:26 [Note] Event Scheduler: Loaded 0 events
+091015 10:25:26 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091017 23:49:29 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091017 23:49:30  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091017 23:49:31  InnoDB: Started; log sequence number 0 44233
+091017 23:49:32 [Note] Event Scheduler: Loaded 0 events
+091017 23:49:32 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091023 20:41:34 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091023 20:41:36  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091023 20:41:36  InnoDB: Started; log sequence number 0 44233
+091023 20:41:36 [Note] Event Scheduler: Loaded 0 events
+091023 20:41:36 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091023 20:46:27 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091023 20:46:38  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091023 20:46:39  InnoDB: Started; log sequence number 0 44233
+091023 20:46:40 [Note] Event Scheduler: Loaded 0 events
+091023 20:46:40 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091023 21:03:28 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091023 21:03:29  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091023 21:03:32  InnoDB: Started; log sequence number 0 44233
+091023 21:03:34 [Note] Event Scheduler: Loaded 0 events
+091023 21:03:34 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091023 21:06:14 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091023 21:06:15  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091023 21:06:18  InnoDB: Started; log sequence number 0 44233
+091023 21:06:18 [Note] Event Scheduler: Loaded 0 events
+091023 21:06:18 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091023 21:07:24 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Normal shutdown
+
+091023 21:07:25 [Note] Event Scheduler: Purging the queue. 0 events
+091023 21:07:25  InnoDB: Starting shutdown...
+091023 21:07:25  InnoDB: Shutdown completed; log sequence number 0 44233
+091023 21:07:26 [Warning] Forcing shutdown of 1 plugins
+091023 21:07:26 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Shutdown complete
+
+091023 21:09:02 [Note] Plugin 'FEDERATED' is disabled.
+091023 21:09:06  InnoDB: Started; log sequence number 0 44233
+091023 21:09:07 [Note] Event Scheduler: Loaded 0 events
+091023 21:09:07 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091024 11:26:36 [Note] Plugin 'FEDERATED' is disabled.
+091024 11:26:38  InnoDB: Started; log sequence number 0 44233
+091024 11:26:41 [Note] Event Scheduler: Loaded 0 events
+091024 11:26:41 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091028 10:50:19 [Note] Plugin 'FEDERATED' is disabled.
+091028 10:50:41  InnoDB: Started; log sequence number 0 44233
+091028 10:50:42 [Note] Event Scheduler: Loaded 0 events
+091028 10:50:42 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091103 11:16:07 [Note] Plugin 'FEDERATED' is disabled.
+091103 11:16:08  InnoDB: Started; log sequence number 0 44233
+091103 11:16:09 [Note] Event Scheduler: Loaded 0 events
+091103 11:16:09 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091103 11:18:07 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Normal shutdown
+
+091103 11:18:07 [Note] Event Scheduler: Purging the queue. 0 events
+091103 11:18:07  InnoDB: Starting shutdown...
+091103 11:18:08  InnoDB: Shutdown completed; log sequence number 0 44233
+091103 11:18:08 [Warning] Forcing shutdown of 1 plugins
+091103 11:18:08 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Shutdown complete
+
+091103 11:18:09 [Note] Plugin 'FEDERATED' is disabled.
+091103 11:18:09  InnoDB: Started; log sequence number 0 44233
+091103 11:18:09 [Note] Event Scheduler: Loaded 0 events
+091103 11:18:09 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091103 11:37:32 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_3b, retrying
+091103 11:40:54 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_3f, retrying
+091103 11:42:07 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_41, retrying
+091103 12:03:41 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_4c, retrying
+091103 12:10:38 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_52, retrying
+091103 12:17:38 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_53, retrying
+091103 12:18:42 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_54, retrying
+091103 12:19:09 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_55, retrying
+091103 12:28:26 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_56, retrying
+091103 12:29:51 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_57, retrying
+091104  8:39:01 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_61, retrying
+091104  8:39:28 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1510_62, retrying
+091124 14:17:15 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091124 14:17:37  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091124 14:17:40  InnoDB: Started; log sequence number 0 44243
+091124 14:17:41 [Note] Event Scheduler: Loaded 0 events
+091124 14:17:41 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091124 19:34:49 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091124 19:34:51  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091124 19:34:52  InnoDB: Started; log sequence number 0 44243
+091124 19:34:54 [Note] Event Scheduler: Loaded 0 events
+091124 19:34:54 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091222 15:32:29 [Note] Plugin 'FEDERATED' is disabled.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+091222 15:32:30  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+091222 15:32:32  InnoDB: Started; log sequence number 0 44243
+091222 15:32:32 [Note] Event Scheduler: Loaded 0 events
+091222 15:32:32 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091222 15:46:05 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Normal shutdown
+
+091222 15:46:05 [Note] Event Scheduler: Purging the queue. 0 events
+091222 15:46:06  InnoDB: Starting shutdown...
+091222 15:47:36 [Note] Plugin 'FEDERATED' is disabled.
+091222 15:47:37  InnoDB: Started; log sequence number 0 44243
+091222 15:47:37 [Note] Event Scheduler: Loaded 0 events
+091222 15:47:37 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091223 15:37:06 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3a0_b, retrying
+091223 16:02:25 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3a0_d, retrying
+091223 16:04:17 [Note] Plugin 'FEDERATED' is disabled.
+091223 16:04:19  InnoDB: Started; log sequence number 0 44243
+091223 16:04:19 [Note] Event Scheduler: Loaded 0 events
+091223 16:04:19 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+091223 16:20:10 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_1, retrying
+091223 16:36:43 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_3, retrying
+091223 16:38:16 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_4, retrying
+091225 11:19:36 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_a, retrying
+091225 11:35:49 [ERROR] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Incorrect key file for table 'c:\UtilsDOS\TEMP\#sql3ac_a_98.MYI'; try to repair it
+091225 11:45:13 [ERROR] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Incorrect key file for table 'c:\UtilsDOS\TEMP\#sql3ac_14_182.MYI'; try to repair it
+091225 11:45:13 [ERROR] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Incorrect key file for table 'c:\UtilsDOS\TEMP\#sql3ac_15_0.MYI'; try to repair it
+091225 11:45:36 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_17, retrying
+091225 11:46:44 [ERROR] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Incorrect key file for table 'c:\UtilsDOS\TEMP\#sql3ac_17_12.MYI'; try to repair it
+091225 11:46:44 [ERROR] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Sort aborted
+091225 12:06:28 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_19, retrying
+091225 12:27:47 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_1b, retrying
+091225 12:34:38 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_1d, retrying
+091225 12:38:07 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_1e, retrying
+091225 12:41:22 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_22, retrying
+091225 12:41:50 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_23, retrying
+091231 11:39:17 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-3ac_37, retrying
+091231 11:40:49 [ERROR] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Incorrect key file for table 'c:\UtilsDOS\TEMP\#sql3ac_37_1c.MYI'; try to repair it
+100101  8:36:35 [Note] Plugin 'FEDERATED' is disabled.
+100101  8:36:38  InnoDB: Started; log sequence number 0 44243
+100101  8:36:38 [Note] Event Scheduler: Loaded 0 events
+100101  8:36:38 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100104 12:53:50 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-610_b, retrying
+100104 13:00:20 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-610_d, retrying
+100107 13:24:48 [Note] Plugin 'FEDERATED' is disabled.
+100107 13:24:50  InnoDB: Started; log sequence number 0 44243
+100107 13:24:50 [Note] Event Scheduler: Loaded 0 events
+100107 13:24:50 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100112 13:56:32 [Note] Plugin 'FEDERATED' is disabled.
+100112 13:56:46  InnoDB: Started; log sequence number 0 44243
+100112 13:56:50 [Note] Event Scheduler: Loaded 0 events
+100112 13:56:50 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100121 11:55:21 [Note] Plugin 'FEDERATED' is disabled.
+100121 11:55:40  InnoDB: Started; log sequence number 0 44243
+100121 11:55:42 [Note] Event Scheduler: Loaded 0 events
+100121 11:55:42 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100128 13:22:35 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1e8_26, retrying
+100128 13:22:52 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1e8_27, retrying
+100128 13:27:43 [ERROR] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: Incorrect key file for table 'c:\UtilsDOS\TEMP\#sql1e8_27_1d.MYI'; try to repair it
+100202 21:44:28 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1e8_2b, retrying
+100202 23:01:50 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1e8_2e, retrying
+100203 13:38:50 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1e8_34, retrying
+100209 23:00:39 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-1e8_89, retrying
+100213 14:24:45 [Note] Plugin 'FEDERATED' is disabled.
+100213 14:24:47  InnoDB: Started; log sequence number 0 44243
+100213 14:24:49 [Note] Event Scheduler: Loaded 0 events
+100213 14:24:49 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100213 15:09:28 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-760_6, retrying
+100215 11:42:40 [Note] Plugin 'FEDERATED' is disabled.
+100215 11:42:43  InnoDB: Started; log sequence number 0 44243
+100215 11:42:43 [Note] Event Scheduler: Loaded 0 events
+100215 11:42:43 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100215 11:57:40 [Note] Plugin 'FEDERATED' is disabled.
+100215 11:57:41  InnoDB: Started; log sequence number 0 44243
+100215 11:57:41 [Note] Event Scheduler: Loaded 0 events
+100215 11:57:41 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100215 12:07:05 [Note] Plugin 'FEDERATED' is disabled.
+100215 12:07:05  InnoDB: Started; log sequence number 0 44243
+100215 12:07:05 [Note] Event Scheduler: Loaded 0 events
+100215 12:07:05 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100215 12:12:30 [Note] Plugin 'FEDERATED' is disabled.
+100215 12:12:31  InnoDB: Started; log sequence number 0 44243
+100215 12:12:31 [Note] Event Scheduler: Loaded 0 events
+100215 12:12:31 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100215 13:20:06 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-880_11, retrying
+100224 23:00:02 [Note] Plugin 'FEDERATED' is disabled.
+100224 23:00:18  InnoDB: Started; log sequence number 0 44243
+100224 23:00:19 [Note] Event Scheduler: Loaded 0 events
+100224 23:00:19 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100301 12:57:49 [Note] Plugin 'FEDERATED' is disabled.
+100301 12:58:02  InnoDB: Started; log sequence number 0 44243
+100301 12:58:03 [Note] Event Scheduler: Loaded 0 events
+100301 12:58:03 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100303 14:12:46 [Note] Plugin 'FEDERATED' is disabled.
+100303 14:12:47  InnoDB: Started; log sequence number 0 44243
+100303 14:12:47 [Note] Event Scheduler: Loaded 0 events
+100303 14:12:47 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100304 14:30:31 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-748_1b, retrying
+100306 20:06:21 [Note] Plugin 'FEDERATED' is disabled.
+100306 20:06:24  InnoDB: Started; log sequence number 0 44243
+100306 20:06:27 [Note] Event Scheduler: Loaded 0 events
+100306 20:06:27 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100306 22:46:40 [Note] Plugin 'FEDERATED' is disabled.
+100306 22:46:41  InnoDB: Started; log sequence number 0 44243
+100306 22:46:44 [Note] Event Scheduler: Loaded 0 events
+100306 22:46:44 [Note] C:\Program Files\MySQL\MySQL Server 5.1\bin\mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+100315  9:47:49 [Warning] Warning: Enabling keys got errno 121 on osago.#sql-738_1a6, retrying
+100329 23:30:24 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:30:25  InnoDB: Started; log sequence number 0 44243
+100329 23:30:25 [ERROR] Aborting
+
+100329 23:30:25  InnoDB: Starting shutdown...
+100329 23:30:26  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:30:26 [Warning] Forcing shutdown of 1 plugins
+100329 23:30:26 [Note] 
+100329 23:30:44 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:30:44  InnoDB: Started; log sequence number 0 44243
+100329 23:30:45 [Note] Event Scheduler: Loaded 0 events
+100329 23:30:45 [Note] mysqld: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 33306  MySQL Community Server (GPL)
+100329 23:37:14 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:37:14  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+100329 23:37:40 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:37:41  InnoDB: Started; log sequence number 0 44243
+100329 23:37:41 [ERROR] .\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:37:41 [ERROR] Aborting
+
+100329 23:37:41  InnoDB: Starting shutdown...
+100329 23:37:47  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:37:47 [Warning] Forcing shutdown of 1 plugins
+100329 23:37:47 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:38:55 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:38:56  InnoDB: Started; log sequence number 0 44243
+100329 23:38:56 [ERROR] .\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:38:56 [ERROR] Aborting
+
+100329 23:38:56  InnoDB: Starting shutdown...
+100329 23:38:57  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:38:57 [Warning] Forcing shutdown of 1 plugins
+100329 23:38:57 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:39:09 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:39:10  InnoDB: Started; log sequence number 0 44243
+100329 23:39:10 [ERROR] .\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:39:10 [ERROR] Aborting
+
+100329 23:39:10  InnoDB: Starting shutdown...
+100329 23:39:11  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:39:11 [Warning] Forcing shutdown of 1 plugins
+100329 23:39:11 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:39:46 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:39:47  InnoDB: Started; log sequence number 0 44243
+100329 23:39:47 [ERROR] .\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:39:47 [ERROR] Aborting
+
+100329 23:39:47  InnoDB: Starting shutdown...
+100329 23:39:48  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:39:48 [Warning] Forcing shutdown of 1 plugins
+100329 23:39:48 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:41:35 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:41:36  InnoDB: Started; log sequence number 0 44243
+100329 23:41:36 [ERROR] .\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:41:36 [ERROR] Aborting
+
+100329 23:41:36  InnoDB: Starting shutdown...
+100329 23:41:37  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:41:37 [Warning] Forcing shutdown of 1 plugins
+100329 23:41:37 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:42:07 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:42:08  InnoDB: Started; log sequence number 0 44243
+100329 23:42:08 [ERROR] C:\Documents and Settings\Artiom\Рабочий стол\STRAH\dbms\MySQL Server 5.1\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:42:08 [ERROR] Aborting
+
+100329 23:42:08  InnoDB: Starting shutdown...
+100329 23:42:09  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:42:09 [Warning] Forcing shutdown of 1 plugins
+100329 23:42:09 [Note] C:\Documents and Settings\Artiom\Рабочий стол\STRAH\dbms\MySQL Server 5.1\bin\mysqld.exe: Shutdown complete
+
+100329 23:42:12 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:42:12  InnoDB: Started; log sequence number 0 44243
+100329 23:42:12 [ERROR] C:\Documents and Settings\Artiom\Рабочий стол\STRAH\dbms\MySQL Server 5.1\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:42:12 [ERROR] Aborting
+
+100329 23:42:12  InnoDB: Starting shutdown...
+100329 23:42:14  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:42:14 [Warning] Forcing shutdown of 1 plugins
+100329 23:42:14 [Note] C:\Documents and Settings\Artiom\Рабочий стол\STRAH\dbms\MySQL Server 5.1\bin\mysqld.exe: Shutdown complete
+
+100329 23:42:24 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:42:25  InnoDB: Started; log sequence number 0 44243
+100329 23:42:25 [ERROR] .\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:42:25 [ERROR] Aborting
+
+100329 23:42:25  InnoDB: Starting shutdown...
+100329 23:42:27  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:42:27 [Warning] Forcing shutdown of 1 plugins
+100329 23:42:27 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:42:50 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:42:51  InnoDB: Started; log sequence number 0 44243
+100329 23:42:51 [ERROR] .\bin\mysqld.exe: unknown variable 'default_file=my.ini'
+100329 23:42:51 [ERROR] Aborting
+
+100329 23:42:51  InnoDB: Starting shutdown...
+100329 23:42:52  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:42:52 [Warning] Forcing shutdown of 1 plugins
+100329 23:42:52 [Note] 
+100329 23:43:44 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:43:44  InnoDB: Started; log sequence number 0 44243
+100329 23:43:44 [ERROR] .\bin\mysqld.exe: unknown variable 'defaults_file=my.ini'
+100329 23:43:44 [ERROR] Aborting
+
+100329 23:43:44  InnoDB: Starting shutdown...
+100329 23:43:46  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:43:46 [Warning] Forcing shutdown of 1 plugins
+100329 23:43:46 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:44:24 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:44:24  InnoDB: Started; log sequence number 0 44243
+100329 23:44:24 [Note] Event Scheduler: Loaded 0 events
+100329 23:44:24 [Note] .\bin\mysqld.exe: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 33306  MySQL Community Server (GPL)
+100329 23:46:18 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:46:19  InnoDB: Started; log sequence number 0 44243
+100329 23:46:19 [Note] Event Scheduler: Loaded 0 events
+100329 23:46:19 [Note] .\bin\mysqld.exe: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 33306  MySQL Community Server (GPL)
+100329 23:48:16 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:48:16  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+100329 23:48:26  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+100329 23:49:04 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:49:05  InnoDB: Started; log sequence number 0 44243
+.\bin\mysqld.exe: Too many arguments (first extra is 'defaults-file=my.ini').
+Use --verbose --help to get a list of available options
+100329 23:49:05 [ERROR] Aborting
+
+100329 23:49:05  InnoDB: Starting shutdown...
+100329 23:49:06  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:49:06 [Warning] Forcing shutdown of 1 plugins
+100329 23:49:06 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:49:14 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:49:15  InnoDB: Started; log sequence number 0 44243
+.\bin\mysqld.exe: Too many arguments (first extra is 'defaults-file=my.ini').
+Use --verbose --help to get a list of available options
+100329 23:49:15 [ERROR] Aborting
+
+100329 23:49:15  InnoDB: Starting shutdown...
+100329 23:49:16  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:49:16 [Warning] Forcing shutdown of 1 plugins
+100329 23:49:16 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:50:22 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:50:23  InnoDB: Started; log sequence number 0 44243
+.\bin\mysqld.exe: Too many arguments (first extra is 'defaults-file=my.ini').
+Use --verbose --help to get a list of available options
+100329 23:50:23 [ERROR] Aborting
+
+100329 23:50:23  InnoDB: Starting shutdown...
+100329 23:50:24  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:50:24 [Warning] Forcing shutdown of 1 plugins
+100329 23:50:24 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:50:33 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:50:33  InnoDB: Started; log sequence number 0 44243
+.\bin\mysqld.exe: Too many arguments (first extra is 'defaults_file=my.ini').
+Use --verbose --help to get a list of available options
+100329 23:50:33 [ERROR] Aborting
+
+100329 23:50:33  InnoDB: Starting shutdown...
+100329 23:50:35  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:50:35 [Warning] Forcing shutdown of 1 plugins
+100329 23:50:35 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:50:41 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:50:41  InnoDB: Started; log sequence number 0 44243
+.\bin\mysqld.exe: Too many arguments (first extra is 'defaults_file=my.ini').
+Use --verbose --help to get a list of available options
+100329 23:50:41 [ERROR] Aborting
+
+100329 23:50:41  InnoDB: Starting shutdown...
+100329 23:50:43  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:50:43 [Warning] Forcing shutdown of 1 plugins
+100329 23:50:43 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:51:18 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:51:19  InnoDB: Started; log sequence number 0 44243
+.\bin\mysqld.exe: Too many arguments (first extra is 'defaults-file=my.ini').
+Use --verbose --help to get a list of available options
+100329 23:51:19 [ERROR] Aborting
+
+100329 23:51:19  InnoDB: Starting shutdown...
+100329 23:51:20  InnoDB: Shutdown completed; log sequence number 0 44243
+100329 23:51:20 [Warning] Forcing shutdown of 1 plugins
+100329 23:51:20 [Note] .\bin\mysqld.exe: Shutdown complete
+
+100329 23:51:50 [Note] Plugin 'FEDERATED' is disabled.
+100329 23:51:51  InnoDB: Started; log sequence number 0 44243
+100329 23:51:51 [Note] Event Scheduler: Loaded 0 events
+100329 23:51:51 [Note] .\bin\mysqld.exe: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 33306  MySQL Community Server (GPL)
+100330  0:05:05 [Note] Plugin 'FEDERATED' is disabled.
+100330  0:05:06  InnoDB: Started; log sequence number 0 44243
+100330  0:05:06 [Note] Event Scheduler: Loaded 0 events
+100330  0:05:06 [Note] .\bin\mysqld.exe: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 33306  MySQL Community Server (GPL)
+100330  0:08:24 [Note] Plugin 'FEDERATED' is disabled.
+100330  0:08:24  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+100330  0:08:35  InnoDB: Operating system error number 32 in a file operation.
+InnoDB: The error means that another program is using InnoDB's files.
+InnoDB: This might be a backup or antivirus software or another instance
+InnoDB: of MySQL. Please close it to get rid of this error.
+100330 13:56:32 [Note] Plugin 'FEDERATED' is disabled.
+100330 13:56:33  InnoDB: Started; log sequence number 0 44243
+100330 13:56:33 [Note] Event Scheduler: Loaded 0 events
+100330 13:56:33 [Note] .\bin\mysqld.exe: ready for connections.
+Version: '5.1.39-community'  socket: ''  port: 33306  MySQL Community Server (GPL)

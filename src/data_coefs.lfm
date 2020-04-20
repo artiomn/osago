@@ -1,0 +1,1130 @@
+object dmCoefs: TdmCoefs
+  OldCreateOrder = False
+  Height = 446
+  HorizontalOffset = 246
+  VerticalOffset = 109
+  Width = 669
+  object myGetInsCoef_KT: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select TERRITORY_KOEF from territory_use'
+      'where'
+      'GEO_GROUP = :geo_group'
+      'and'
+      'ID_CAR_TYPE = :car_type_id'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 48
+    top = 104
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'geo_group'
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'car_type_id'
+      end>
+  end
+  object myGetInsCoefs_KT: TMyQuery
+    SQLInsert.Strings = (
+      'INSERT INTO territory_use'
+      '  (ID_TERRITORY_USE, ID_CAR_TYPE, GEO_GROUP, TERRITORY, TERRITORY_KOEF)'
+      'VALUES'
+      '  (:ID_TERRITORY_USE, :ID_CAR_TYPE, :GEO_GROUP, :TERRITORY, :TERRITORY_KOEF)'
+    )
+    SQLDelete.Strings = (
+      'DELETE FROM territory_use'
+      'WHERE'
+      '  ID_TERRITORY_USE = :Old_ID_TERRITORY_USE'
+    )
+    SQLUpdate.Strings = (
+      'UPDATE territory_use'
+      'SET'
+      '  ID_TERRITORY_USE = :ID_TERRITORY_USE, ID_CAR_TYPE = :ID_CAR_TYPE, GEO_GROUP = :GEO_GROUP, TERRITORY = :TERRITORY, TERRITORY_KOEF = :TERRITORY_KOEF'
+      'WHERE'
+      '  ID_TERRITORY_USE = :Old_ID_TERRITORY_USE'
+    )
+    SQLRefresh.Strings = (
+      'SELECT territory_use.ID_TERRITORY_USE, territory_use.ID_CAR_TYPE, territory_use.GEO_GROUP, territory_use.TERRITORY, territory_use.TERRITORY_KOEF FROM territory_use'
+      'WHERE'
+      '  territory_use.ID_TERRITORY_USE = :ID_TERRITORY_USE'
+    )
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from territory_use;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    BeforeOpen = myGetInsCoefs_KTBeforeOpen
+    left = 48
+    top = 152
+    object myGetInsCoefs_KTID_TERRITORY_USE: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_TERRITORY_USE'
+      Index = 0
+      LookupCache = False
+      Origin = 'territory_use.ID_TERRITORY_USE'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myGetInsCoefs_KTID_CAR_TYPE: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_CAR_TYPE'
+      Index = 1
+      LookupCache = False
+      Origin = 'territory_use.ID_CAR_TYPE'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myGetInsCoefs_KTCAR_TYPE1: TStringField
+      DisplayLabel = 'Тип ТС'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_CAR_TYPE'
+      Index = 2
+      KeyFields = 'ID_CAR_TYPE'
+      LookupCache = True
+      LookupDataSet = dmData.myCarType
+      LookupKeyFields = 'ID_CAR_TYPE'
+      LookupResultField = 'CAR_TYPE'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myGetInsCoefs_KTTERRITORY: TStringField
+      DisplayLabel = 'Территория'
+      DisplayWidth = 765
+      FieldKind = fkData
+      FieldName = 'TERRITORY'
+      Index = 3
+      LookupCache = False
+      Origin = 'territory_use.TERRITORY'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+      Size = 765
+    end
+    object myGetInsCoefs_KTNAME1: TStringField
+      DisplayLabel = 'Группа коэффициентов'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_GEO_GROUP'
+      Index = 4
+      KeyFields = 'GEO_GROUP'
+      LookupCache = True
+      LookupDataSet = dmData.myGeoGroups
+      LookupKeyFields = 'GEO_GROUP'
+      LookupResultField = 'NAME'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myGetInsCoefs_KTTERRITORY_KOEF: TFloatField
+      DisplayLabel = 'Значение коэффициента КТ'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'TERRITORY_KOEF'
+      Index = 5
+      LookupCache = False
+      Origin = 'territory_use.TERRITORY_KOEF'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_KTGEO_GROUP: TLongintField
+      DisplayLabel = 'Группа коэффициентов'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'GEO_GROUP'
+      Index = 6
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+  end
+  object myGetInsCoef_BaseSum: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select BASE from base_sum where'
+      'ID_CLIENT_TYPE_GROUP = :client_type_group'
+      'and'
+      'ID_CAR_TYPE = :car_type'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 48
+    top = 8
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'client_type_group'
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'car_type'
+      end>
+  end
+  object datasrcCKT: TMyDataSource
+    DataSet = myGetInsCoefs_KT
+    left = 160
+    top = 152
+  end
+  object myGetInsCoefs_BS: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from base_sum;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    BeforeOpen = myGetInsCoefs_BSBeforeOpen
+    left = 48
+    top = 56
+    object myGetInsCoefs_BSID_CLIENT_TYPE_GROUP: TLongintField
+      DisplayLabel = 'ID группы клиента'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_CLIENT_TYPE_GROUP'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myGetInsCoefs_BSCLIENT_TYPE_GROUP: TStringField
+      DisplayLabel = 'Группа клиента'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_CLIENT_TYPE_GROUP'
+      Index = 1
+      KeyFields = 'ID_CLIENT_TYPE_GROUP'
+      LookupCache = True
+      LookupDataSet = dmData.myClientTypeGroup
+      LookupKeyFields = 'ID_CLIENT_TYPE_GROUP'
+      LookupResultField = 'CLIENT_TYPE_GROUP'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myGetInsCoefs_BSID_CAR_TYPE: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_CAR_TYPE'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myGetInsCoefs_BSCAR_TYPE: TStringField
+      DisplayLabel = 'Тип ТС'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_CAR_TYPE'
+      Index = 3
+      KeyFields = 'ID_CAR_TYPE'
+      LookupCache = True
+      LookupDataSet = dmData.myCarType
+      LookupKeyFields = 'ID_CAR_TYPE'
+      LookupResultField = 'CAR_TYPE'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myGetInsCoefs_BSBASE: TFloatField
+      DisplayLabel = 'Базовая ставка'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'BASE'
+      Index = 4
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+  end
+  object myGetInsCoef_KBM: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from insurance_class;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 48
+    top = 200
+    object myGetInsCoef_KBMINSURANCE_CLASS: TStringField
+      DisplayLabel = 'Класс'
+      DisplayWidth = 765
+      FieldKind = fkData
+      FieldName = 'INSURANCE_CLASS'
+      Index = 0
+      LookupCache = False
+      Origin = 'insurance_class.INSURANCE_CLASS'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myGetInsCoef_KBMKOEF: TFloatField
+      DisplayLabel = 'Коэфициент бонус-малус'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KOEF'
+      Index = 1
+      LookupCache = False
+      Origin = 'insurance_class.KOEF'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoef_KBMID_INSURANCE_CLASS: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_INSURANCE_CLASS'
+      Index = 2
+      LookupCache = False
+      Origin = 'insurance_class.ID_INSURANCE_CLASS'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+  end
+  object datasrcCBaseSum: TMyDataSource
+    DataSet = myGetInsCoefs_BS
+    left = 160
+    top = 56
+  end
+  object datasrcInsuranceClass: TMyDataSource
+    DataSet = myGetInsCoef_KBM
+    left = 160
+    top = 200
+  end
+  object myGetInsCoef_KVS: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'call InsKoefKVS_Get(:stage, :age);'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 48
+    top = 248
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'stage'
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'age'
+      end>
+  end
+  object myGetInsCoefs_KVS: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_koefs_kvs;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 48
+    top = 296
+    object myGetInsCoefs_KVSMAX_STAGE: TFloatField
+      DisplayLabel = 'Макс. стаж (лет)'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'MAX_STAGE'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_KVSMAX_AGE: TFloatField
+      DisplayLabel = 'Макс. возраст (лет)'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'MAX_AGE'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_KVSKVS: TFloatField
+      DisplayLabel = 'Коэффициент КВС'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KVS'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+  end
+  object myGetInsCoef_KO: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_koefs_ko;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 48
+    top = 344
+    object myGetInsCoef_KOKO_LIMITED: TFloatField
+      DisplayLabel = 'Коэф. КО для огр. числа водителей'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KO_LIMITED'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoef_KOKO_UNLIM: TFloatField
+      DisplayLabel = 'Коэф. КО для неогр. числа водителей'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KO_UNLIM'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+  end
+  object myGetInsCoef_KM: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select KM from ins_koefs_km where'
+      'ID_CAR_TYPE = :id_car_type'
+      'and'
+      'MAX_POWER = (select ifnull(min(if(MAX_POWER >='
+      ':power, MAX_POWER, NULL)), max(MAX_POWER)) from ins_koefs_km);'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 280
+    top = 344
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'id_car_type'
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'power'
+      end>
+  end
+  object datasrcCKVS: TMyDataSource
+    DataSet = myGetInsCoefs_KVS
+    left = 160
+    top = 296
+  end
+  object datasrcCKO: TMyDataSource
+    DataSet = myGetInsCoef_KO
+    left = 160
+    top = 344
+  end
+  object myGetInsCoefs_KM: TMyQuery
+    SQLInsert.Strings = (
+      'INSERT INTO ins_koefs_km'
+      '  (ID_CAR_TYPE, MAX_POWER, KM)'
+      'VALUES'
+      '  (:ID_CAR_TYPE, :MAX_POWER, :KM)'
+    )
+    SQLDelete.Strings = (
+      'DELETE FROM ins_koefs_km'
+      'WHERE'
+      '  ID_CAR_TYPE = :Old_ID_CAR_TYPE AND MAX_POWER = :Old_MAX_POWER'
+    )
+    SQLUpdate.Strings = (
+      'UPDATE ins_koefs_km'
+      'SET'
+      '  ID_CAR_TYPE = :ID_CAR_TYPE, MAX_POWER = :MAX_POWER, KM = :KM'
+      'WHERE'
+      '  ID_CAR_TYPE = :Old_ID_CAR_TYPE AND MAX_POWER = :Old_MAX_POWER'
+    )
+    SQLRefresh.Strings = (
+      'SELECT ins_koefs_km.ID_CAR_TYPE, ins_koefs_km.MAX_POWER, ins_koefs_km.KM FROM ins_koefs_km'
+      'WHERE'
+      '  ins_koefs_km.ID_CAR_TYPE = :ID_CAR_TYPE AND ins_koefs_km.MAX_POWER = :MAX_POWER'
+    )
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_koefs_km;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    BeforeOpen = myGetInsCoefs_KMBeforeOpen
+    left = 280
+    top = 392
+    object myGetInsCoefs_KMID_CAR_TYPE: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_CAR_TYPE'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myGetInsCoefs_KMCAR_TYPE: TStringField
+      DisplayLabel = 'Тип ТС'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_CAR_TYPE'
+      Index = 1
+      KeyFields = 'ID_CAR_TYPE'
+      LookupCache = True
+      LookupDataSet = dmData.myCarType
+      LookupKeyFields = 'ID_CAR_TYPE'
+      LookupResultField = 'CAR_TYPE'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myGetInsCoefs_KMMAX_POWER: TFloatField
+      DisplayLabel = 'Макс. мощность (лошадиных сил)'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'MAX_POWER'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_KMKM: TFloatField
+      DisplayLabel = 'Коэффициент КМ'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KM'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+  end
+  object myGetInsCoef_KS: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select KS from ins_koefs_ks where PERIOD_USE = (select ifnull(min(if(PERIOD_USE >='
+      ':period, PERIOD_USE, NULL)), max(PERIOD_USE)) from ins_koefs_ks);'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 280
+    top = 8
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'period'
+      end>
+  end
+  object myGetInsCoefs_KS: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_koefs_ks;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 280
+    top = 56
+    object myGetInsCoefs_KSPERIOD_USE: TFloatField
+      DisplayLabel = 'Период использования (месяцев)'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'PERIOD_USE'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_KSKS: TFloatField
+      DisplayLabel = 'Коэффициент КС'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KS'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+  end
+  object myGetInsCoef_KP: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select KP from ins_koefs_kp where PERIOD_INS = (select ifnull(min(if(PERIOD_INS >='
+      ':period, PERIOD_INS, NULL)), max(PERIOD_INS)) from ins_koefs_kp);'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 280
+    top = 104
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'period'
+      end>
+  end
+  object myGetInsCoefs_KP: TMyQuery
+    SQLInsert.Strings = (
+      'INSERT INTO ins_koefs_kp'
+      '  (PERIOD_INS, KP)'
+      'VALUES'
+      '  (:PERIOD_INS, :KP)'
+    )
+    SQLDelete.Strings = (
+      'DELETE FROM ins_koefs_kp'
+      'WHERE'
+      '  PERIOD_INS = :Old_PERIOD_INS'
+    )
+    SQLUpdate.Strings = (
+      'UPDATE ins_koefs_kp'
+      'SET'
+      '  PERIOD_INS = :PERIOD_INS, KP = :KP'
+      'WHERE'
+      '  PERIOD_INS = :Old_PERIOD_INS'
+    )
+    SQLRefresh.Strings = (
+      'SELECT ins_koefs_kp.PERIOD_INS, ins_koefs_kp.KP FROM ins_koefs_kp'
+      'WHERE'
+      '  ins_koefs_kp.PERIOD_INS = :PERIOD_INS'
+    )
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_koefs_kp;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 280
+    top = 152
+    object myGetInsCoefs_KPPERIOD_INS: TFloatField
+      DisplayLabel = 'Срок страхования (месяцев)'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'PERIOD_INS'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_KPKP: TFloatField
+      DisplayLabel = 'Коэффициент КП'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KP'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+  end
+  object myGetInsCoefs_Other: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_koefs_other;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 280
+    top = 296
+    object myGetInsCoefs_OtherKN: TFloatField
+      DisplayLabel = 'Коэф. КН'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KN'
+      Index = 0
+      LookupCache = False
+      Origin = 'ins_koefs_other.KN'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_OtherKP_TRANSIT: TFloatField
+      DisplayLabel = 'Коэф. КП для транзита'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KP_TRANSIT'
+      Index = 1
+      LookupCache = False
+      Origin = 'ins_koefs_other.KP_TRANSIT'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+  end
+  object datasrcCKM: TMyDataSource
+    DataSet = myGetInsCoefs_KM
+    left = 384
+    top = 392
+  end
+  object datasrcCKS: TMyDataSource
+    DataSet = myGetInsCoefs_KS
+    left = 384
+    top = 56
+  end
+  object datasrcCKP: TMyDataSource
+    DataSet = myGetInsCoefs_KP
+    left = 384
+    top = 152
+  end
+  object datasrcCOther: TMyDataSource
+    DataSet = myGetInsCoefs_Other
+    left = 384
+    top = 296
+  end
+  object myGetInsCoefs_Foreing: TMyQuery
+    SQLInsert.Strings = (
+      'INSERT INTO ins_koefs_foreing'
+      '  (GEO_GROUP, ID_CLIENT_TYPE_GROUP, KO, KVS, KBM)'
+      'VALUES'
+      '  (:GEO_GROUP, :ID_CLIENT_TYPE_GROUP, :KO, :KVS, :KBM)'
+    )
+    SQLDelete.Strings = (
+      'DELETE FROM ins_koefs_foreing'
+      'WHERE'
+      '  GEO_GROUP = :Old_GEO_GROUP AND ID_CLIENT_TYPE_GROUP = :Old_ID_CLIENT_TYPE_GROUP'
+    )
+    SQLUpdate.Strings = (
+      'UPDATE ins_koefs_foreing'
+      'SET'
+      '  GEO_GROUP = :GEO_GROUP, ID_CLIENT_TYPE_GROUP = :ID_CLIENT_TYPE_GROUP, KO = :KO, KVS = :KVS, KBM = :KBM'
+      'WHERE'
+      '  GEO_GROUP = :Old_GEO_GROUP AND ID_CLIENT_TYPE_GROUP = :Old_ID_CLIENT_TYPE_GROUP'
+    )
+    SQLRefresh.Strings = (
+      'SELECT ins_koefs_foreing.GEO_GROUP, ins_koefs_foreing.ID_CLIENT_TYPE_GROUP, ins_koefs_foreing.KO, ins_koefs_foreing.KVS, ins_koefs_foreing.KBM FROM ins_koefs_foreing'
+      'WHERE'
+      '  ins_koefs_foreing.GEO_GROUP = :GEO_GROUP AND ins_koefs_foreing.ID_CLIENT_TYPE_GROUP = :ID_CLIENT_TYPE_GROUP'
+    )
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_koefs_foreing;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    BeforeOpen = myGetInsCoefs_ForeingBeforeOpen
+    left = 280
+    top = 248
+    object myGetInsCoefs_ForeingGEO_GROUP: TLongintField
+      DisplayLabel = 'Группа коэффициентов'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'GEO_GROUP'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myGetInsCoefs_ForeingNAME1: TStringField
+      DisplayLabel = 'Группа коэффициентов'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_GEO_GROUP'
+      Index = 1
+      KeyFields = 'GEO_GROUP'
+      LookupCache = True
+      LookupDataSet = dmData.myGeoGroups
+      LookupKeyFields = 'GEO_GROUP'
+      LookupResultField = 'NAME'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myGetInsCoefs_ForeingID_CLIENT_TYPE_GROUP: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_CLIENT_TYPE_GROUP'
+      Index = 2
+      LookupCache = False
+      Origin = 'ins_koefs_foreing.ID_CLIENT_TYPE_GROUP'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myGetInsCoefs_ForeingCLIENT_TYPE_GROUP1: TStringField
+      DisplayLabel = 'Группа клиента'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_CLIENT_TYPE_GROUP'
+      Index = 3
+      KeyFields = 'ID_CLIENT_TYPE_GROUP'
+      LookupCache = True
+      LookupDataSet = dmData.myClientTypeGroup
+      LookupKeyFields = 'ID_CLIENT_TYPE_GROUP'
+      LookupResultField = 'CLIENT_TYPE_GROUP'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myGetInsCoefs_ForeingKO: TFloatField
+      DisplayLabel = 'Коэф. КО'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KO'
+      Index = 4
+      LookupCache = False
+      Origin = 'ins_koefs_foreing.KO'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_ForeingKVS: TFloatField
+      DisplayLabel = 'Коэф. КВС'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KVS'
+      Index = 5
+      LookupCache = False
+      Origin = 'ins_koefs_foreing.KVS'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+    object myGetInsCoefs_ForeingKBM: TFloatField
+      DisplayLabel = 'Коэф. КБМ'
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'KBM'
+      Index = 6
+      LookupCache = False
+      Origin = 'ins_koefs_foreing.KBM'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      MaxValue = 0
+      MinValue = 0
+      Precision = 12
+    end
+  end
+  object datasrcCsForeing: TMyDataSource
+    DataSet = myGetInsCoefs_Foreing
+    left = 384
+    top = 248
+  end
+  object myGetInsCoef_Foreing: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_koefs_foreing'
+      'where'
+      'GEO_GROUP = :geo_group'
+      'and'
+      'ID_CLIENT_TYPE_GROUP = :client_type_group;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 280
+    top = 200
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'geo_group'
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'client_type_group'
+      end>
+  end
+  object myInsFormulas: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_formula;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 472
+    top = 104
+    object myInsFormulasID_FORMULA: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_FORMULA'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myInsFormulasFORMULA: TStringField
+      DisplayLabel = 'Формула'
+      DisplayWidth = 765
+      FieldKind = fkData
+      FieldName = 'FORMULA'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myInsFormulasDESCR: TStringField
+      DisplayLabel = 'Описание'
+      DisplayWidth = 765
+      FieldKind = fkData
+      FieldName = 'DESCR'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+  end
+  object myInsFormulaType: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_formula_type;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 472
+    top = 8
+  end
+  object myInsFormulaConf: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select * from ins_formula_conf;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    BeforeOpen = myInsFormulaConfBeforeOpen
+    left = 472
+    top = 152
+    object myInsFormulaConfID_INS_FORMULA_TYPE: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_INS_FORMULA_TYPE'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myInsFormulaConfID_CAR_TYPE: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_CAR_TYPE'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myInsFormulaConfID_CLIENT_TYPE_GROUP: TLongintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_CLIENT_TYPE_GROUP'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myInsFormulaConfID_FORMULA: TLargeintField
+      DisplayWidth = 10
+      FieldKind = fkData
+      FieldName = 'ID_FORMULA'
+      Index = 3
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Visible = False
+    end
+    object myInsFormulaConfNAME1: TStringField
+      DisplayLabel = 'Тип формулы'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_INS_FORMULA_TYPE'
+      Index = 4
+      KeyFields = 'ID_INS_FORMULA_TYPE'
+      LookupCache = True
+      LookupDataSet = myInsFormulaType
+      LookupKeyFields = 'ID_INS_FORMULA_TYPE'
+      LookupResultField = 'NAME'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myInsFormulaConfCAR_TYPE1: TStringField
+      DisplayLabel = 'Тип ТС'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_CAR_TYPE'
+      Index = 5
+      KeyFields = 'ID_CAR_TYPE'
+      LookupCache = True
+      LookupDataSet = dmData.myCarType
+      LookupKeyFields = 'ID_CAR_TYPE'
+      LookupResultField = 'CAR_TYPE'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myInsFormulaConfCLIENT_TYPE_GROUP1: TStringField
+      DisplayLabel = 'Группа клиента'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_CLIENT_TYPE_GROUP'
+      Index = 6
+      KeyFields = 'ID_CLIENT_TYPE_GROUP'
+      LookupCache = True
+      LookupDataSet = dmData.myClientTypeGroup
+      LookupKeyFields = 'ID_CLIENT_TYPE_GROUP'
+      LookupResultField = 'CLIENT_TYPE_GROUP'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+    object myInsFormulaConfFORMULA1: TStringField
+      DisplayLabel = 'Формула'
+      DisplayWidth = 765
+      FieldKind = fkLookup
+      FieldName = 'FL_FORMULA'
+      Index = 7
+      KeyFields = 'ID_FORMULA'
+      LookupCache = True
+      LookupDataSet = myInsFormulas
+      LookupKeyFields = 'ID_FORMULA'
+      LookupResultField = 'FORMULA'
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 765
+    end
+  end
+  object datasrcInsFormula: TMyDataSource
+    DataSet = myInsFormulas
+    left = 576
+    top = 104
+  end
+  object datasrcInsFormulaConf: TMyDataSource
+    DataSet = myInsFormulaConf
+    left = 576
+    top = 152
+  end
+  object myInsFormula: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      'select FORMULA from ins_formula insf'
+      'join ins_formula_conf icf on insf.ID_FORMULA = icf.ID_FORMULA'
+      'join ins_formula_type ift on icf.ID_INS_FORMULA_TYPE = ift.ID_INS_FORMULA_TYPE'
+      'where'
+      'ift.TRANSIT = :transit and ift.FOREING = :foreing'
+      'and'
+      'icf.ID_CAR_TYPE = :car_type and icf.ID_CLIENT_TYPE_GROUP = :ctg;'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 472
+    top = 56
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'transit'
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'foreing'
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'car_type'
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'ctg'
+      end>
+  end
+end

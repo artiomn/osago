@@ -1,0 +1,7 @@
+TYPE=TRIGGERS
+triggers='CREATE DEFINER=`root`@`%` TRIGGER `user_data_upd` AFTER UPDATE ON `user_data`\nFOR EACH ROW\nBEGIN\n  declare granted_ie BOOL;\n  declare cuser CHAR(16);\n  declare chost CHAR(60);\n\n  \n  select ifnull(PRIV_INFOS_EDIT = true, false) from user_groups\n    where ID_GROUP = NEW.ID_GROUP into granted_ie;\n\n  select NEW.User, NEW.Host into cuser, chost;\n\n  \n  call InfosPrivsSet(cuser, chost, granted_ie, false);\n\n  \n  call FixTableChange(\'user_data\',\n    CONCAT_WS(\';\', NEW.Host, NEW.User), \'u\');\nEND' 'CREATE DEFINER=`root`@`%` TRIGGER `user_data_add` AFTER INSERT ON `user_data`\nFOR EACH ROW\nBEGIN\n  declare granted_ie BOOL;\n  declare cuser CHAR(16);\n  declare chost CHAR(60);\n\n  \n  select ifnull(PRIV_INFOS_EDIT = true, false) from user_groups\n    where ID_GROUP = NEW.ID_GROUP into granted_ie;\n\n  select NEW.User, NEW.Host into cuser, chost;\n\n  \n  call InfosPrivsSet(cuser, chost, granted_ie, true);\n\n  \n  call FixTableChange(\'user_data\',\n    CONCAT_WS(\';\', NEW.Host, NEW.User), \'i\');\nEND' 'CREATE DEFINER=`root`@`%` TRIGGER `user_data_del` AFTER DELETE ON `user_data`\nFOR EACH ROW\nBEGIN\n  call FixTableChange(\'user_data\',\n    CONCAT_WS(\';\', OLD.Host, OLD.User), \'d\');\nEND'
+sql_modes=1344274432 1344274432 1344274432
+definers='root@%' 'root@%' 'root@%'
+client_cs_names='cp866' 'cp866' 'cp866'
+connection_cl_names='cp866_general_ci' 'cp866_general_ci' 'cp866_general_ci'
+db_cl_names='cp1251_general_ci' 'cp1251_general_ci' 'cp1251_general_ci'

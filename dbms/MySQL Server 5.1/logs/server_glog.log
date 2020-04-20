@@ -1,0 +1,5438 @@
+.\bin\mysqld.exe, Version: 5.1.39-community-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33306, Named Pipe: (null)
+Time                 Id Command    Argument
+.\bin\mysqld.exe, Version: 5.1.39-community-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33306, Named Pipe: (null)
+Time                 Id Command    Argument
+.\bin\mysqld.exe, Version: 5.1.39-community-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33306, Named Pipe: (null)
+Time                 Id Command    Argument
+.\bin\mysqld.exe, Version: 5.1.39-community-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33306, Named Pipe: (null)
+Time                 Id Command    Argument
+100629 11:42:20	    1 Connect	root@localhost on 
+		    1 Query	select @@version_comment limit 1
+100629 11:42:22	    1 Quit	
+100629 11:49:07	    2 Connect	admin@localhost on osago
+		    2 Query	SET NAMES utf8
+		    2 Query	select * from client_type_group
+		    2 Query	select * from client_types
+		    2 Query	select *
+from car_type
+		    2 Query	select *
+from carmark
+order by mark
+		    2 Query	select *
+from car_model
+order by id_carmark
+		    2 Query	select * from sex
+		    2 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+		    2 Query	select * from type_doc
+		    2 Query	select * from family_state
+		    2 Query	select 
+dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR,
+dogovor.DOG_SER as CNT_DOG_SER,
+dogovor.DOGNUMB as CNT_DOGNUMB,
+dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE,
+dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT,
+dogovor.DATE_START as CNT_DATE_START,
+dogovor.DATE_END as CNT_DATE_END,
+dogovor.START_USE as CNT_START_USE,
+dogovor.END_USE as CNT_END_USE,
+dogovor.START_USE1 as CNT_START_USE1,
+dogovor.END_USE1 as CNT_END_USE1,
+dogovor.START_USE2 as CNT_START_USE2,
+dogovor.END_USE2 as CNT_END_USE2,
+dogovor.ZNAK_SER as CNT_ZNAK_SER,
+dogovor.ZNAK_NO as CNT_ZNAK_NO,
+dogovor.COMMENT as CNT_COMMENT,
+dogovor.ID_CLIENT as CNT_ID_CLIENT,
+dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE,
+dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY,
+dogovor.TRANSIT as CNT_TRANSIT,
+dogovor.ID_CAR as CNT_ID_CAR,
+dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE,
+dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS,
+dogovor.INS_SUM as CNT_INS_SUM,
+dogovor.INS_PREM as CNT_INS_PREM,
+dogovor.KOEF_TER as CNT_KOEF_TER,
+dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS,
+dogovor.KOEF_STAG as CNT_KOEF_STAG,
+dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED,
+dogovor.KOEF_POWER as CNT_KOEF_POWER,
+dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE,
+dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS,
+dogovor.KOEF_KN as CNT_KOEF_KN,
+dogovor.BASE_SUM as CNT_BASE_SUM,
+dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS,
+dogovor.DATE_WRITE as CNT_DATE_WRITE,
+dogovor.DATE_BEGIN as CNT_DATE_BEGIN,
+dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG,
+dogovor.DATE_INSERT as CNT_DATE_INSERT,
+dogovor.DATE_UPDATE as CNT_DATE_UPDATE,
+dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME,
+dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME,
+car.ID_CAR as CAR_ID_CAR,
+car.ARENDA as CAR_ARENDA,
+car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE,
+car.ID_CAR_TYPE as CAR_ID_CAR_TYPE,
+car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE,
+car.ID_CLIENT as CAR_ID_CLIENT,
+car.PTS_DATE as CAR_PTS_DATE,
+car.DATE_INSERT as CAR_DATE_INSERT,
+car.CAR_MARK as CAR_CAR_MARK,
+car.DATE_UPDATE as CAR_DATE_UPDATE,
+car.CAR_MODEL as CAR_CAR_MODEL,
+car.VIN_NUM as CAR_VIN_NUM,
+car.YEAR_ISSUE as CAR_YEAR_ISSUE,
+car.POWER_KVT as CAR_POWER_KVT,
+car.POWER_LS as CAR_POWER_LS,
+car.MAX_KG as CAR_MAX_KG,
+car.NUM_PLACES as CAR_NUM_PLACES,
+car.SHASSI as CAR_SHASSI,
+car.KUSOV as CAR_KUSOV,
+car.GOS_NUM as CAR_GOS_NUM,
+car.PTS_SER as CAR_PTS_SER,
+car.PTS_NO as CAR_PTS_NO,
+car.FOREING as CAR_FOREING,
+car.COMMENTS as CAR_COMMENTS,
+car.USER_INSERT_NAME as CAR_USER_INSERT_NAME,
+car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME,
+client.ID_CLIENT as CLN_ID_CLIENT,
+client.SURNAME as CLN_SURNAME,
+client.NAME as CLN_NAME,
+client.MIDDLENAME as CLN_MIDDLENAME,
+client.INN as CLN_INN,
+client.DOC_SER as CLN_DOC_SER,
+client.POSTINDEX as CLN_POSTINDEX,
+client.BIRTHDAY as CLN_BIRTHDAY,
+client.ID_CITY as CLN_ID_CITY,
+client.ID_REGION as CLN_ID_REGION,
+client.ID_COUNTRY as CLN_ID_COUNTRY,
+client.TOWN as CLN_TOWN,
+client.STREET as CLN_STREET,
+client.HOME as CLN_HOME,
+client.KORPUS as CLN_KORPUS,
+client.FLAT as CLN_FLAT,
+client.HOME_PHONE as CLN_HOME_PHONE,
+client.DOC_NUM as CLN_DOC_NUM,
+client.ID_SEX as CLN_ID_SEX,
+client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE,
+client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE,
+client.ID_TYPE_DOC as CLN_ID_TYPE_DOC,
+client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS,
+client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS,
+client.LICENCE_SER as CLN_LICENCE_SER,
+client.LICENCE_NO as CLN_LICENCE_NO,
+client.START_DRIVING_DATE as CLN_START_DRIVING_DATE,
+client.DATE_INSERT as CLN_DATE_INSERT,
+client.DATE_UPDATE as CLN_DATE_UPDATE,
+client.IMPORT_DATE as CLN_IMPORT_DATE,
+client.WRITER_NAME as CLN_WRITER_NAME,
+client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED,
+client.CELL_PHONE as CLN_CELL_PHONE,
+client.BUSINESS_PHONE as CLN_BUSINESS_PHONE,
+client.LAST_CALL_DATE as CLN_LAST_CALL_DATE,
+client.COMMENTS as CLN_COMMENTS,
+client.USER_INSERT_NAME as CLN_USER_INSERT_NAME,
+client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME,
+CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM,
+CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL,
+CONCAT_WS(" ", client.surname, client.name, client.middlename)
+as FULL_NAME,
+CONCAT_WS(", ",
+if(client.town = '', null, client.town),
+if(client.street = '', null, client.street),
+if(client.home = '', null, client.home),
+if(client.korpus = '', null, client.korpus),
+if(client.flat = '', null, client.flat))
+as FULL_ADDRESS
+from dogovor
+join dogovor_type on
+dogovor.ID_DOGOVOR_TYPE = dogovor_type.ID_DOGOVOR_TYPE
+and dogovor.ID_DOGOVOR_TYPE = 1
+and (DATE_END between DATE_SUB(CURDATE(), INTERVAL 4 YEAR) and CURDATE())
+join client on
+dogovor.ID_CLIENT = client.ID_CLIENT
+and ((client.LAST_CALL_DATE < DATE_SUB(CURDATE(), INTERVAL 1 day)) or
+     (client.LAST_CALL_DATE is NULL))
+join car on
+dogovor.ID_CAR = car.ID_CAR
+join carmark on
+car.CAR_MARK = carmark.ID_CARMARK
+join car_type on
+car.ID_CAR_TYPE = car_type.ID_CAR_TYPE
+100629 11:49:13	    3 Connect	admin@localhost on osago
+		    3 Query	SET NAMES utf8
+		    2 Query	select * from user_groups
+		    4 Connect	admin@localhost on osago
+		    4 Query	SET NAMES utf8
+		    4 Query	CALL UserGetCurrent()
+		    4 Quit	
+100629 11:49:14	    2 Query	SELECT * FROM self_info
+		    2 Query	SELECT * FROM self_info
+		    5 Connect	admin@localhost on osago
+		    5 Query	SET NAMES utf8
+		    5 Query	CALL GetTableChange()
+		    5 Quit	
+		    2 Query	select * from insurance_class
+		    2 Query	select *
+from purpose_type
+		    2 Query	select * from country
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '0'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '3'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '4'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '5'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '42'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '11'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '6'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '7'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '8'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '9'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '12'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '13'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '102'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '15'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '16'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '17'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '18'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '19'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '20'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '21'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '22'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '23'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '24'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '25'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '26'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '27'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '28'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '29'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '2'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '1'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '30'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '31'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '32'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '33'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '34'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '35'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '36'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '37'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '38'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '39'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '41'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '43'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '44'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '45'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '46'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '47'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '40'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '48'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '49'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '50'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '51'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '52'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '53'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '54'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '55'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '56'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '92'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '57'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '58'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '59'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '61'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '62'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '63'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '64'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '65'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '66'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '67'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '68'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '69'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '70'
+and
+ID_BSO_STATUS = 1
+100629 11:49:15	    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '71'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '60'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '72'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '73'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '74'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '75'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '76'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '77'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '78'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '80'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '81'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '82'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '83'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '84'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '85'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '86'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '87'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '100'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '90'
+and
+ID_BSO_STATUS = 1
+		    2 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '91'
+and
+ID_BSO_STATUS = 1
+100629 11:49:16	    6 Connect	admin@localhost on osago
+		    6 Query	SET NAMES utf8
+		    6 Query	CALL GetTableChange()
+		    6 Quit	
+		    3 Quit	
+100629 11:49:56	    7 Connect	admin@localhost on osago
+		    7 Query	SET NAMES utf8
+		    7 Query	select * from client_type_group
+		    7 Query	select * from client_types
+		    7 Query	select *
+from car_type
+		    7 Query	select *
+from carmark
+order by mark
+		    7 Query	select *
+from car_model
+order by id_carmark
+		    7 Query	select * from sex
+		    7 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+		    7 Query	select * from type_doc
+		    7 Query	select * from family_state
+		    7 Query	select 
+dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR,
+dogovor.DOG_SER as CNT_DOG_SER,
+dogovor.DOGNUMB as CNT_DOGNUMB,
+dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE,
+dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT,
+dogovor.DATE_START as CNT_DATE_START,
+dogovor.DATE_END as CNT_DATE_END,
+dogovor.START_USE as CNT_START_USE,
+dogovor.END_USE as CNT_END_USE,
+dogovor.START_USE1 as CNT_START_USE1,
+dogovor.END_USE1 as CNT_END_USE1,
+dogovor.START_USE2 as CNT_START_USE2,
+dogovor.END_USE2 as CNT_END_USE2,
+dogovor.ZNAK_SER as CNT_ZNAK_SER,
+dogovor.ZNAK_NO as CNT_ZNAK_NO,
+dogovor.COMMENT as CNT_COMMENT,
+dogovor.ID_CLIENT as CNT_ID_CLIENT,
+dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE,
+dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY,
+dogovor.TRANSIT as CNT_TRANSIT,
+dogovor.ID_CAR as CNT_ID_CAR,
+dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE,
+dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS,
+dogovor.INS_SUM as CNT_INS_SUM,
+dogovor.INS_PREM as CNT_INS_PREM,
+dogovor.KOEF_TER as CNT_KOEF_TER,
+dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS,
+dogovor.KOEF_STAG as CNT_KOEF_STAG,
+dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED,
+dogovor.KOEF_POWER as CNT_KOEF_POWER,
+dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE,
+dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS,
+dogovor.KOEF_KN as CNT_KOEF_KN,
+dogovor.BASE_SUM as CNT_BASE_SUM,
+dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS,
+dogovor.DATE_WRITE as CNT_DATE_WRITE,
+dogovor.DATE_BEGIN as CNT_DATE_BEGIN,
+dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG,
+dogovor.DATE_INSERT as CNT_DATE_INSERT,
+dogovor.DATE_UPDATE as CNT_DATE_UPDATE,
+dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME,
+dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME,
+car.ID_CAR as CAR_ID_CAR,
+car.ARENDA as CAR_ARENDA,
+car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE,
+car.ID_CAR_TYPE as CAR_ID_CAR_TYPE,
+car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE,
+car.ID_CLIENT as CAR_ID_CLIENT,
+car.PTS_DATE as CAR_PTS_DATE,
+car.DATE_INSERT as CAR_DATE_INSERT,
+car.CAR_MARK as CAR_CAR_MARK,
+car.DATE_UPDATE as CAR_DATE_UPDATE,
+car.CAR_MODEL as CAR_CAR_MODEL,
+car.VIN_NUM as CAR_VIN_NUM,
+car.YEAR_ISSUE as CAR_YEAR_ISSUE,
+car.POWER_KVT as CAR_POWER_KVT,
+car.POWER_LS as CAR_POWER_LS,
+car.MAX_KG as CAR_MAX_KG,
+car.NUM_PLACES as CAR_NUM_PLACES,
+car.SHASSI as CAR_SHASSI,
+car.KUSOV as CAR_KUSOV,
+car.GOS_NUM as CAR_GOS_NUM,
+car.PTS_SER as CAR_PTS_SER,
+car.PTS_NO as CAR_PTS_NO,
+car.FOREING as CAR_FOREING,
+car.COMMENTS as CAR_COMMENTS,
+car.USER_INSERT_NAME as CAR_USER_INSERT_NAME,
+car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME,
+client.ID_CLIENT as CLN_ID_CLIENT,
+client.SURNAME as CLN_SURNAME,
+client.NAME as CLN_NAME,
+client.MIDDLENAME as CLN_MIDDLENAME,
+client.INN as CLN_INN,
+client.DOC_SER as CLN_DOC_SER,
+client.POSTINDEX as CLN_POSTINDEX,
+client.BIRTHDAY as CLN_BIRTHDAY,
+client.ID_CITY as CLN_ID_CITY,
+client.ID_REGION as CLN_ID_REGION,
+client.ID_COUNTRY as CLN_ID_COUNTRY,
+client.TOWN as CLN_TOWN,
+client.STREET as CLN_STREET,
+client.HOME as CLN_HOME,
+client.KORPUS as CLN_KORPUS,
+client.FLAT as CLN_FLAT,
+client.HOME_PHONE as CLN_HOME_PHONE,
+client.DOC_NUM as CLN_DOC_NUM,
+client.ID_SEX as CLN_ID_SEX,
+client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE,
+client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE,
+client.ID_TYPE_DOC as CLN_ID_TYPE_DOC,
+client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS,
+client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS,
+client.LICENCE_SER as CLN_LICENCE_SER,
+client.LICENCE_NO as CLN_LICENCE_NO,
+client.START_DRIVING_DATE as CLN_START_DRIVING_DATE,
+client.DATE_INSERT as CLN_DATE_INSERT,
+client.DATE_UPDATE as CLN_DATE_UPDATE,
+client.IMPORT_DATE as CLN_IMPORT_DATE,
+client.WRITER_NAME as CLN_WRITER_NAME,
+client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED,
+client.CELL_PHONE as CLN_CELL_PHONE,
+client.BUSINESS_PHONE as CLN_BUSINESS_PHONE,
+client.LAST_CALL_DATE as CLN_LAST_CALL_DATE,
+client.COMMENTS as CLN_COMMENTS,
+client.USER_INSERT_NAME as CLN_USER_INSERT_NAME,
+client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME,
+CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM,
+CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL,
+CONCAT_WS(" ", client.surname, client.name, client.middlename)
+as FULL_NAME,
+CONCAT_WS(", ",
+if(client.town = '', null, client.town),
+if(client.street = '', null, client.street),
+if(client.home = '', null, client.home),
+if(client.korpus = '', null, client.korpus),
+if(client.flat = '', null, client.flat))
+as FULL_ADDRESS
+from dogovor
+join dogovor_type on
+dogovor.ID_DOGOVOR_TYPE = dogovor_type.ID_DOGOVOR_TYPE
+and dogovor.ID_DOGOVOR_TYPE = 1
+and (DATE_END between DATE_SUB(CURDATE(), INTERVAL 4 YEAR) and CURDATE())
+join client on
+dogovor.ID_CLIENT = client.ID_CLIENT
+and ((client.LAST_CALL_DATE < DATE_SUB(CURDATE(), INTERVAL 1 day)) or
+     (client.LAST_CALL_DATE is NULL))
+join car on
+dogovor.ID_CAR = car.ID_CAR
+join carmark on
+car.CAR_MARK = carmark.ID_CARMARK
+join car_type on
+car.ID_CAR_TYPE = car_type.ID_CAR_TYPE
+100629 11:49:57	    8 Connect	admin@localhost on osago
+		    8 Query	SET NAMES utf8
+		    7 Query	select * from user_groups
+		    9 Connect	admin@localhost on osago
+		    9 Query	SET NAMES utf8
+		    9 Query	CALL UserGetCurrent()
+		    9 Quit	
+100629 11:49:58	    7 Query	SELECT * FROM self_info
+		    7 Query	SELECT * FROM self_info
+		   10 Connect	admin@localhost on osago
+		   10 Query	SET NAMES utf8
+		   10 Query	CALL GetTableChange()
+		   10 Quit	
+		    7 Query	select * from insurance_class
+		    7 Query	select *
+from purpose_type
+		    7 Query	select * from country
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '0'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '3'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '4'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '5'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '42'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '11'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '6'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '7'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '8'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '9'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '12'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '13'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '102'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '15'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '16'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '17'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '18'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '19'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '20'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '21'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '22'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '23'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '24'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '25'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '26'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '27'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '28'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '29'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '2'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '1'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '30'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '31'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '32'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '33'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '34'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '35'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '36'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '37'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '38'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '39'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '41'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '43'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '44'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '45'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '46'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '47'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '40'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '48'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '49'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '50'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '51'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '52'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '53'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '54'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '55'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '56'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '92'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '57'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '58'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '59'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '61'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '62'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '63'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '64'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '65'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '66'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '67'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '68'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '69'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '70'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '71'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '60'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '72'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '73'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '74'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '75'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '76'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '77'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '78'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '80'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '81'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '82'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '83'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '84'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '85'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '86'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '87'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '100'
+and
+ID_BSO_STATUS = 1
+		    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '90'
+and
+ID_BSO_STATUS = 1
+100629 11:49:59	    7 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '91'
+and
+ID_BSO_STATUS = 1
+100629 11:50:01	   11 Connect	admin@localhost on osago
+		   11 Query	SET NAMES utf8
+		   11 Query	CALL GetTableChange()
+		   11 Quit	
+		    8 Quit	
+100629 11:51:13	   12 Connect	admin@localhost on osago
+		   12 Query	SET NAMES utf8
+		   12 Query	select * from client_type_group
+		   12 Query	select * from client_types
+		   12 Query	select *
+from car_type
+		   12 Query	select *
+from carmark
+order by mark
+		   12 Query	select *
+from car_model
+order by id_carmark
+		   12 Query	select * from sex
+		   12 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+		   12 Query	select * from type_doc
+		   12 Query	select * from family_state
+		   12 Query	select 
+dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR,
+dogovor.DOG_SER as CNT_DOG_SER,
+dogovor.DOGNUMB as CNT_DOGNUMB,
+dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE,
+dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT,
+dogovor.DATE_START as CNT_DATE_START,
+dogovor.DATE_END as CNT_DATE_END,
+dogovor.START_USE as CNT_START_USE,
+dogovor.END_USE as CNT_END_USE,
+dogovor.START_USE1 as CNT_START_USE1,
+dogovor.END_USE1 as CNT_END_USE1,
+dogovor.START_USE2 as CNT_START_USE2,
+dogovor.END_USE2 as CNT_END_USE2,
+dogovor.ZNAK_SER as CNT_ZNAK_SER,
+dogovor.ZNAK_NO as CNT_ZNAK_NO,
+dogovor.COMMENT as CNT_COMMENT,
+dogovor.ID_CLIENT as CNT_ID_CLIENT,
+dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE,
+dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY,
+dogovor.TRANSIT as CNT_TRANSIT,
+dogovor.ID_CAR as CNT_ID_CAR,
+dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE,
+dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS,
+dogovor.INS_SUM as CNT_INS_SUM,
+dogovor.INS_PREM as CNT_INS_PREM,
+dogovor.KOEF_TER as CNT_KOEF_TER,
+dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS,
+dogovor.KOEF_STAG as CNT_KOEF_STAG,
+dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED,
+dogovor.KOEF_POWER as CNT_KOEF_POWER,
+dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE,
+dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS,
+dogovor.KOEF_KN as CNT_KOEF_KN,
+dogovor.BASE_SUM as CNT_BASE_SUM,
+dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS,
+dogovor.DATE_WRITE as CNT_DATE_WRITE,
+dogovor.DATE_BEGIN as CNT_DATE_BEGIN,
+dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG,
+dogovor.DATE_INSERT as CNT_DATE_INSERT,
+dogovor.DATE_UPDATE as CNT_DATE_UPDATE,
+dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME,
+dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME,
+car.ID_CAR as CAR_ID_CAR,
+car.ARENDA as CAR_ARENDA,
+car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE,
+car.ID_CAR_TYPE as CAR_ID_CAR_TYPE,
+car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE,
+car.ID_CLIENT as CAR_ID_CLIENT,
+car.PTS_DATE as CAR_PTS_DATE,
+car.DATE_INSERT as CAR_DATE_INSERT,
+car.CAR_MARK as CAR_CAR_MARK,
+car.DATE_UPDATE as CAR_DATE_UPDATE,
+car.CAR_MODEL as CAR_CAR_MODEL,
+car.VIN_NUM as CAR_VIN_NUM,
+car.YEAR_ISSUE as CAR_YEAR_ISSUE,
+car.POWER_KVT as CAR_POWER_KVT,
+car.POWER_LS as CAR_POWER_LS,
+car.MAX_KG as CAR_MAX_KG,
+car.NUM_PLACES as CAR_NUM_PLACES,
+car.SHASSI as CAR_SHASSI,
+car.KUSOV as CAR_KUSOV,
+car.GOS_NUM as CAR_GOS_NUM,
+car.PTS_SER as CAR_PTS_SER,
+car.PTS_NO as CAR_PTS_NO,
+car.FOREING as CAR_FOREING,
+car.COMMENTS as CAR_COMMENTS,
+car.USER_INSERT_NAME as CAR_USER_INSERT_NAME,
+car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME,
+client.ID_CLIENT as CLN_ID_CLIENT,
+client.SURNAME as CLN_SURNAME,
+client.NAME as CLN_NAME,
+client.MIDDLENAME as CLN_MIDDLENAME,
+client.INN as CLN_INN,
+client.DOC_SER as CLN_DOC_SER,
+client.POSTINDEX as CLN_POSTINDEX,
+client.BIRTHDAY as CLN_BIRTHDAY,
+client.ID_CITY as CLN_ID_CITY,
+client.ID_REGION as CLN_ID_REGION,
+client.ID_COUNTRY as CLN_ID_COUNTRY,
+client.TOWN as CLN_TOWN,
+client.STREET as CLN_STREET,
+client.HOME as CLN_HOME,
+client.KORPUS as CLN_KORPUS,
+client.FLAT as CLN_FLAT,
+client.HOME_PHONE as CLN_HOME_PHONE,
+client.DOC_NUM as CLN_DOC_NUM,
+client.ID_SEX as CLN_ID_SEX,
+client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE,
+client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE,
+client.ID_TYPE_DOC as CLN_ID_TYPE_DOC,
+client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS,
+client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS,
+client.LICENCE_SER as CLN_LICENCE_SER,
+client.LICENCE_NO as CLN_LICENCE_NO,
+client.START_DRIVING_DATE as CLN_START_DRIVING_DATE,
+client.DATE_INSERT as CLN_DATE_INSERT,
+client.DATE_UPDATE as CLN_DATE_UPDATE,
+client.IMPORT_DATE as CLN_IMPORT_DATE,
+client.WRITER_NAME as CLN_WRITER_NAME,
+client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED,
+client.CELL_PHONE as CLN_CELL_PHONE,
+client.BUSINESS_PHONE as CLN_BUSINESS_PHONE,
+client.LAST_CALL_DATE as CLN_LAST_CALL_DATE,
+client.COMMENTS as CLN_COMMENTS,
+client.USER_INSERT_NAME as CLN_USER_INSERT_NAME,
+client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME,
+CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM,
+CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL,
+CONCAT_WS(" ", client.surname, client.name, client.middlename)
+as FULL_NAME,
+CONCAT_WS(", ",
+if(client.town = '', null, client.town),
+if(client.street = '', null, client.street),
+if(client.home = '', null, client.home),
+if(client.korpus = '', null, client.korpus),
+if(client.flat = '', null, client.flat))
+as FULL_ADDRESS
+from dogovor
+join dogovor_type on
+dogovor.ID_DOGOVOR_TYPE = dogovor_type.ID_DOGOVOR_TYPE
+and dogovor.ID_DOGOVOR_TYPE = 1
+and (DATE_END between DATE_SUB(CURDATE(), INTERVAL 4 YEAR) and CURDATE())
+join client on
+dogovor.ID_CLIENT = client.ID_CLIENT
+and ((client.LAST_CALL_DATE < DATE_SUB(CURDATE(), INTERVAL 1 day)) or
+     (client.LAST_CALL_DATE is NULL))
+join car on
+dogovor.ID_CAR = car.ID_CAR
+join carmark on
+car.CAR_MARK = carmark.ID_CARMARK
+join car_type on
+car.ID_CAR_TYPE = car_type.ID_CAR_TYPE
+100629 11:51:14	   13 Connect	admin@localhost on osago
+		   13 Query	SET NAMES utf8
+		   12 Query	select * from user_groups
+		   14 Connect	admin@localhost on osago
+		   14 Query	SET NAMES utf8
+		   14 Query	CALL UserGetCurrent()
+		   14 Quit	
+100629 11:51:15	   12 Query	SELECT * FROM self_info
+		   12 Query	SELECT * FROM self_info
+		   15 Connect	admin@localhost on osago
+		   15 Query	SET NAMES utf8
+		   15 Query	CALL GetTableChange()
+		   15 Quit	
+		   12 Query	select * from insurance_class
+		   12 Query	select *
+from purpose_type
+		   12 Query	select * from country
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '0'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '3'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '4'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '5'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '42'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '11'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '6'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '7'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '8'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '9'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '12'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '13'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '102'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '15'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '16'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '17'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '18'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '19'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '20'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '21'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '22'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '23'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '24'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '25'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '26'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '27'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '28'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '29'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '2'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '1'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '30'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '31'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '32'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '33'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '34'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '35'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '36'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '37'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '38'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '39'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '41'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '43'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '44'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '45'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '46'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '47'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '40'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '48'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '49'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '50'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '51'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '52'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '53'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '54'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '55'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '56'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '92'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '57'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '58'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '59'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '61'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '62'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '63'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '64'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '65'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '66'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '67'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '68'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '69'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '70'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '71'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '60'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '72'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '73'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '74'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '75'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '76'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '77'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '78'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '80'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '81'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '82'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '83'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '84'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '85'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '86'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '87'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '100'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '90'
+and
+ID_BSO_STATUS = 1
+		   12 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '91'
+and
+ID_BSO_STATUS = 1
+100629 11:51:17	   16 Connect	admin@localhost on osago
+		   16 Query	SET NAMES utf8
+		   16 Query	CALL GetTableChange()
+		   16 Quit	
+		   13 Quit	
+100629 11:52:18	   17 Connect	admin@localhost on osago
+		   17 Query	SET NAMES utf8
+		   17 Query	select * from client_type_group
+		   17 Query	select * from client_types
+		   17 Query	select *
+from car_type
+		   17 Query	select *
+from carmark
+order by mark
+		   17 Query	select *
+from car_model
+order by id_carmark
+		   17 Query	select * from sex
+		   17 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+		   17 Query	select * from type_doc
+		   17 Query	select * from family_state
+		   17 Query	select 
+dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR,
+dogovor.DOG_SER as CNT_DOG_SER,
+dogovor.DOGNUMB as CNT_DOGNUMB,
+dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE,
+dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT,
+dogovor.DATE_START as CNT_DATE_START,
+dogovor.DATE_END as CNT_DATE_END,
+dogovor.START_USE as CNT_START_USE,
+dogovor.END_USE as CNT_END_USE,
+dogovor.START_USE1 as CNT_START_USE1,
+dogovor.END_USE1 as CNT_END_USE1,
+dogovor.START_USE2 as CNT_START_USE2,
+dogovor.END_USE2 as CNT_END_USE2,
+dogovor.ZNAK_SER as CNT_ZNAK_SER,
+dogovor.ZNAK_NO as CNT_ZNAK_NO,
+dogovor.COMMENT as CNT_COMMENT,
+dogovor.ID_CLIENT as CNT_ID_CLIENT,
+dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE,
+dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY,
+dogovor.TRANSIT as CNT_TRANSIT,
+dogovor.ID_CAR as CNT_ID_CAR,
+dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE,
+dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS,
+dogovor.INS_SUM as CNT_INS_SUM,
+dogovor.INS_PREM as CNT_INS_PREM,
+dogovor.KOEF_TER as CNT_KOEF_TER,
+dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS,
+dogovor.KOEF_STAG as CNT_KOEF_STAG,
+dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED,
+dogovor.KOEF_POWER as CNT_KOEF_POWER,
+dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE,
+dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS,
+dogovor.KOEF_KN as CNT_KOEF_KN,
+dogovor.BASE_SUM as CNT_BASE_SUM,
+dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS,
+dogovor.DATE_WRITE as CNT_DATE_WRITE,
+dogovor.DATE_BEGIN as CNT_DATE_BEGIN,
+dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG,
+dogovor.DATE_INSERT as CNT_DATE_INSERT,
+dogovor.DATE_UPDATE as CNT_DATE_UPDATE,
+dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME,
+dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME,
+car.ID_CAR as CAR_ID_CAR,
+car.ARENDA as CAR_ARENDA,
+car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE,
+car.ID_CAR_TYPE as CAR_ID_CAR_TYPE,
+car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE,
+car.ID_CLIENT as CAR_ID_CLIENT,
+car.PTS_DATE as CAR_PTS_DATE,
+car.DATE_INSERT as CAR_DATE_INSERT,
+car.CAR_MARK as CAR_CAR_MARK,
+car.DATE_UPDATE as CAR_DATE_UPDATE,
+car.CAR_MODEL as CAR_CAR_MODEL,
+car.VIN_NUM as CAR_VIN_NUM,
+car.YEAR_ISSUE as CAR_YEAR_ISSUE,
+car.POWER_KVT as CAR_POWER_KVT,
+car.POWER_LS as CAR_POWER_LS,
+car.MAX_KG as CAR_MAX_KG,
+car.NUM_PLACES as CAR_NUM_PLACES,
+car.SHASSI as CAR_SHASSI,
+car.KUSOV as CAR_KUSOV,
+car.GOS_NUM as CAR_GOS_NUM,
+car.PTS_SER as CAR_PTS_SER,
+car.PTS_NO as CAR_PTS_NO,
+car.FOREING as CAR_FOREING,
+car.COMMENTS as CAR_COMMENTS,
+car.USER_INSERT_NAME as CAR_USER_INSERT_NAME,
+car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME,
+client.ID_CLIENT as CLN_ID_CLIENT,
+client.SURNAME as CLN_SURNAME,
+client.NAME as CLN_NAME,
+client.MIDDLENAME as CLN_MIDDLENAME,
+client.INN as CLN_INN,
+client.DOC_SER as CLN_DOC_SER,
+client.POSTINDEX as CLN_POSTINDEX,
+client.BIRTHDAY as CLN_BIRTHDAY,
+client.ID_CITY as CLN_ID_CITY,
+client.ID_REGION as CLN_ID_REGION,
+client.ID_COUNTRY as CLN_ID_COUNTRY,
+client.TOWN as CLN_TOWN,
+client.STREET as CLN_STREET,
+client.HOME as CLN_HOME,
+client.KORPUS as CLN_KORPUS,
+client.FLAT as CLN_FLAT,
+client.HOME_PHONE as CLN_HOME_PHONE,
+client.DOC_NUM as CLN_DOC_NUM,
+client.ID_SEX as CLN_ID_SEX,
+client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE,
+client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE,
+client.ID_TYPE_DOC as CLN_ID_TYPE_DOC,
+client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS,
+client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS,
+client.LICENCE_SER as CLN_LICENCE_SER,
+client.LICENCE_NO as CLN_LICENCE_NO,
+client.START_DRIVING_DATE as CLN_START_DRIVING_DATE,
+client.DATE_INSERT as CLN_DATE_INSERT,
+client.DATE_UPDATE as CLN_DATE_UPDATE,
+client.IMPORT_DATE as CLN_IMPORT_DATE,
+client.WRITER_NAME as CLN_WRITER_NAME,
+client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED,
+client.CELL_PHONE as CLN_CELL_PHONE,
+client.BUSINESS_PHONE as CLN_BUSINESS_PHONE,
+client.LAST_CALL_DATE as CLN_LAST_CALL_DATE,
+client.COMMENTS as CLN_COMMENTS,
+client.USER_INSERT_NAME as CLN_USER_INSERT_NAME,
+client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME,
+CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM,
+CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL,
+CONCAT_WS(" ", client.surname, client.name, client.middlename)
+as FULL_NAME,
+CONCAT_WS(", ",
+if(client.town = '', null, client.town),
+if(client.street = '', null, client.street),
+if(client.home = '', null, client.home),
+if(client.korpus = '', null, client.korpus),
+if(client.flat = '', null, client.flat))
+as FULL_ADDRESS
+from dogovor
+join dogovor_type on
+dogovor.ID_DOGOVOR_TYPE = dogovor_type.ID_DOGOVOR_TYPE
+and dogovor.ID_DOGOVOR_TYPE = 1
+and (DATE_END between DATE_SUB(CURDATE(), INTERVAL 4 YEAR) and CURDATE())
+join client on
+dogovor.ID_CLIENT = client.ID_CLIENT
+and ((client.LAST_CALL_DATE < DATE_SUB(CURDATE(), INTERVAL 1 day)) or
+     (client.LAST_CALL_DATE is NULL))
+join car on
+dogovor.ID_CAR = car.ID_CAR
+join carmark on
+car.CAR_MARK = carmark.ID_CARMARK
+join car_type on
+car.ID_CAR_TYPE = car_type.ID_CAR_TYPE
+100629 11:52:20	   18 Connect	admin@localhost on osago
+		   18 Query	SET NAMES utf8
+		   17 Query	select * from user_groups
+		   19 Connect	admin@localhost on osago
+		   19 Query	SET NAMES utf8
+		   19 Query	CALL UserGetCurrent()
+		   19 Quit	
+100629 11:52:21	   17 Query	SELECT * FROM self_info
+		   17 Query	SELECT * FROM self_info
+		   20 Connect	admin@localhost on osago
+		   20 Query	SET NAMES utf8
+		   20 Query	CALL GetTableChange()
+		   20 Quit	
+		   17 Query	select * from insurance_class
+		   17 Query	select *
+from purpose_type
+		   17 Query	select * from country
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '0'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '3'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '4'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '5'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '42'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '11'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '6'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '7'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '8'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '9'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '12'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '13'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '102'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '15'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '16'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '17'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '18'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '19'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '20'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '21'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '22'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '23'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '24'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '25'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '26'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '27'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '28'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '29'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '2'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '1'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '30'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '31'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '32'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '33'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '34'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '35'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '36'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '37'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '38'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '39'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '41'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '43'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '44'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '45'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '46'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '47'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '40'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '48'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '49'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '50'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '51'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '52'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '53'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '54'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '55'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '56'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '92'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '57'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '58'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '59'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '61'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '62'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '63'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '64'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '65'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '66'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '67'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '68'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '69'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '70'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '71'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '60'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '72'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '73'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '74'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '75'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '76'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '77'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '78'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '80'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '81'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '82'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '83'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '84'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '85'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '86'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '87'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '100'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '90'
+and
+ID_BSO_STATUS = 1
+		   17 Query	select *
+from blanks_journal where
+USER_RESERVER is NULL
+and
+HOST_RESERVER is NULL
+and
+ID_INSURANCE_COMPANY = '91'
+and
+ID_BSO_STATUS = 1
+100629 11:52:24	   21 Connect	admin@localhost on osago
+		   21 Query	SET NAMES utf8
+		   21 Query	CALL GetTableChange()
+		   21 Quit	
+		   22 Connect	admin@localhost on osago
+		   22 Query	SET NAMES utf8
+		   22 Query	CALL GetTableChange()
+		   22 Quit	
+		   18 Quit	
+.\bin\mysqld.exe, Version: 5.1.39-community-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33306, Named Pipe: (null)
+Time                 Id Command    Argument
+111129 21:49:53	    1 Connect	Access denied for user 'admin'@'localhost' (using password: YES)
+111129 21:50:29	    2 Connect	admin@localhost on osago
+111129 21:50:30	    2 Query	SET NAMES utf8
+		    2 Query	select * from user_groups
+		    3 Connect	admin@localhost on osago
+		    3 Query	SET NAMES utf8
+		    3 Query	CALL UserGetCurrent()
+		    3 Quit	
+		    2 Query	SELECT * FROM self_info
+		    2 Query	SELECT * FROM self_info
+		    4 Connect	admin@localhost on osago
+		    4 Query	SET NAMES utf8
+		    4 Query	CALL GetTableChange()
+		    4 Quit	
+		    5 Connect	admin@localhost on osago
+		    5 Query	SET NAMES utf8
+		    5 Query	CALL GetTableChange()
+		    5 Quit	
+		    2 Query	select * from client_type_group
+		    2 Query	select * from client_types
+		    2 Query	select * from type_doc
+		    2 Query	select * from sex
+		    2 Query	select * from family_state
+		    2 Query	select * from insurance_class
+		    2 Query	select *
+from car_type
+		    2 Query	select *
+from purpose_type
+		    2 Query	select *
+from carmark
+order by mark
+		    2 Query	select * from country
+		    2 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+111129 21:50:33	    6 Connect	admin@localhost on osago
+		    6 Query	SET NAMES utf8
+		    6 Query	CALL GetTableChange()
+		    6 Quit	
+111129 21:50:36	    7 Connect	admin@localhost on osago
+		    7 Query	SET NAMES utf8
+		    7 Query	CALL GetTableChange()
+		    7 Quit	
+111129 21:50:39	    8 Connect	admin@localhost on osago
+		    8 Query	SET NAMES utf8
+		    8 Query	CALL GetTableChange()
+		    8 Quit	
+111129 21:50:40	    9 Connect	admin@localhost on osago
+		    9 Query	SET NAMES utf8
+		    9 Query	CALL UserSaveSettings(854, 575, 75, 75, 0, 0, 0)
+		    9 Quit	
+		    2 Quit	
+111129 21:50:45	   10 Connect	Access denied for user 'admin'@'localhost' (using password: NO)
+111129 21:51:13	   11 Connect	admin@localhost on osago
+		   11 Query	SET NAMES utf8
+		   11 Query	select * from user_groups
+		   12 Connect	admin@localhost on osago
+		   12 Query	SET NAMES utf8
+		   12 Query	CALL UserGetCurrent()
+		   12 Quit	
+		   11 Query	SELECT * FROM self_info
+		   11 Query	SELECT * FROM self_info
+		   13 Connect	admin@localhost on osago
+		   13 Query	SET NAMES utf8
+		   13 Query	CALL GetTableChange()
+		   13 Quit	
+		   14 Connect	admin@localhost on osago
+		   14 Query	SET NAMES utf8
+		   14 Query	CALL GetTableChange()
+		   14 Quit	
+111129 21:51:14	   11 Query	select * from client_type_group
+		   11 Query	select * from client_types
+		   11 Query	select * from type_doc
+		   11 Query	select * from sex
+		   11 Query	select * from family_state
+		   11 Query	select * from insurance_class
+		   11 Query	select *
+from car_type
+		   11 Query	select *
+from purpose_type
+		   11 Query	select *
+from carmark
+order by mark
+		   11 Query	select * from country
+		   11 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+111129 21:51:16	   15 Connect	admin@localhost on osago
+		   15 Query	SET NAMES utf8
+		   15 Query	CALL GetTableChange()
+		   15 Quit	
+111129 21:51:19	   16 Connect	admin@localhost on osago
+		   16 Query	SET NAMES utf8
+		   16 Query	CALL GetTableChange()
+		   16 Quit	
+111129 21:51:22	   17 Connect	admin@localhost on osago
+		   17 Query	SET NAMES utf8
+		   17 Query	CALL GetTableChange()
+		   17 Quit	
+111129 21:51:25	   18 Connect	admin@localhost on osago
+		   18 Query	SET NAMES utf8
+		   18 Query	CALL GetTableChange()
+		   18 Quit	
+111129 21:51:28	   19 Connect	admin@localhost on osago
+		   19 Query	SET NAMES utf8
+		   19 Query	CALL GetTableChange()
+		   19 Quit	
+111129 21:51:29	   20 Connect	admin@localhost on osago
+		   20 Query	SET NAMES utf8
+		   20 Query	CALL UserSaveSettings(854, 575, 100, 100, 0, 0, 0)
+111129 21:51:30	   20 Quit	
+		   11 Quit	
+.\bin\mysqld.exe, Version: 5.1.39-community-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33306, Named Pipe: (null)
+Time                 Id Command    Argument
+111129 22:06:05	    1 Connect	Access denied for user 'admin'@'localhost' (using password: YES)
+111129 22:06:11	    2 Connect	Access denied for user 'admin'@'localhost' (using password: YES)
+111129 22:06:18	    3 Connect	admin@localhost on osago
+		    3 Query	SET NAMES utf8
+		    3 Query	select * from user_groups
+		    4 Connect	admin@localhost on osago
+		    4 Query	SET NAMES utf8
+		    4 Query	CALL UserGetCurrent()
+		    4 Quit	
+		    3 Query	SELECT * FROM self_info
+		    3 Query	SELECT * FROM self_info
+		    5 Connect	admin@localhost on osago
+		    5 Query	SET NAMES utf8
+		    5 Query	CALL GetTableChange()
+		    5 Quit	
+		    6 Connect	admin@localhost on osago
+		    6 Query	SET NAMES utf8
+		    6 Query	CALL GetTableChange()
+		    6 Quit	
+		    3 Query	select * from client_type_group
+		    3 Query	select * from client_types
+		    3 Query	select * from type_doc
+		    3 Query	select * from sex
+		    3 Query	select * from family_state
+		    3 Query	select * from insurance_class
+		    3 Query	select *
+from car_type
+		    3 Query	select *
+from purpose_type
+		    3 Query	select *
+from carmark
+order by mark
+		    3 Query	select * from country
+111129 22:06:19	    3 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+111129 22:06:21	    7 Connect	admin@localhost on osago
+		    7 Query	SET NAMES utf8
+		    7 Query	CALL GetTableChange()
+		    7 Quit	
+111129 22:06:24	    8 Connect	admin@localhost on osago
+		    8 Query	SET NAMES utf8
+		    8 Query	CALL GetTableChange()
+		    8 Quit	
+111129 22:06:27	    9 Connect	admin@localhost on osago
+		    9 Query	SET NAMES utf8
+		    9 Query	CALL GetTableChange()
+		    9 Quit	
+111129 22:06:30	   10 Connect	admin@localhost on osago
+		   10 Query	SET NAMES utf8
+		   10 Query	CALL GetTableChange()
+		   10 Quit	
+111129 22:06:33	    3 Query	select  dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR, dogovor.DOG_SER as CNT_DOG_SER, dogovor.DOGNUMB as CNT_DOGNUMB, dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE, dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT, dogovor.DATE_START as CNT_DATE_START, dogovor.DATE_END as CNT_DATE_END, dogovor.START_USE as CNT_START_USE, dogovor.END_USE as CNT_END_USE, dogovor.START_USE1 as CNT_START_USE1, dogovor.END_USE1 as CNT_END_USE1, dogovor.START_USE2 as CNT_START_USE2, dogovor.END_USE2 as CNT_END_USE2, dogovor.ZNAK_SER as CNT_ZNAK_SER, dogovor.ZNAK_NO as CNT_ZNAK_NO, dogovor.COMMENT as CNT_COMMENT, dogovor.ID_CLIENT as CNT_ID_CLIENT, dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE, dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY, dogovor.TRANSIT as CNT_TRANSIT, dogovor.ID_CAR as CNT_ID_CAR, dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE, dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS, dogovor.INS_SUM as CNT_INS_SUM, dogovor.INS_PREM as CNT_INS_PREM, dogovor.KOEF_TER as CNT_KOEF_TER, dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS, dogovor.KOEF_STAG as CNT_KOEF_STAG, dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED, dogovor.KOEF_POWER as CNT_KOEF_POWER, dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE, dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS, dogovor.KOEF_KN as CNT_KOEF_KN, dogovor.BASE_SUM as CNT_BASE_SUM, dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS, dogovor.DATE_WRITE as CNT_DATE_WRITE, dogovor.DATE_BEGIN as CNT_DATE_BEGIN, dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG, dogovor.TICKET_SER as CNT_TICKET_SER, dogovor.TICKET_NUM as CNT_TICKET_NUM, dogovor.TICKET_DATE as CNT_TICKET_DATE, dogovor.DATE_INSERT as CNT_DATE_INSERT, dogovor.DATE_UPDATE as CNT_DATE_UPDATE, dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME, dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME , car.ARENDA as CAR_ARENDA, car.ID_CAR as CAR_ID_CAR, car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE, car.ID_CAR_TYPE as CAR_ID_CAR_TYPE, car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE, car.ID_CLIENT as CAR_ID_CLIENT, car.PTS_DATE as CAR_PTS_DATE, car.DATE_INSERT as CAR_DATE_INSERT, car.CAR_MARK as CAR_CAR_MARK, car.DATE_UPDATE as CAR_DATE_UPDATE, car.CAR_MODEL as CAR_CAR_MODEL, car.VIN_NUM as CAR_VIN_NUM, car.YEAR_ISSUE as CAR_YEAR_ISSUE, car.POWER_KVT as CAR_POWER_KVT, car.POWER_LS as CAR_POWER_LS, car.MAX_KG as CAR_MAX_KG, car.NUM_PLACES as CAR_NUM_PLACES, car.SHASSI as CAR_SHASSI, car.KUSOV as CAR_KUSOV, car.GOS_NUM as CAR_GOS_NUM, car.PTS_SER as CAR_PTS_SER, car.PTS_NO as CAR_PTS_NO, car.FOREING as CAR_FOREING, car.COMMENTS as CAR_COMMENTS, car.USER_INSERT_NAME as CAR_USER_INSERT_NAME, car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME , client.ID_CLIENT as CLN_ID_CLIENT, client.SURNAME as CLN_SURNAME, client.NAME as CLN_NAME, client.MIDDLENAME as CLN_MIDDLENAME, client.INN as CLN_INN, client.DOC_SER as CLN_DOC_SER, client.POSTINDEX as CLN_POSTINDEX, client.BIRTHDAY as CLN_BIRTHDAY, client.ID_CITY as CLN_ID_CITY, client.ID_REGION as CLN_ID_REGION, client.ID_COUNTRY as CLN_ID_COUNTRY, client.TOWN as CLN_TOWN, client.STREET as CLN_STREET, client.HOME as CLN_HOME, client.KORPUS as CLN_KORPUS, client.FLAT as CLN_FLAT, client.HOME_PHONE as CLN_HOME_PHONE, client.DOC_NUM as CLN_DOC_NUM, client.ID_SEX as CLN_ID_SEX, client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE, client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE, client.ID_TYPE_DOC as CLN_ID_TYPE_DOC, client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS, client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS, client.LICENCE_SER as CLN_LICENCE_SER, client.LICENCE_NO as CLN_LICENCE_NO, client.START_DRIVING_DATE as CLN_START_DRIVING_DATE, client.DATE_INSERT as CLN_DATE_INSERT, client.DATE_UPDATE as CLN_DATE_UPDATE, client.WRITER_NAME as CLN_WRITER_NAME, client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED, client.CELL_PHONE as CLN_CELL_PHONE, client.BUSINESS_PHONE as CLN_BUSINESS_PHONE, client.LAST_CALL_DATE as CLN_LAST_CALL_DATE, client.COMMENTS as CLN_COMMENTS, client.USER_INSERT_NAME as CLN_USER_INSERT_NAME, client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME , CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM, CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL, CONCAT_WS(" ", client.surname, client.name, client.middlename) as FULL_NAME , CONCAT_WS(", ", if(client.town = '', null, client.town), if(client.street = '', null, client.street), if(client.home = '', null, client.home), if(client.korpus = '', null, client.korpus), if(client.flat = '', null, client.flat)) as FULL_ADDRESS from 
+(
+select dogovor.ID_DOGOVOR as CNT_ID, dogovor.ID_CAR as CAR_ID, dogovor.ID_CLIENT as CLN_ID from dogovor where 
+DOG_SER like '%12%'  
+) subq 
+join dogovor on dogovor.ID_DOGOVOR = subq.CNT_ID join car on car.ID_CAR = subq.CAR_ID join client on client.ID_CLIENT = subq.CLN_ID join car_type on car.ID_CAR_TYPE = car_type.ID_CAR_TYPE join carmark on carmark.ID_CARMARK = car.CAR_MARK
+111129 22:06:35	   11 Connect	admin@localhost on osago
+		   11 Query	SET NAMES utf8
+		   11 Query	CALL GetTableChange()
+		   11 Quit	
+111129 22:06:36	   12 Connect	admin@localhost on osago
+		   12 Query	SET NAMES utf8
+		   12 Query	CALL GetTableChange()
+		   12 Quit	
+111129 22:06:39	   13 Connect	admin@localhost on osago
+		   13 Query	SET NAMES utf8
+		   13 Query	CALL GetTableChange()
+		   13 Quit	
+111129 22:06:42	   14 Connect	admin@localhost on osago
+		   14 Query	SET NAMES utf8
+		   14 Query	CALL GetTableChange()
+		   14 Quit	
+111129 22:06:45	   15 Connect	admin@localhost on osago
+		   15 Query	SET NAMES utf8
+		   15 Query	CALL GetTableChange()
+		   15 Quit	
+111129 22:06:48	   16 Connect	admin@localhost on osago
+		   16 Query	SET NAMES utf8
+		   16 Query	CALL GetTableChange()
+		   16 Quit	
+111129 22:06:51	   17 Connect	admin@localhost on osago
+		   17 Query	SET NAMES utf8
+		   17 Query	CALL GetTableChange()
+		   17 Quit	
+111129 22:06:54	    3 Query	select * from region
+where ID_COUNTRY = NULL
+		    3 Query	select * from city
+where ID_COUNTRY = NULL and ID_REGION = NULL
+		    3 Query	select * from city
+where ID_COUNTRY = NULL and ID_REGION = NULL
+		   18 Connect	admin@localhost on osago
+		   18 Query	SET NAMES utf8
+		   18 Query	CALL GetTableChange()
+		   18 Quit	
+111129 22:06:57	   19 Connect	admin@localhost on osago
+		   19 Query	SET NAMES utf8
+		   19 Query	CALL GetTableChange()
+		   19 Quit	
+111129 22:07:00	   20 Connect	admin@localhost on osago
+		   20 Query	SET NAMES utf8
+		   20 Query	CALL GetTableChange()
+		   20 Quit	
+111129 22:07:03	   21 Connect	admin@localhost on osago
+		   21 Query	SET NAMES utf8
+		   21 Query	CALL GetTableChange()
+		   21 Quit	
+111129 22:07:06	   22 Connect	admin@localhost on osago
+		   22 Query	SET NAMES utf8
+		   22 Query	CALL GetTableChange()
+		   22 Quit	
+111129 22:07:09	   23 Connect	admin@localhost on osago
+		   23 Query	SET NAMES utf8
+		   23 Query	CALL GetTableChange()
+		   23 Quit	
+111129 22:07:12	   24 Connect	admin@localhost on osago
+		   24 Query	SET NAMES utf8
+		   24 Query	CALL GetTableChange()
+		   24 Quit	
+111129 22:07:15	   25 Connect	admin@localhost on osago
+		   25 Query	SET NAMES utf8
+		   25 Query	CALL GetTableChange()
+		   25 Quit	
+111129 22:07:18	   26 Connect	admin@localhost on osago
+		   26 Query	SET NAMES utf8
+		   26 Query	CALL GetTableChange()
+		   26 Quit	
+111129 22:07:21	    3 Query	select * from city
+where ID_COUNTRY = NULL and ID_REGION = NULL
+		    3 Query	select * from city
+where ID_COUNTRY = NULL and ID_REGION = NULL
+		   27 Connect	admin@localhost on osago
+		   27 Query	SET NAMES utf8
+		   27 Query	CALL GetTableChange()
+		   27 Quit	
+111129 22:07:24	   28 Connect	admin@localhost on osago
+		   28 Query	SET NAMES utf8
+		   28 Query	CALL GetTableChange()
+		   28 Quit	
+111129 22:07:27	   29 Connect	admin@localhost on osago
+		   29 Query	SET NAMES utf8
+		   29 Query	CALL GetTableChange()
+		   29 Quit	
+111129 22:07:30	   30 Connect	admin@localhost on osago
+		   30 Query	SET NAMES utf8
+		   30 Query	CALL GetTableChange()
+		   30 Quit	
+111129 22:07:33	   31 Connect	admin@localhost on osago
+		   31 Query	SET NAMES utf8
+		   31 Query	CALL GetTableChange()
+		   31 Quit	
+111129 22:07:34	    3 Query	select GetCurUserFullname() as FullName
+		    3 Query	call GetCurUser( NAME_CONST('user_name',NULL),  NAME_CONST('user_host',NULL))
+		    3 Query	select concat_ws(' ', surname, name, pathronimyc) into result from user_data where
+    User =  NAME_CONST('user_name',_cp1251'admin' COLLATE 'cp1251_general_ci') and Host =  NAME_CONST('user_host',_cp1251'%' COLLATE 'cp1251_general_ci')
+111129 22:07:36	   32 Connect	admin@localhost on osago
+		   32 Query	SET NAMES utf8
+		   32 Query	CALL GetTableChange()
+		   32 Quit	
+111129 22:07:39	    3 Query	select * from city
+where ID_COUNTRY = NULL and ID_REGION = NULL
+		    3 Query	select * from city
+where ID_COUNTRY = NULL and ID_REGION = NULL
+		   33 Connect	admin@localhost on osago
+		   33 Query	SET NAMES utf8
+		   33 Query	CALL GetTableChange()
+		   33 Quit	
+111129 22:07:42	   34 Connect	admin@localhost on osago
+		   34 Query	SET NAMES utf8
+		   34 Query	CALL GetTableChange()
+		   34 Quit	
+111129 22:07:45	   35 Connect	admin@localhost on osago
+		   35 Query	SET NAMES utf8
+		   35 Query	CALL GetTableChange()
+		   35 Quit	
+111129 22:07:48	   36 Connect	admin@localhost on osago
+		   36 Query	SET NAMES utf8
+		   36 Query	CALL GetTableChange()
+		   36 Quit	
+111129 22:07:51	   37 Connect	admin@localhost on osago
+		   37 Query	SET NAMES utf8
+		   37 Query	CALL GetTableChange()
+		   37 Quit	
+111129 22:07:54	   38 Connect	admin@localhost on osago
+111129 22:07:55	   38 Query	SET NAMES utf8
+		   38 Query	CALL GetTableChange()
+		   38 Quit	
+111129 22:07:58	   39 Connect	admin@localhost on osago
+		   39 Query	SET NAMES utf8
+		   39 Query	CALL GetTableChange()
+		   39 Quit	
+111129 22:08:01	   40 Connect	admin@localhost on osago
+		   40 Query	SET NAMES utf8
+		   40 Query	CALL GetTableChange()
+		   40 Quit	
+111129 22:08:04	   41 Connect	admin@localhost on osago
+		   41 Query	SET NAMES utf8
+		   41 Query	CALL GetTableChange()
+		   41 Quit	
+111129 22:08:07	   42 Connect	admin@localhost on osago
+		   42 Query	SET NAMES utf8
+		   42 Query	CALL GetTableChange()
+		   42 Quit	
+111129 22:08:10	   43 Connect	admin@localhost on osago
+		   43 Query	SET NAMES utf8
+		   43 Query	CALL GetTableChange()
+		   43 Quit	
+111129 22:08:13	   44 Connect	admin@localhost on osago
+		   44 Query	SET NAMES utf8
+		   44 Query	CALL GetTableChange()
+		   44 Quit	
+111129 22:08:16	   45 Connect	admin@localhost on osago
+		   45 Query	SET NAMES utf8
+		   45 Query	CALL GetTableChange()
+		   45 Quit	
+111129 22:08:19	   46 Connect	admin@localhost on osago
+		   46 Query	SET NAMES utf8
+		   46 Query	CALL GetTableChange()
+		   46 Quit	
+111129 22:08:22	   47 Connect	admin@localhost on osago
+		   47 Query	SET NAMES utf8
+		   47 Query	CALL GetTableChange()
+		   47 Quit	
+111129 22:08:25	   48 Connect	admin@localhost on osago
+		   48 Query	SET NAMES utf8
+		   48 Query	CALL GetTableChange()
+		   48 Quit	
+111129 22:08:28	   49 Connect	admin@localhost on osago
+		   49 Query	SET NAMES utf8
+		   49 Query	CALL GetTableChange()
+		   49 Quit	
+111129 22:08:31	   50 Connect	admin@localhost on osago
+		   50 Query	SET NAMES utf8
+		   50 Query	CALL GetTableChange()
+		   50 Quit	
+111129 22:08:34	   51 Connect	admin@localhost on osago
+		   51 Query	SET NAMES utf8
+		   51 Query	CALL GetTableChange()
+		   51 Quit	
+111129 22:08:37	   52 Connect	admin@localhost on osago
+		   52 Query	SET NAMES utf8
+		   52 Query	CALL GetTableChange()
+		   52 Quit	
+111129 22:08:40	   53 Connect	admin@localhost on osago
+		   53 Query	SET NAMES utf8
+		   53 Query	CALL GetTableChange()
+		   53 Quit	
+111129 22:08:43	   54 Connect	admin@localhost on osago
+		   54 Query	SET NAMES utf8
+		   54 Query	CALL GetTableChange()
+		   54 Quit	
+111129 22:08:46	   55 Connect	admin@localhost on osago
+		   55 Query	SET NAMES utf8
+		   55 Query	CALL GetTableChange()
+		   55 Quit	
+111129 22:08:49	   56 Connect	admin@localhost on osago
+		   56 Query	SET NAMES utf8
+		   56 Query	CALL GetTableChange()
+		   56 Quit	
+111129 22:08:52	   57 Connect	admin@localhost on osago
+		   57 Query	SET NAMES utf8
+		   57 Query	CALL GetTableChange()
+		   57 Quit	
+111129 22:08:55	   58 Connect	admin@localhost on osago
+		   58 Query	SET NAMES utf8
+		   58 Query	CALL GetTableChange()
+		   58 Quit	
+111129 22:08:58	   59 Connect	admin@localhost on osago
+		   59 Query	SET NAMES utf8
+		   59 Query	CALL GetTableChange()
+		   59 Quit	
+111129 22:09:01	   60 Connect	admin@localhost on osago
+		   60 Query	SET NAMES utf8
+		   60 Query	CALL GetTableChange()
+		   60 Quit	
+111129 22:09:04	   61 Connect	admin@localhost on osago
+		   61 Query	SET NAMES utf8
+		   61 Query	CALL GetTableChange()
+		   61 Quit	
+111129 22:09:07	   62 Connect	admin@localhost on osago
+		   62 Query	SET NAMES utf8
+		   62 Query	CALL GetTableChange()
+		   62 Quit	
+111129 22:09:10	   63 Connect	admin@localhost on osago
+		   63 Query	SET NAMES utf8
+		   63 Query	CALL GetTableChange()
+		   63 Quit	
+111129 22:09:13	   64 Connect	admin@localhost on osago
+		   64 Query	SET NAMES utf8
+		   64 Query	CALL GetTableChange()
+		   64 Quit	
+		    3 Query	select * from owner
+		    3 Query	select * from owner
+111129 22:09:16	   65 Connect	admin@localhost on osago
+		   65 Query	SET NAMES utf8
+		   65 Query	CALL GetTableChange()
+		   65 Quit	
+111129 22:09:19	   66 Connect	admin@localhost on osago
+		   66 Query	SET NAMES utf8
+		   66 Query	CALL GetTableChange()
+		   66 Quit	
+111129 22:09:22	   67 Connect	admin@localhost on osago
+		   67 Query	SET NAMES utf8
+		   67 Query	CALL GetTableChange()
+		   67 Quit	
+111129 22:09:23	    3 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+111129 22:09:25	   68 Connect	admin@localhost on osago
+		   68 Query	SET NAMES utf8
+		   68 Query	CALL GetTableChange()
+		   68 Quit	
+111129 22:09:28	   69 Connect	admin@localhost on osago
+		   69 Query	SET NAMES utf8
+		   69 Query	CALL GetTableChange()
+		   69 Quit	
+111129 22:09:31	   70 Connect	admin@localhost on osago
+		   70 Query	SET NAMES utf8
+		   70 Query	CALL GetTableChange()
+		   70 Quit	
+		    3 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+111129 22:09:34	   71 Connect	admin@localhost on osago
+		   71 Query	SET NAMES utf8
+		   71 Query	CALL GetTableChange()
+		   71 Quit	
+111129 22:09:37	    3 Query	select * from region
+		   72 Connect	admin@localhost on osago
+		   72 Query	SET NAMES utf8
+		   72 Query	CALL GetTableChange()
+		   72 Quit	
+111129 22:09:40	   73 Connect	admin@localhost on osago
+		   73 Query	SET NAMES utf8
+		   73 Query	CALL GetTableChange()
+		   73 Quit	
+111129 22:09:43	   74 Connect	admin@localhost on osago
+		   74 Query	SET NAMES utf8
+		   74 Query	CALL GetTableChange()
+		   74 Quit	
+111129 22:09:46	   75 Connect	admin@localhost on osago
+		   75 Query	SET NAMES utf8
+		   75 Query	CALL GetTableChange()
+		   75 Quit	
+111129 22:09:48	    3 Query	select *
+from purpose_type
+111129 22:09:49	   76 Connect	admin@localhost on osago
+		   76 Query	SET NAMES utf8
+		   76 Query	CALL GetTableChange()
+		   76 Quit	
+111129 22:09:51	    3 Query	select * from geo_groups
+		    3 Query	select * from territory_use
+111129 22:09:52	   77 Connect	admin@localhost on osago
+		   77 Query	SET NAMES utf8
+		   77 Query	CALL GetTableChange()
+		   77 Quit	
+111129 22:09:55	   78 Connect	admin@localhost on osago
+		   78 Query	SET NAMES utf8
+		   78 Query	CALL GetTableChange()
+		   78 Quit	
+111129 22:09:58	   79 Connect	admin@localhost on osago
+		   79 Query	SET NAMES utf8
+		   79 Query	CALL GetTableChange()
+		   79 Quit	
+111129 22:10:01	   80 Connect	admin@localhost on osago
+		   80 Query	SET NAMES utf8
+		   80 Query	CALL GetTableChange()
+		   80 Quit	
+111129 22:10:04	   81 Connect	admin@localhost on osago
+		   81 Query	SET NAMES utf8
+		   81 Query	CALL GetTableChange()
+		   81 Quit	
+111129 22:10:05	    3 Query	call UserGetAll()
+111129 22:10:07	   82 Connect	admin@localhost on osago
+		   82 Query	SET NAMES utf8
+		   82 Query	CALL GetTableChange()
+		   82 Quit	
+111129 22:10:10	   83 Connect	admin@localhost on osago
+		   83 Query	SET NAMES utf8
+		   83 Query	CALL GetTableChange()
+		   83 Quit	
+111129 22:10:13	   84 Connect	admin@localhost on osago
+		   84 Query	SET NAMES utf8
+		   84 Query	CALL GetTableChange()
+		   84 Quit	
+111129 22:10:16	   85 Connect	admin@localhost on osago
+		   85 Query	SET NAMES utf8
+		   85 Query	CALL GetTableChange()
+		   85 Quit	
+111129 22:10:19	   86 Connect	admin@localhost on osago
+		   86 Query	SET NAMES utf8
+		   86 Query	CALL GetTableChange()
+		   86 Quit	
+111129 22:10:22	   87 Connect	admin@localhost on osago
+		   87 Query	SET NAMES utf8
+		   87 Query	CALL GetTableChange()
+		   87 Quit	
+111129 22:10:25	   88 Connect	admin@localhost on osago
+		   88 Query	SET NAMES utf8
+		   88 Query	CALL GetTableChange()
+		   88 Quit	
+111129 22:10:28	   89 Connect	admin@localhost on osago
+		   89 Query	SET NAMES utf8
+		   89 Query	CALL GetTableChange()
+		   89 Quit	
+111129 22:10:31	   90 Connect	admin@localhost on osago
+		   90 Query	SET NAMES utf8
+		   90 Query	CALL GetTableChange()
+		   90 Quit	
+111129 22:10:34	   91 Connect	admin@localhost on osago
+		   91 Query	SET NAMES utf8
+		   91 Query	CALL GetTableChange()
+		   91 Quit	
+111129 22:10:37	   92 Connect	admin@localhost on osago
+		   92 Query	SET NAMES utf8
+		   92 Query	CALL GetTableChange()
+		   92 Quit	
+111129 22:10:40	   93 Connect	admin@localhost on osago
+		   93 Query	SET NAMES utf8
+		   93 Query	CALL GetTableChange()
+		   93 Quit	
+111129 22:10:43	   94 Connect	admin@localhost on osago
+		   94 Query	SET NAMES utf8
+		   94 Query	CALL GetTableChange()
+		   94 Quit	
+111129 22:10:46	   95 Connect	admin@localhost on osago
+		   95 Query	SET NAMES utf8
+		   95 Query	CALL GetTableChange()
+		   95 Quit	
+111129 22:10:49	   96 Connect	admin@localhost on osago
+		   96 Query	SET NAMES utf8
+		   96 Query	CALL GetTableChange()
+		   96 Quit	
+111129 22:10:52	   97 Connect	admin@localhost on osago
+		   97 Query	SET NAMES utf8
+		   97 Query	CALL GetTableChange()
+		   97 Quit	
+111129 22:10:54	    3 Query	call UserGetAll()
+111129 22:10:55	   98 Connect	admin@localhost on osago
+		   98 Query	SET NAMES utf8
+		   98 Query	CALL GetTableChange()
+		   98 Quit	
+111129 22:10:58	   99 Connect	admin@localhost on osago
+		   99 Query	SET NAMES utf8
+		   99 Query	CALL GetTableChange()
+		   99 Quit	
+111129 22:11:01	  100 Connect	admin@localhost on osago
+		  100 Query	SET NAMES utf8
+		  100 Query	CALL GetTableChange()
+		  100 Quit	
+111129 22:11:04	  101 Connect	admin@localhost on osago
+		  101 Query	SET NAMES utf8
+		  101 Query	CALL GetTableChange()
+		  101 Quit	
+111129 22:11:07	  102 Connect	admin@localhost on osago
+		  102 Query	SET NAMES utf8
+		  102 Query	CALL GetTableChange()
+		  102 Quit	
+111129 22:11:10	  103 Connect	admin@localhost on osago
+		  103 Query	SET NAMES utf8
+		  103 Query	CALL GetTableChange()
+		  103 Quit	
+111129 22:11:13	  104 Connect	admin@localhost on osago
+		  104 Query	SET NAMES utf8
+		  104 Query	CALL GetTableChange()
+		  104 Quit	
+111129 22:11:16	  105 Connect	admin@localhost on osago
+		  105 Query	SET NAMES utf8
+		  105 Query	CALL GetTableChange()
+		  105 Quit	
+111129 22:11:19	  106 Connect	admin@localhost on osago
+		  106 Query	SET NAMES utf8
+		  106 Query	CALL GetTableChange()
+		  106 Quit	
+111129 22:11:22	  107 Connect	admin@localhost on osago
+		  107 Query	SET NAMES utf8
+		  107 Query	CALL GetTableChange()
+		  107 Quit	
+111129 22:11:24	  108 Connect	admin@localhost on osago
+		  108 Query	SET NAMES utf8
+		  108 Query	CALL UserSaveSettings(854, 575, 25, 25, 0, 0, 0)
+		  108 Quit	
+		    3 Quit	
+.\bin\mysqld.exe, Version: 5.1.39-community-log (MySQL Community Server (GPL)). started with:
+TCP Port: 33306, Named Pipe: (null)
+Time                 Id Command    Argument
+130423 22:14:41	    1 Connect	Access denied for user 'admin'@'localhost' (using password: YES)
+130423 22:18:57	    2 Connect	root@localhost on 
+		    2 Query	select @@version_comment limit 1
+130423 22:19:05	    2 Query	show databases
+130423 22:19:11	    2 Query	SELECT DATABASE()
+		    2 Init DB	osago
+130423 22:19:17	    2 Query	show tables
+130423 22:19:38	    3 Connect	root@localhost on osago
+		    3 Query	SET NAMES utf8
+		    3 Query	select * from user_groups
+		    4 Connect	root@localhost on osago
+		    4 Query	SET NAMES utf8
+		    4 Query	CALL UserGetCurrent()
+130423 22:19:39	    4 Quit	
+		    3 Query	SELECT * FROM self_info
+		    3 Query	SELECT * FROM self_info
+		    5 Connect	root@localhost on osago
+		    5 Query	SET NAMES utf8
+		    5 Query	CALL GetTableChange()
+		    5 Quit	
+		    6 Connect	root@localhost on osago
+		    6 Query	SET NAMES utf8
+		    6 Query	CALL GetTableChange()
+		    6 Quit	
+		    3 Query	select * from client_type_group
+		    3 Query	select * from client_types
+		    3 Query	select * from type_doc
+		    3 Query	select * from sex
+		    3 Query	select * from family_state
+		    3 Query	select * from insurance_class
+		    3 Query	select *
+from car_type
+		    3 Query	select *
+from purpose_type
+		    3 Query	select *
+from carmark
+order by mark
+		    3 Query	select * from country
+		    3 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+130423 22:19:45	    7 Connect	root@localhost on osago
+		    7 Query	SET NAMES utf8
+		    7 Query	CALL GetTableChange()
+		    7 Quit	
+130423 22:19:48	    8 Connect	root@localhost on osago
+		    8 Query	SET NAMES utf8
+		    8 Query	CALL GetTableChange()
+		    8 Quit	
+130423 22:19:51	    9 Connect	root@localhost on osago
+		    9 Query	SET NAMES utf8
+		    9 Query	CALL GetTableChange()
+		    9 Quit	
+130423 22:19:54	   10 Connect	root@localhost on osago
+		   10 Query	SET NAMES utf8
+		   10 Query	CALL GetTableChange()
+		   10 Quit	
+130423 22:19:57	   11 Connect	root@localhost on osago
+		   11 Query	SET NAMES utf8
+		   11 Query	CALL GetTableChange()
+		   11 Quit	
+130423 22:19:58	   12 Connect	root@localhost on osago
+		   12 Query	SET NAMES utf8
+		   12 Query	CALL UserSaveSettings(854, 575, 125, 125, 0, 0, 0)
+		   12 Quit	
+		    3 Quit	
+130423 22:20:04	    2 Quit	
+130423 22:20:27	   13 Connect	root@localhost on 
+		   13 Query	select @@version_comment limit 1
+130423 22:20:31	   13 Query	show users
+130423 22:20:36	   13 Query	SELECT DATABASE()
+		   13 Init DB	mysql
+130423 22:20:40	   13 Query	show tables
+130423 22:22:27	   13 Query	select * from user
+130423 22:39:04	   14 Connect	root@localhost on osago
+		   14 Query	set autocommit=1
+		   14 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   14 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   14 Query	SELECT current_user()
+		   14 Query	USE `osago`
+130423 22:39:06	   14 Quit	
+130423 22:39:10	   15 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+		   16 Connect	root@localhost on osago
+		   16 Query	set autocommit=1
+		   16 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   16 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   16 Query	SELECT current_user()
+		   16 Query	SET CHARACTER SET utf8
+		   16 Query	SET NAMES utf8
+		   16 Query	SET SQL_SAFE_UPDATES=1
+		   16 Query	SELECT CONNECTION_ID()
+		   16 Query	USE `osago`
+		   16 Query	USE `osago`
+		   16 Query	set autocommit=1
+		   17 Connect	root@localhost on osago
+		   17 Query	set autocommit=1
+		   17 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   17 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   17 Query	SELECT current_user()
+		   17 Query	SET CHARACTER SET utf8
+		   17 Query	SET NAMES utf8
+		   17 Query	SET SQL_SAFE_UPDATES=1
+		   17 Query	SELECT CONNECTION_ID()
+		   17 Query	USE `osago`
+		   17 Query	USE `osago`
+		   17 Query	set autocommit=1
+		   17 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+		   17 Query	SELECT current_user()
+		   16 Query	SHOW DATABASES
+130423 22:39:11	   16 Query	SHOW DATABASES
+130423 22:39:13	   16 Query	SHOW FULL TABLES FROM `osago`
+		   16 Query	SHOW PROCEDURE STATUS WHERE Db='osago'
+		   16 Query	SHOW FUNCTION STATUS WHERE Db='osago'
+130423 22:39:15	   16 Query	SHOW COLUMNS FROM `osago`.`base_sum`
+		   16 Query	SHOW COLUMNS FROM `osago`.`blanks_journal`
+		   16 Query	SHOW COLUMNS FROM `osago`.`bso_status`
+		   16 Query	SHOW COLUMNS FROM `osago`.`car`
+130423 22:39:16	   16 Query	SHOW COLUMNS FROM `osago`.`car_model`
+		   16 Query	SHOW COLUMNS FROM `osago`.`car_type`
+		   16 Query	SHOW COLUMNS FROM `osago`.`carmark`
+		   16 Query	SHOW COLUMNS FROM `osago`.`change_log`
+		   16 Query	SHOW COLUMNS FROM `osago`.`city`
+		   16 Query	SHOW COLUMNS FROM `osago`.`client`
+		   16 Query	SHOW COLUMNS FROM `osago`.`client_type_group`
+		   16 Query	SHOW COLUMNS FROM `osago`.`client_types`
+		   16 Query	SHOW COLUMNS FROM `osago`.`country`
+		   16 Query	SHOW COLUMNS FROM `osago`.`dogovor`
+		   16 Query	SHOW COLUMNS FROM `osago`.`dogovor_history`
+		   16 Query	SHOW COLUMNS FROM `osago`.`dogovor_state`
+		   16 Query	SHOW COLUMNS FROM `osago`.`dogovor_type`
+130423 22:39:17	   16 Query	SHOW COLUMNS FROM `osago`.`drivers`
+		   16 Query	SHOW COLUMNS FROM `osago`.`error_info`
+		   16 Query	SHOW COLUMNS FROM `osago`.`family_state`
+		   16 Query	SHOW COLUMNS FROM `osago`.`geo_groups`
+		   16 Query	SHOW COLUMNS FROM `osago`.`guilty_type`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_formula`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_formula_conf`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_formula_type`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_foreing`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_km`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_ko`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_kp`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_ks`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_kvs`
+		   16 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_other`
+		   16 Query	SHOW COLUMNS FROM `osago`.`insurance_class`
+		   16 Query	SHOW COLUMNS FROM `osago`.`insurance_company`
+		   16 Query	SHOW COLUMNS FROM `osago`.`producter_type`
+		   16 Query	SHOW COLUMNS FROM `osago`.`purpose_type`
+		   16 Query	SHOW COLUMNS FROM `osago`.`region`
+		   16 Query	SHOW COLUMNS FROM `osago`.`self_info`
+		   16 Query	SHOW COLUMNS FROM `osago`.`sex`
+		   16 Query	SHOW COLUMNS FROM `osago`.`territory_use`
+		   16 Query	SHOW COLUMNS FROM `osago`.`type_doc`
+		   16 Query	SHOW COLUMNS FROM `osago`.`user_data`
+		   16 Query	SHOW COLUMNS FROM `osago`.`user_groups`
+130423 22:39:18	   16 Query	SHOW COLUMNS FROM `osago`.`user_settings`
+		   16 Query	SHOW COLUMNS FROM `osago`.`valuta`
+130423 22:39:27	   17 Quit	
+130423 22:40:03	   18 Connect	root@localhost on osago
+		   18 Query	set autocommit=1
+		   18 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   18 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   18 Query	SELECT current_user()
+		   18 Query	USE `osago`
+		   18 Query	SELECT VERSION() as VERSION
+		   18 Query	SHOW VARIABLES LIKE 'version_compile_%'
+		   18 Quit	
+130423 22:40:13	   19 Connect	root@localhost on osago
+		   19 Query	set autocommit=1
+		   19 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   19 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   19 Query	SELECT current_user()
+		   19 Query	USE `osago`
+		   19 Query	select version() as version
+		   19 Query	SHOW VARIABLES LIKE 'hostname'
+		   19 Query	SHOW VARIABLES LIKE 'datadir'
+		   19 Query	SHOW VARIABLES LIKE 'basedir'
+		   19 Query	SHOW VARIABLES LIKE 'general_log'
+		   19 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+130423 22:40:17	   20 Connect	root@localhost on osago
+		   20 Query	set autocommit=1
+		   20 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   20 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   20 Query	SELECT current_user()
+		   20 Query	USE `osago`
+		   20 Query	select version() as version
+		   20 Query	SHOW VARIABLES LIKE 'hostname'
+		   20 Query	SHOW VARIABLES LIKE 'datadir'
+		   20 Query	SHOW VARIABLES LIKE 'basedir'
+		   20 Query	SHOW VARIABLES LIKE 'general_log'
+		   20 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+130423 22:40:22	   21 Connect	root@localhost on osago
+		   21 Query	set autocommit=1
+		   21 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   21 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   21 Query	SELECT current_user()
+		   21 Query	USE `osago`
+		   21 Query	select version() as version
+		   21 Query	SHOW VARIABLES LIKE 'hostname'
+		   21 Query	SHOW VARIABLES LIKE 'datadir'
+		   21 Query	SHOW VARIABLES LIKE 'basedir'
+		   21 Query	SHOW VARIABLES LIKE 'general_log'
+		   21 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+130423 22:40:55	   22 Connect	root@localhost on osago
+		   22 Query	set autocommit=1
+		   22 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   22 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   22 Query	SELECT current_user()
+		   22 Query	USE `osago`
+		   22 Query	SELECT VERSION() as VERSION
+		   22 Query	SHOW VARIABLES LIKE 'version_compile_%'
+		   22 Quit	
+130423 22:41:13	   23 Connect	root@localhost on osago
+		   23 Query	set autocommit=1
+		   23 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   23 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   23 Query	SELECT current_user()
+		   23 Query	USE `osago`
+		   23 Query	SELECT VERSION() as VERSION
+		   23 Query	SHOW VARIABLES LIKE 'version_compile_%'
+		   23 Quit	
+130423 22:41:22	   24 Connect	root@localhost on osago
+		   24 Query	set autocommit=1
+		   24 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   24 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   24 Query	SELECT current_user()
+		   24 Query	USE `osago`
+		   24 Query	select version() as version
+		   24 Query	SHOW VARIABLES LIKE 'hostname'
+		   24 Query	SHOW VARIABLES LIKE 'datadir'
+		   24 Query	SHOW VARIABLES LIKE 'basedir'
+		   24 Query	SHOW VARIABLES LIKE 'general_log'
+		   24 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+130423 22:41:25	   25 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+		   26 Connect	root@localhost on osago
+		   26 Query	set autocommit=1
+		   26 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   26 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   26 Query	SELECT current_user()
+		   26 Query	SET CHARACTER SET utf8
+		   26 Query	SET NAMES utf8
+		   26 Query	SET SQL_SAFE_UPDATES=1
+		   26 Query	SELECT CONNECTION_ID()
+		   26 Query	USE `osago`
+		   26 Query	USE `osago`
+		   26 Query	set autocommit=1
+		   27 Connect	root@localhost on osago
+		   27 Query	set autocommit=1
+		   27 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   27 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   27 Query	SELECT current_user()
+		   27 Query	SET CHARACTER SET utf8
+		   27 Query	SET NAMES utf8
+		   27 Query	SET SQL_SAFE_UPDATES=1
+		   27 Query	SELECT CONNECTION_ID()
+		   27 Query	USE `osago`
+		   27 Query	USE `osago`
+		   27 Query	set autocommit=1
+		   27 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+		   27 Query	SELECT current_user()
+		   26 Query	USE `osago`
+		   26 Query	SHOW DATABASES
+		   27 Query	USE `osago`
+		   26 Query	SHOW DATABASES
+130423 22:41:29	   26 Query	SHOW FULL TABLES FROM `osago`
+130423 22:41:30	   26 Query	SHOW PROCEDURE STATUS WHERE Db='osago'
+		   26 Query	SHOW FUNCTION STATUS WHERE Db='osago'
+		   26 Query	SHOW COLUMNS FROM `osago`.`base_sum`
+		   26 Query	SHOW COLUMNS FROM `osago`.`blanks_journal`
+		   26 Query	SHOW COLUMNS FROM `osago`.`bso_status`
+		   26 Query	SHOW COLUMNS FROM `osago`.`car`
+		   26 Query	SHOW COLUMNS FROM `osago`.`car_model`
+		   26 Query	SHOW COLUMNS FROM `osago`.`car_type`
+		   26 Query	SHOW COLUMNS FROM `osago`.`carmark`
+		   26 Query	SHOW COLUMNS FROM `osago`.`change_log`
+		   26 Query	SHOW COLUMNS FROM `osago`.`city`
+		   26 Query	SHOW COLUMNS FROM `osago`.`client`
+		   26 Query	SHOW COLUMNS FROM `osago`.`client_type_group`
+		   26 Query	SHOW COLUMNS FROM `osago`.`client_types`
+		   26 Query	SHOW COLUMNS FROM `osago`.`country`
+		   26 Query	SHOW COLUMNS FROM `osago`.`dogovor`
+		   26 Query	SHOW COLUMNS FROM `osago`.`dogovor_history`
+		   26 Query	SHOW COLUMNS FROM `osago`.`dogovor_state`
+130423 22:41:31	   26 Query	SHOW COLUMNS FROM `osago`.`dogovor_type`
+		   26 Query	SHOW COLUMNS FROM `osago`.`drivers`
+		   26 Query	SHOW COLUMNS FROM `osago`.`error_info`
+		   26 Query	SHOW COLUMNS FROM `osago`.`family_state`
+		   26 Query	SHOW COLUMNS FROM `osago`.`geo_groups`
+		   26 Query	SHOW COLUMNS FROM `osago`.`guilty_type`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_formula`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_formula_conf`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_formula_type`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_foreing`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_km`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_ko`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_kp`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_ks`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_kvs`
+		   26 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_other`
+		   26 Query	SHOW COLUMNS FROM `osago`.`insurance_class`
+		   26 Query	SHOW COLUMNS FROM `osago`.`insurance_company`
+		   26 Query	SHOW COLUMNS FROM `osago`.`producter_type`
+		   26 Query	SHOW COLUMNS FROM `osago`.`purpose_type`
+		   26 Query	SHOW COLUMNS FROM `osago`.`region`
+		   26 Query	SHOW COLUMNS FROM `osago`.`self_info`
+		   26 Query	SHOW COLUMNS FROM `osago`.`sex`
+		   26 Query	SHOW COLUMNS FROM `osago`.`territory_use`
+		   26 Query	SHOW COLUMNS FROM `osago`.`type_doc`
+		   26 Query	SHOW COLUMNS FROM `osago`.`user_data`
+		   26 Query	SHOW COLUMNS FROM `osago`.`user_groups`
+		   26 Query	SHOW COLUMNS FROM `osago`.`user_settings`
+		   26 Query	SHOW COLUMNS FROM `osago`.`valuta`
+130423 22:41:34	   27 Quit	
+130423 22:41:41	   28 Connect	root@localhost on osago
+		   28 Query	set autocommit=1
+		   28 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   28 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   28 Query	SELECT current_user()
+		   28 Query	USE `osago`
+		   28 Query	select version() as version
+		   28 Query	SHOW VARIABLES LIKE 'hostname'
+		   28 Query	SHOW VARIABLES LIKE 'datadir'
+		   28 Query	SHOW VARIABLES LIKE 'basedir'
+		   28 Query	SHOW VARIABLES LIKE 'general_log'
+		   28 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+130423 22:42:10	   29 Connect	root@localhost on osago
+		   29 Query	set autocommit=1
+		   29 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   29 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   29 Query	SELECT current_user()
+		   29 Query	USE `osago`
+		   29 Query	SELECT VERSION() as VERSION
+		   29 Query	SHOW VARIABLES LIKE 'version_compile_%'
+		   29 Quit	
+130423 22:42:43	   30 Connect	root@localhost on osago
+		   30 Query	set autocommit=1
+		   30 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   30 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   30 Query	SELECT current_user()
+		   30 Query	USE `osago`
+		   30 Query	select version() as version
+		   30 Query	SHOW VARIABLES LIKE 'hostname'
+		   30 Query	SHOW VARIABLES LIKE 'datadir'
+		   30 Query	SHOW VARIABLES LIKE 'basedir'
+		   30 Query	SHOW VARIABLES LIKE 'general_log'
+		   30 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+		   31 Connect	root@localhost on osago
+		   31 Query	set autocommit=1
+		   31 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   31 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   31 Query	SELECT current_user()
+		   31 Query	USE `osago`
+		   30 Query	SHOW FULL PROCESSLIST
+		   30 Query	SHOW FULL PROCESSLIST
+		   30 Query	select version() as version
+		   30 Query	SHOW VARIABLES LIKE 'hostname'
+		   30 Query	SHOW VARIABLES LIKE 'datadir'
+		   30 Query	SHOW VARIABLES LIKE 'basedir'
+		   30 Query	SHOW VARIABLES LIKE 'general_log'
+		   30 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+130423 22:42:45	   31 Quit	
+		   30 Quit	
+130423 22:42:49	   32 Connect	root@localhost on osago
+		   32 Query	set autocommit=1
+		   32 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   32 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   32 Query	SELECT current_user()
+		   32 Query	USE `osago`
+		   32 Query	select version() as version
+		   32 Query	SHOW VARIABLES LIKE 'hostname'
+		   32 Query	SHOW VARIABLES LIKE 'datadir'
+		   32 Query	SHOW VARIABLES LIKE 'basedir'
+		   32 Query	SHOW VARIABLES LIKE 'general_log'
+		   32 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+		   33 Connect	root@localhost on osago
+		   33 Query	set autocommit=1
+		   33 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   33 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   33 Query	SELECT current_user()
+		   33 Query	USE `osago`
+		   32 Query	SHOW FULL PROCESSLIST
+		   32 Query	SHOW FULL PROCESSLIST
+130423 22:42:50	   32 Query	select version() as version
+		   32 Query	SHOW VARIABLES LIKE 'hostname'
+		   32 Query	SHOW VARIABLES LIKE 'datadir'
+		   32 Query	SHOW VARIABLES LIKE 'basedir'
+		   32 Query	SHOW VARIABLES LIKE 'general_log'
+		   32 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+		   33 Query	show global status
+130423 22:42:52	   33 Quit	
+		   32 Quit	
+130423 22:45:04	   34 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+		   35 Connect	Access denied for user 'root'@'localhost' (using password: YES)
+130423 22:45:29	   36 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+130423 22:46:07	   37 Connect	root@localhost on osago
+		   37 Query	set autocommit=1
+		   37 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   37 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   37 Query	SELECT current_user()
+		   37 Query	USE `osago`
+		   37 Query	SELECT VERSION() as VERSION
+		   37 Query	SHOW VARIABLES LIKE 'version_compile_%'
+130423 22:46:08	   37 Quit	
+130423 22:46:25	   38 Connect	root@localhost on osago
+		   38 Query	set autocommit=1
+		   38 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   38 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   38 Query	SELECT current_user()
+		   38 Query	USE `osago`
+		   38 Query	select version() as version
+		   38 Query	SHOW VARIABLES LIKE 'hostname'
+		   38 Query	SHOW VARIABLES LIKE 'datadir'
+		   38 Query	SHOW VARIABLES LIKE 'basedir'
+		   38 Query	SHOW VARIABLES LIKE 'general_log'
+		   38 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+		   39 Connect	root@localhost on osago
+		   39 Query	set autocommit=1
+		   39 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   39 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   39 Query	SELECT current_user()
+		   39 Query	USE `osago`
+		   38 Query	SHOW FULL PROCESSLIST
+		   38 Query	SHOW FULL PROCESSLIST
+		   38 Query	select version() as version
+		   38 Query	SHOW VARIABLES LIKE 'hostname'
+		   38 Query	SHOW VARIABLES LIKE 'datadir'
+		   38 Query	SHOW VARIABLES LIKE 'basedir'
+		   38 Query	SHOW VARIABLES LIKE 'general_log'
+		   38 Query	SHOW VARIABLES LIKE 'log_slow_queries'
+		   39 Query	show global status
+130423 22:46:29	   39 Query	show global status
+130423 22:46:33	   39 Query	show global status
+130423 22:46:36	   40 Connect	Access denied for user 'root'@'localhost' (using password: NO)
+		   41 Connect	root@localhost on osago
+		   41 Query	set autocommit=1
+		   41 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   41 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   41 Query	SELECT current_user()
+		   41 Query	SET CHARACTER SET utf8
+		   41 Query	SET NAMES utf8
+		   41 Query	SET SQL_SAFE_UPDATES=1
+		   41 Query	SELECT CONNECTION_ID()
+		   41 Query	USE `osago`
+		   41 Query	USE `osago`
+		   41 Query	set autocommit=1
+		   42 Connect	root@localhost on osago
+		   42 Query	set autocommit=1
+		   42 Query	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ
+		   42 Query	SHOW SESSION VARIABLES LIKE 'lower_case_table_names'
+		   42 Query	SELECT current_user()
+		   42 Query	SET CHARACTER SET utf8
+		   42 Query	SET NAMES utf8
+		   42 Query	SET SQL_SAFE_UPDATES=1
+		   42 Query	SELECT CONNECTION_ID()
+		   42 Query	USE `osago`
+		   42 Query	USE `osago`
+		   42 Query	set autocommit=1
+		   42 Query	SHOW SESSION VARIABLES LIKE 'sql_mode'
+		   42 Query	SELECT current_user()
+		   41 Query	SHOW DATABASES
+		   41 Query	SHOW DATABASES
+		   39 Query	show global status
+130423 22:46:39	   41 Query	SHOW FULL TABLES FROM `osago`
+		   41 Query	SHOW PROCEDURE STATUS WHERE Db='osago'
+		   41 Query	SHOW FUNCTION STATUS WHERE Db='osago'
+		   41 Query	SHOW COLUMNS FROM `osago`.`base_sum`
+		   41 Query	SHOW COLUMNS FROM `osago`.`blanks_journal`
+		   41 Query	SHOW COLUMNS FROM `osago`.`bso_status`
+		   41 Query	SHOW COLUMNS FROM `osago`.`car`
+		   41 Query	SHOW COLUMNS FROM `osago`.`car_model`
+		   41 Query	SHOW COLUMNS FROM `osago`.`car_type`
+		   41 Query	SHOW COLUMNS FROM `osago`.`carmark`
+		   41 Query	SHOW COLUMNS FROM `osago`.`change_log`
+		   41 Query	SHOW COLUMNS FROM `osago`.`city`
+		   41 Query	SHOW COLUMNS FROM `osago`.`client`
+		   41 Query	SHOW COLUMNS FROM `osago`.`client_type_group`
+		   41 Query	SHOW COLUMNS FROM `osago`.`client_types`
+		   41 Query	SHOW COLUMNS FROM `osago`.`country`
+		   41 Query	SHOW COLUMNS FROM `osago`.`dogovor`
+130423 22:46:40	   41 Query	SHOW COLUMNS FROM `osago`.`dogovor_history`
+		   41 Query	SHOW COLUMNS FROM `osago`.`dogovor_state`
+		   41 Query	SHOW COLUMNS FROM `osago`.`dogovor_type`
+		   41 Query	SHOW COLUMNS FROM `osago`.`drivers`
+		   41 Query	SHOW COLUMNS FROM `osago`.`error_info`
+		   39 Query	show global status
+		   41 Query	SHOW COLUMNS FROM `osago`.`family_state`
+		   41 Query	SHOW COLUMNS FROM `osago`.`geo_groups`
+		   41 Query	SHOW COLUMNS FROM `osago`.`guilty_type`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_formula`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_formula_conf`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_formula_type`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_foreing`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_km`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_ko`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_kp`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_ks`
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_kvs`
+		   41 Query	SHOW FULL TABLES FROM `mysql`
+		   41 Query	SHOW PROCEDURE STATUS WHERE Db='mysql'
+		   41 Query	SHOW FUNCTION STATUS WHERE Db='mysql'
+		   41 Query	SHOW COLUMNS FROM `osago`.`ins_koefs_other`
+		   41 Query	USE `mysql`
+		   42 Query	USE `mysql`
+		   41 Query	SHOW COLUMNS FROM `osago`.`insurance_class`
+		   41 Query	SHOW COLUMNS FROM `osago`.`insurance_company`
+		   41 Query	SHOW COLUMNS FROM `osago`.`producter_type`
+		   41 Query	SHOW COLUMNS FROM `osago`.`purpose_type`
+		   41 Query	SHOW COLUMNS FROM `osago`.`region`
+		   41 Query	SHOW COLUMNS FROM `osago`.`self_info`
+		   41 Query	SHOW COLUMNS FROM `osago`.`sex`
+		   41 Query	SHOW COLUMNS FROM `osago`.`territory_use`
+		   41 Query	SHOW COLUMNS FROM `osago`.`type_doc`
+		   41 Query	SHOW COLUMNS FROM `osago`.`user_data`
+		   41 Query	SHOW COLUMNS FROM `osago`.`user_groups`
+130423 22:46:41	   41 Query	SHOW COLUMNS FROM `osago`.`user_settings`
+		   41 Query	SHOW COLUMNS FROM `osago`.`valuta`
+		   41 Query	SHOW FULL TABLES FROM `mysql`
+		   41 Query	SHOW PROCEDURE STATUS WHERE Db='mysql'
+		   41 Query	SHOW FUNCTION STATUS WHERE Db='mysql'
+		   41 Query	SHOW COLUMNS FROM `mysql`.`columns_priv`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`db`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`event`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`func`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`general_log`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`help_category`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`help_keyword`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`help_relation`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`help_topic`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`host`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`ndb_binlog_index`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`plugin`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`proc`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`procs_priv`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`servers`
+130423 22:46:42	   41 Query	SHOW COLUMNS FROM `mysql`.`slow_log`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`tables_priv`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`time_zone`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`time_zone_leap_second`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`time_zone_name`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`time_zone_transition`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`time_zone_transition_type`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`user`
+		   41 Query	SHOW COLUMNS FROM `mysql`.`user_info`
+130423 22:46:43	   39 Query	show global status
+130423 22:46:45	   42 Quit	
+130423 22:46:47	   39 Query	show global status
+130423 22:46:50	   39 Query	show global status
+130423 22:46:52	   38 Query	DESCRIBE mysql.db
+		   38 Query	DESCRIBE mysql.user
+		   38 Query	SHOW DATABASES
+		   38 Query	SELECT User, Host FROM mysql.user ORDER BY User
+		   38 Query	DESCRIBE mysql.db
+		   38 Query	DESCRIBE mysql.user
+		   38 Query	SHOW DATABASES
+		   38 Query	SELECT User, Host FROM mysql.user ORDER BY User
+130423 22:46:53	   38 Query	SELECT * FROM mysql.user WHERE User='admin' AND Host='%'
+		   38 Query	SELECT * FROM mysql.tables_priv WHERE Host='%' AND User='admin' AND Db='mysql'
+130423 22:46:54	   39 Query	show global status
+130423 22:46:57	   39 Query	show global status
+130423 22:47:01	   39 Query	show global status
+130423 22:47:04	   39 Query	show global status
+130423 22:47:05	   38 Query	use mysql
+		   38 Query	SET old_passwords = 0
+		   38 Query	SET PASSWORD FOR 'admin'@'%' = PASSWORD('admin')
+		   38 Query	SELECT * FROM mysql.user WHERE User='admin' AND Host='%'
+		   38 Query	SELECT * FROM mysql.tables_priv WHERE Host='%' AND User='admin' AND Db='mysql'
+		   38 Query	SHOW DATABASES
+		   38 Query	SELECT User, Host FROM mysql.user ORDER BY User
+		   38 Query	SELECT * FROM mysql.user WHERE User='admin' AND Host='%'
+		   38 Query	SELECT * FROM mysql.tables_priv WHERE Host='%' AND User='admin' AND Db='mysql'
+130423 22:47:08	   39 Query	show global status
+130423 22:47:11	   39 Query	show global status
+130423 22:47:15	   39 Query	show global status
+130423 22:47:18	   39 Query	show global status
+130423 22:47:21	   13 Quit	
+130423 22:47:22	   39 Query	show global status
+130423 22:47:26	   39 Query	show global status
+130423 22:47:28	   43 Connect	admin@localhost on 
+		   43 Query	select @@version_comment limit 1
+130423 22:47:29	   39 Query	show global status
+130423 22:47:32	   43 Query	qui
+130423 22:47:33	   39 Query	show global status
+130423 22:47:34	   43 Quit	
+130423 22:47:36	   39 Query	show global status
+130423 22:47:40	   39 Query	show global status
+130423 22:47:43	   39 Query	show global status
+130423 22:47:47	   39 Query	show global status
+130423 22:47:48	   44 Connect	admin@localhost on osago
+		   44 Query	SET NAMES utf8
+		   44 Query	select * from user_groups
+		   45 Connect	admin@localhost on osago
+		   45 Query	SET NAMES utf8
+		   45 Query	CALL UserGetCurrent()
+		   45 Quit	
+		   44 Query	SELECT * FROM self_info
+		   44 Query	SELECT * FROM self_info
+		   46 Connect	admin@localhost on osago
+		   46 Query	SET NAMES utf8
+		   46 Query	CALL GetTableChange()
+		   46 Quit	
+		   47 Connect	admin@localhost on osago
+		   47 Query	SET NAMES utf8
+		   47 Query	CALL GetTableChange()
+		   47 Quit	
+		   44 Query	select * from client_type_group
+		   44 Query	select * from client_types
+		   44 Query	select * from type_doc
+		   44 Query	select * from sex
+		   44 Query	select * from family_state
+		   44 Query	select * from insurance_class
+		   44 Query	select *
+from car_type
+		   44 Query	select *
+from purpose_type
+		   44 Query	select *
+from carmark
+order by mark
+		   44 Query	select * from country
+		   44 Query	select * from insurance_company
+order by INSURANCE_COMPANY
+130423 22:47:50	   39 Query	show global status
+130423 22:47:54	   39 Query	show global status
+130423 22:47:55	   48 Connect	admin@localhost on osago
+		   48 Query	SET NAMES utf8
+		   48 Query	CALL GetTableChange()
+		   48 Quit	
+130423 22:47:57	   49 Connect	admin@localhost on osago
+		   49 Query	SET NAMES utf8
+		   49 Query	CALL GetTableChange()
+		   49 Quit	
+		   39 Query	show global status
+130423 22:48:00	   50 Connect	admin@localhost on osago
+		   50 Query	SET NAMES utf8
+		   50 Query	CALL GetTableChange()
+		   50 Quit	
+130423 22:48:01	   39 Query	show global status
+130423 22:48:03	   51 Connect	admin@localhost on osago
+		   51 Query	SET NAMES utf8
+		   51 Query	CALL GetTableChange()
+		   51 Quit	
+130423 22:48:05	   39 Query	show global status
+130423 22:48:06	   52 Connect	admin@localhost on osago
+		   52 Query	SET NAMES utf8
+		   52 Query	CALL GetTableChange()
+		   52 Quit	
+130423 22:48:08	   44 Query	show tables
+		   39 Query	show global status
+130423 22:48:09	   53 Connect	admin@localhost on osago
+		   53 Query	SET NAMES utf8
+		   53 Query	CALL GetTableChange()
+		   53 Quit	
+130423 22:48:12	   39 Query	show global status
+		   54 Connect	admin@localhost on osago
+		   54 Query	SET NAMES utf8
+		   54 Query	CALL GetTableChange()
+		   54 Quit	
+130423 22:48:15	   39 Query	show global status
+		   55 Connect	admin@localhost on osago
+		   55 Query	SET NAMES utf8
+		   55 Query	CALL GetTableChange()
+		   55 Quit	
+130423 22:48:18	   56 Connect	admin@localhost on osago
+		   56 Query	SET NAMES utf8
+		   56 Query	CALL GetTableChange()
+		   56 Quit	
+130423 22:48:19	   39 Query	show global status
+130423 22:48:21	   57 Connect	admin@localhost on osago
+		   57 Query	SET NAMES utf8
+		   57 Query	CALL GetTableChange()
+		   57 Quit	
+130423 22:48:22	   39 Query	show global status
+130423 22:48:24	   58 Connect	admin@localhost on osago
+		   58 Query	SET NAMES utf8
+		   58 Query	CALL GetTableChange()
+		   58 Quit	
+130423 22:48:25	   44 Query	select  dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR, dogovor.DOG_SER as CNT_DOG_SER, dogovor.DOGNUMB as CNT_DOGNUMB, dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE, dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT, dogovor.DATE_START as CNT_DATE_START, dogovor.DATE_END as CNT_DATE_END, dogovor.START_USE as CNT_START_USE, dogovor.END_USE as CNT_END_USE, dogovor.START_USE1 as CNT_START_USE1, dogovor.END_USE1 as CNT_END_USE1, dogovor.START_USE2 as CNT_START_USE2, dogovor.END_USE2 as CNT_END_USE2, dogovor.ZNAK_SER as CNT_ZNAK_SER, dogovor.ZNAK_NO as CNT_ZNAK_NO, dogovor.COMMENT as CNT_COMMENT, dogovor.ID_CLIENT as CNT_ID_CLIENT, dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE, dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY, dogovor.TRANSIT as CNT_TRANSIT, dogovor.ID_CAR as CNT_ID_CAR, dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE, dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS, dogovor.INS_SUM as CNT_INS_SUM, dogovor.INS_PREM as CNT_INS_PREM, dogovor.KOEF_TER as CNT_KOEF_TER, dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS, dogovor.KOEF_STAG as CNT_KOEF_STAG, dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED, dogovor.KOEF_POWER as CNT_KOEF_POWER, dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE, dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS, dogovor.KOEF_KN as CNT_KOEF_KN, dogovor.BASE_SUM as CNT_BASE_SUM, dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS, dogovor.DATE_WRITE as CNT_DATE_WRITE, dogovor.DATE_BEGIN as CNT_DATE_BEGIN, dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG, dogovor.TICKET_SER as CNT_TICKET_SER, dogovor.TICKET_NUM as CNT_TICKET_NUM, dogovor.TICKET_DATE as CNT_TICKET_DATE, dogovor.DATE_INSERT as CNT_DATE_INSERT, dogovor.DATE_UPDATE as CNT_DATE_UPDATE, dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME, dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME , car.ARENDA as CAR_ARENDA, car.ID_CAR as CAR_ID_CAR, car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE, car.ID_CAR_TYPE as CAR_ID_CAR_TYPE, car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE, car.ID_CLIENT as CAR_ID_CLIENT, car.PTS_DATE as CAR_PTS_DATE, car.DATE_INSERT as CAR_DATE_INSERT, car.CAR_MARK as CAR_CAR_MARK, car.DATE_UPDATE as CAR_DATE_UPDATE, car.CAR_MODEL as CAR_CAR_MODEL, car.VIN_NUM as CAR_VIN_NUM, car.YEAR_ISSUE as CAR_YEAR_ISSUE, car.POWER_KVT as CAR_POWER_KVT, car.POWER_LS as CAR_POWER_LS, car.MAX_KG as CAR_MAX_KG, car.NUM_PLACES as CAR_NUM_PLACES, car.SHASSI as CAR_SHASSI, car.KUSOV as CAR_KUSOV, car.GOS_NUM as CAR_GOS_NUM, car.PTS_SER as CAR_PTS_SER, car.PTS_NO as CAR_PTS_NO, car.FOREING as CAR_FOREING, car.COMMENTS as CAR_COMMENTS, car.USER_INSERT_NAME as CAR_USER_INSERT_NAME, car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME , client.ID_CLIENT as CLN_ID_CLIENT, client.SURNAME as CLN_SURNAME, client.NAME as CLN_NAME, client.MIDDLENAME as CLN_MIDDLENAME, client.INN as CLN_INN, client.DOC_SER as CLN_DOC_SER, client.POSTINDEX as CLN_POSTINDEX, client.BIRTHDAY as CLN_BIRTHDAY, client.ID_CITY as CLN_ID_CITY, client.ID_REGION as CLN_ID_REGION, client.ID_COUNTRY as CLN_ID_COUNTRY, client.TOWN as CLN_TOWN, client.STREET as CLN_STREET, client.HOME as CLN_HOME, client.KORPUS as CLN_KORPUS, client.FLAT as CLN_FLAT, client.HOME_PHONE as CLN_HOME_PHONE, client.DOC_NUM as CLN_DOC_NUM, client.ID_SEX as CLN_ID_SEX, client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE, client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE, client.ID_TYPE_DOC as CLN_ID_TYPE_DOC, client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS, client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS, client.LICENCE_SER as CLN_LICENCE_SER, client.LICENCE_NO as CLN_LICENCE_NO, client.START_DRIVING_DATE as CLN_START_DRIVING_DATE, client.DATE_INSERT as CLN_DATE_INSERT, client.DATE_UPDATE as CLN_DATE_UPDATE, client.WRITER_NAME as CLN_WRITER_NAME, client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED, client.CELL_PHONE as CLN_CELL_PHONE, client.BUSINESS_PHONE as CLN_BUSINESS_PHONE, client.LAST_CALL_DATE as CLN_LAST_CALL_DATE, client.COMMENTS as CLN_COMMENTS, client.USER_INSERT_NAME as CLN_USER_INSERT_NAME, client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME , CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM, CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL, CONCAT_WS(" ", client.surname, client.name, client.middlename) as FULL_NAME , CONCAT_WS(", ", if(client.town = '', null, client.town), if(client.street = '', null, client.street), if(client.home = '', null, client.home), if(client.korpus = '', null, client.korpus), if(client.flat = '', null, client.flat)) as FULL_ADDRESS from 
+(
+select dogovor.ID_DOGOVOR as CNT_ID, dogovor.ID_CAR as CAR_ID, dogovor.ID_CLIENT as CLN_ID from dogovor where 
+DOG_SER like '%12%'  
+) subq 
+join dogovor on dogovor.ID_DOGOVOR = subq.CNT_ID join car on car.ID_CAR = subq.CAR_ID join client on client.ID_CLIENT = subq.CLN_ID join car_type on car.ID_CAR_TYPE = car_type.ID_CAR_TYPE join carmark on carmark.ID_CARMARK = car.CAR_MARK
+130423 22:48:26	   39 Query	show global status
+130423 22:48:27	   59 Connect	admin@localhost on osago
+		   59 Query	SET NAMES utf8
+		   59 Query	CALL GetTableChange()
+		   59 Quit	
+130423 22:48:28	   44 Query	select  dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR, dogovor.DOG_SER as CNT_DOG_SER, dogovor.DOGNUMB as CNT_DOGNUMB, dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE, dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT, dogovor.DATE_START as CNT_DATE_START, dogovor.DATE_END as CNT_DATE_END, dogovor.START_USE as CNT_START_USE, dogovor.END_USE as CNT_END_USE, dogovor.START_USE1 as CNT_START_USE1, dogovor.END_USE1 as CNT_END_USE1, dogovor.START_USE2 as CNT_START_USE2, dogovor.END_USE2 as CNT_END_USE2, dogovor.ZNAK_SER as CNT_ZNAK_SER, dogovor.ZNAK_NO as CNT_ZNAK_NO, dogovor.COMMENT as CNT_COMMENT, dogovor.ID_CLIENT as CNT_ID_CLIENT, dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE, dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY, dogovor.TRANSIT as CNT_TRANSIT, dogovor.ID_CAR as CNT_ID_CAR, dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE, dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS, dogovor.INS_SUM as CNT_INS_SUM, dogovor.INS_PREM as CNT_INS_PREM, dogovor.KOEF_TER as CNT_KOEF_TER, dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS, dogovor.KOEF_STAG as CNT_KOEF_STAG, dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED, dogovor.KOEF_POWER as CNT_KOEF_POWER, dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE, dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS, dogovor.KOEF_KN as CNT_KOEF_KN, dogovor.BASE_SUM as CNT_BASE_SUM, dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS, dogovor.DATE_WRITE as CNT_DATE_WRITE, dogovor.DATE_BEGIN as CNT_DATE_BEGIN, dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG, dogovor.TICKET_SER as CNT_TICKET_SER, dogovor.TICKET_NUM as CNT_TICKET_NUM, dogovor.TICKET_DATE as CNT_TICKET_DATE, dogovor.DATE_INSERT as CNT_DATE_INSERT, dogovor.DATE_UPDATE as CNT_DATE_UPDATE, dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME, dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME , car.ARENDA as CAR_ARENDA, car.ID_CAR as CAR_ID_CAR, car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE, car.ID_CAR_TYPE as CAR_ID_CAR_TYPE, car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE, car.ID_CLIENT as CAR_ID_CLIENT, car.PTS_DATE as CAR_PTS_DATE, car.DATE_INSERT as CAR_DATE_INSERT, car.CAR_MARK as CAR_CAR_MARK, car.DATE_UPDATE as CAR_DATE_UPDATE, car.CAR_MODEL as CAR_CAR_MODEL, car.VIN_NUM as CAR_VIN_NUM, car.YEAR_ISSUE as CAR_YEAR_ISSUE, car.POWER_KVT as CAR_POWER_KVT, car.POWER_LS as CAR_POWER_LS, car.MAX_KG as CAR_MAX_KG, car.NUM_PLACES as CAR_NUM_PLACES, car.SHASSI as CAR_SHASSI, car.KUSOV as CAR_KUSOV, car.GOS_NUM as CAR_GOS_NUM, car.PTS_SER as CAR_PTS_SER, car.PTS_NO as CAR_PTS_NO, car.FOREING as CAR_FOREING, car.COMMENTS as CAR_COMMENTS, car.USER_INSERT_NAME as CAR_USER_INSERT_NAME, car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME , client.ID_CLIENT as CLN_ID_CLIENT, client.SURNAME as CLN_SURNAME, client.NAME as CLN_NAME, client.MIDDLENAME as CLN_MIDDLENAME, client.INN as CLN_INN, client.DOC_SER as CLN_DOC_SER, client.POSTINDEX as CLN_POSTINDEX, client.BIRTHDAY as CLN_BIRTHDAY, client.ID_CITY as CLN_ID_CITY, client.ID_REGION as CLN_ID_REGION, client.ID_COUNTRY as CLN_ID_COUNTRY, client.TOWN as CLN_TOWN, client.STREET as CLN_STREET, client.HOME as CLN_HOME, client.KORPUS as CLN_KORPUS, client.FLAT as CLN_FLAT, client.HOME_PHONE as CLN_HOME_PHONE, client.DOC_NUM as CLN_DOC_NUM, client.ID_SEX as CLN_ID_SEX, client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE, client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE, client.ID_TYPE_DOC as CLN_ID_TYPE_DOC, client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS, client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS, client.LICENCE_SER as CLN_LICENCE_SER, client.LICENCE_NO as CLN_LICENCE_NO, client.START_DRIVING_DATE as CLN_START_DRIVING_DATE, client.DATE_INSERT as CLN_DATE_INSERT, client.DATE_UPDATE as CLN_DATE_UPDATE, client.WRITER_NAME as CLN_WRITER_NAME, client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED, client.CELL_PHONE as CLN_CELL_PHONE, client.BUSINESS_PHONE as CLN_BUSINESS_PHONE, client.LAST_CALL_DATE as CLN_LAST_CALL_DATE, client.COMMENTS as CLN_COMMENTS, client.USER_INSERT_NAME as CLN_USER_INSERT_NAME, client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME , CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM, CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL, CONCAT_WS(" ", client.surname, client.name, client.middlename) as FULL_NAME , CONCAT_WS(", ", if(client.town = '', null, client.town), if(client.street = '', null, client.street), if(client.home = '', null, client.home), if(client.korpus = '', null, client.korpus), if(client.flat = '', null, client.flat)) as FULL_ADDRESS from 
+(
+select dogovor.ID_DOGOVOR as CNT_ID, dogovor.ID_CAR as CAR_ID, dogovor.ID_CLIENT as CLN_ID from dogovor where 
+DOG_SER like '%123%'  
+) subq 
+join dogovor on dogovor.ID_DOGOVOR = subq.CNT_ID join car on car.ID_CAR = subq.CAR_ID join client on client.ID_CLIENT = subq.CLN_ID join car_type on car.ID_CAR_TYPE = car_type.ID_CAR_TYPE join carmark on carmark.ID_CARMARK = car.CAR_MARK
+130423 22:48:29	   39 Query	show global status
+130423 22:48:30	   60 Connect	admin@localhost on osago
+		   60 Query	SET NAMES utf8
+		   60 Query	CALL GetTableChange()
+		   60 Quit	
+130423 22:48:32	   44 Query	select
+    dogovor.ID_DOGOVOR as CNT_ID_DOGOVOR,
+    dogovor.DOG_SER as CNT_DOG_SER,
+    dogovor.DOGNUMB as CNT_DOGNUMB,
+    dogovor.DATE_DOG_CREATE as CNT_DATE_DOG_CREATE,
+    dogovor.DATE_DOG_INPUT as CNT_DATE_DOG_INPUT,
+    dogovor.DATE_START as CNT_DATE_START,
+    dogovor.DATE_END as CNT_DATE_END,
+    dogovor.START_USE as CNT_START_USE,
+    dogovor.END_USE as CNT_END_USE,
+    dogovor.START_USE1 as CNT_START_USE1,
+    dogovor.END_USE1 as CNT_END_USE1,
+    dogovor.START_USE2 as CNT_START_USE2,
+    dogovor.END_USE2 as CNT_END_USE2,
+    dogovor.ZNAK_SER as CNT_ZNAK_SER,
+    dogovor.ZNAK_NO as CNT_ZNAK_NO,
+    dogovor.COMMENT as CNT_COMMENT,
+    dogovor.ID_CLIENT as CNT_ID_CLIENT,
+    dogovor.ID_DOGOVOR_TYPE as CNT_ID_DOGOVOR_TYPE,
+    dogovor.ID_INSURANCE_COMPANY as CNT_ID_INSURANCE_COMPANY,
+    dogovor.TRANSIT as CNT_TRANSIT,
+    dogovor.ID_CAR as CNT_ID_CAR,
+    dogovor.ID_TERRITORY_USE as CNT_ID_TERRITORY_USE,
+    dogovor.UNLIMITED_DRIVERS as CNT_UNLIMITED_DRIVERS,
+    dogovor.INS_SUM as CNT_INS_SUM,
+    dogovor.INS_PREM as CNT_INS_PREM,
+    dogovor.KOEF_TER as CNT_KOEF_TER,
+    dogovor.KOEF_BONUSMALUS as CNT_KOEF_BONUSMALUS,
+    dogovor.KOEF_STAG as CNT_KOEF_STAG,
+    dogovor.KOEF_UNLIMITED as CNT_KOEF_UNLIMITED,
+    dogovor.KOEF_POWER as CNT_KOEF_POWER,
+    dogovor.KOEF_PERIOD_USE as CNT_KOEF_PERIOD_USE,
+    dogovor.KOEF_SROK_INS as CNT_KOEF_SROK_INS,
+    dogovor.KOEF_KN as CNT_KOEF_KN,
+    dogovor.BASE_SUM as CNT_BASE_SUM,
+    dogovor.ID_INSURANCE_CLASS as CNT_ID_INSURANCE_CLASS,
+    dogovor.DATE_WRITE as CNT_DATE_WRITE,
+    dogovor.DATE_BEGIN as CNT_DATE_BEGIN,
+    dogovor.ID_PREV_DOG as CNT_ID_PREV_DOG,
+    dogovor.TICKET_SER as CNT_TICKET_SER,
+    dogovor.TICKET_NUM as CNT_TICKET_NUM,
+    dogovor.TICKET_DATE as CNT_TICKET_DATE,
+    dogovor.DATE_INSERT as CNT_DATE_INSERT,
+    dogovor.DATE_UPDATE as CNT_DATE_UPDATE,
+    dogovor.USER_INSERT_NAME as CNT_USER_INSERT_NAME,
+    dogovor.USER_UPDATE_NAME as CNT_USER_UPDATE_NAME,
+    car.ID_CAR as CAR_ID_CAR,
+    car.ARENDA as CAR_ARENDA,
+    car.ID_PURPOSE_TYPE as CAR_ID_PURPOSE_TYPE,
+    car.ID_CAR_TYPE as CAR_ID_CAR_TYPE,
+    car.ID_PRODUCTER_TYPE as CAR_ID_PRODUCTER_TYPE,
+    car.ID_CLIENT as CAR_ID_CLIENT,
+    car.PTS_DATE as CAR_PTS_DATE,
+    car.DATE_INSERT as CAR_DATE_INSERT,
+    car.CAR_MARK as CAR_CAR_MARK,
+    car.DATE_UPDATE as CAR_DATE_UPDATE,
+    car.CAR_MODEL as CAR_CAR_MODEL,
+    car.VIN_NUM as CAR_VIN_NUM,
+    car.YEAR_ISSUE as CAR_YEAR_ISSUE,
+    car.POWER_KVT as CAR_POWER_KVT,
+    car.POWER_LS as CAR_POWER_LS,
+    car.MAX_KG as CAR_MAX_KG,
+    car.NUM_PLACES as CAR_NUM_PLACES,
+    car.SHASSI as CAR_SHASSI,
+    car.KUSOV as CAR_KUSOV,
+    car.GOS_NUM as CAR_GOS_NUM,
+    car.PTS_SER as CAR_PTS_SER,
+    car.PTS_NO as CAR_PTS_NO,
+    car.FOREING as CAR_FOREING,
+    car.COMMENTS as CAR_COMMENTS,
+    car.USER_INSERT_NAME as CAR_USER_INSERT_NAME,
+    car.USER_UPDATE_NAME as CAR_USER_UPDATE_NAME,
+    client.ID_CLIENT as CLN_ID_CLIENT,
+    client.SURNAME as CLN_SURNAME,
+    client.NAME as CLN_NAME,
+    client.MIDDLENAME as CLN_MIDDLENAME,
+    client.INN as CLN_INN,
+    client.DOC_SER as CLN_DOC_SER,
+    client.POSTINDEX as CLN_POSTINDEX,
+    client.BIRTHDAY as CLN_BIRTHDAY,
+    client.ID_CITY as CLN_ID_CITY,
+    client.ID_REGION as CLN_ID_REGION,
+    client.ID_COUNTRY as CLN_ID_COUNTRY,
+    client.TOWN as CLN_TOWN,
+    client.STREET as CLN_STREET,
+    client.HOME as CLN_HOME,
+    client.KORPUS as CLN_KORPUS,
+    client.FLAT as CLN_FLAT,
+    client.HOME_PHONE as CLN_HOME_PHONE,
+    client.DOC_NUM as CLN_DOC_NUM,
+    client.ID_SEX as CLN_ID_SEX,
+    client.ID_FAMILY_STATE as CLN_ID_FAMILY_STATE,
+    client.ID_CLIENT_TYPE as CLN_ID_CLIENT_TYPE,
+    client.ID_TYPE_DOC as CLN_ID_TYPE_DOC,
+    client.GROSS_VIOLATIONS as CLN_GROSS_VIOLATIONS,
+    client.ID_INSURANCE_CLASS as CLN_ID_INSURANCE_CLASS,
+    client.LICENCE_SER as CLN_LICENCE_SER,
+    client.LICENCE_NO as CLN_LICENCE_NO,
+    client.START_DRIVING_DATE as CLN_START_DRIVING_DATE,
+    client.DATE_INSERT as CLN_DATE_INSERT,
+    client.DATE_UPDATE as CLN_DATE_UPDATE,
+    client.WRITER_NAME as CLN_WRITER_NAME,
+    client.ID_TYPE_LOSSED as CLN_ID_TYPE_LOSSED,
+    client.CELL_PHONE as CLN_CELL_PHONE,
+    client.BUSINESS_PHONE as CLN_BUSINESS_PHONE,
+    client.LAST_CALL_DATE as CLN_LAST_CALL_DATE,
+    client.COMMENTS as CLN_COMMENTS,
+    client.USER_INSERT_NAME as CLN_USER_INSERT_NAME,
+    client.USER_UPDATE_NAME as CLN_USER_UPDATE_NAME,
+    CONCAT_WS(" ", DOG_SER, DOGNUMB) as FULL_NUM,
+    CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL,
+    CONCAT_WS(" ", client.surname, client.name, client.middlename)
+    as FULL_NAME,
+    CONCAT_WS(", ",
+      if(client.town = '', null, client.town),
+      if(client.street = '', null, client.street),
+      if(client.home = '', null, client.home),
+      if(client.korpus = '', null, client.korpus),
+      if(client.flat = '', null, client.flat))
+    as FULL_ADDRESS,
+    dogovor_state.DOGOVOR_STATE as HIST_STATE,
+    dh.EVENT_DATE as HIST_EVENT
+
+    from dogovor_history dh
+    join dogovor on
+      (dogovor.ID_DOGOVOR = dh.ID_DOGOVOR) and
+      ('' = dh.ID_DOGOVOR)
+    join dogovor_state on dogovor_state.ID_DOGOVOR_STATE = dh.ID_DOGOVOR_STATE
+    join client on dogovor.ID_CLIENT = client.ID_CLIENT
+    join car on dogovor.ID_CAR = car.ID_CAR
+    join car_type on car.ID_CAR_TYPE = car_type.ID_CAR_TYPE
+    join carmark on car.CAR_MARK = carmark.ID_CARMARK
+    order by CNT_DATE_START
+130423 22:48:33	   39 Query	show global status
+		   61 Connect	admin@localhost on osago
+		   61 Query	SET NAMES utf8
+		   61 Query	CALL GetTableChange()
+		   61 Quit	
+130423 22:48:36	   62 Connect	admin@localhost on osago
+		   62 Query	SET NAMES utf8
+		   62 Query	CALL GetTableChange()
+		   62 Quit	
+		   39 Query	show global status
+130423 22:48:39	   63 Connect	admin@localhost on osago
+		   63 Query	SET NAMES utf8
+		   63 Query	CALL GetTableChange()
+		   63 Quit	
+130423 22:48:40	   39 Query	show global status
+130423 22:48:42	   64 Connect	admin@localhost on osago
+		   64 Query	SET NAMES utf8
+		   64 Query	CALL GetTableChange()
+		   64 Quit	
+130423 22:48:43	   39 Query	show global status
+130423 22:48:45	   65 Connect	admin@localhost on osago
+		   65 Query	SET NAMES utf8
+		   65 Query	CALL GetTableChange()
+		   65 Quit	
+130423 22:48:46	   44 Query	call UserGetAll()
+130423 22:48:47	   39 Query	show global status
+130423 22:48:48	   66 Connect	admin@localhost on osago
+		   66 Query	SET NAMES utf8
+		   66 Query	CALL GetTableChange()
+		   66 Quit	
+130423 22:48:50	   39 Query	show global status
+130423 22:48:51	   67 Connect	admin@localhost on osago
+		   67 Query	SET NAMES utf8
+		   67 Query	CALL GetTableChange()
+		   67 Quit	
+130423 22:48:54	   39 Query	show global status
+		   68 Connect	admin@localhost on osago
+		   68 Query	SET NAMES utf8
+		   68 Query	CALL GetTableChange()
+		   68 Quit	
+130423 22:48:57	   69 Connect	admin@localhost on osago
+		   69 Query	SET NAMES utf8
+		   69 Query	CALL GetTableChange()
+		   69 Quit	
+		   39 Query	show global status
+130423 22:48:58	   70 Connect	admin@localhost on osago
+		   70 Query	SET NAMES utf8
+		   70 Query	CALL UserSaveSettings(854, 575, 75, 75, 0, 0, 0)
+		   70 Quit	
+		   44 Quit	
+130423 22:49:01	   39 Query	show global status
+130423 22:49:04	   39 Query	show global status
+130423 22:49:08	   39 Query	show global status
+130423 22:49:11	   39 Query	show global status
+130423 22:49:15	   39 Query	show global status
+130423 22:49:19	   39 Query	show global status
+130423 22:49:22	   39 Query	show global status
+130423 22:49:26	   39 Query	show global status
+130423 22:49:29	   39 Query	show global status
+130423 22:49:33	   39 Query	show global status
+130423 22:49:36	   39 Query	show global status

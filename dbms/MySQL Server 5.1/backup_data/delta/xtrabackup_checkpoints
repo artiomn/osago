@@ -1,0 +1,3 @@
+backup_type = incremental
+from_lsn = 0:25444024
+to_lsn = 0:25444024

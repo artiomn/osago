@@ -1,0 +1,22 @@
+osago_new [2014-08-03 13:12:07.340 Info] Logging activation for "\\vmware-host\Shared Folders\projects\CURRENT\lab_software\osago\src\bin\i386-win32\osago_new.exe"
+osago_new [2014-08-03 13:12:07.340 Debug] Initializing...
+osago_new [2014-08-03 13:12:07.360 Debug] Creating dmData.
+osago_new [2014-08-03 13:12:07.437 Debug] Creating dmCoefs.
+osago_new [2014-08-03 13:12:07.440 Debug] Creating dmReports.
+osago_new [2014-08-03 13:12:07.447 Debug] Creating Login form.
+osago_new [2015-05-23 10:40:35.745 Info] Logging activation for "Z:\home\artiom\projects\CURRENT\lab_software\www\sites\artiomsoft\http\st\data\osago\src\bin\i386-win32\osago_new.exe"
+osago_new [2015-05-23 10:40:35.745 Debug] Initializing...
+osago_new [2015-05-23 10:40:35.842 Debug] Creating dmData.
+osago_new [2015-05-23 10:40:35.897 Debug] Creating dmCoefs.
+osago_new [2015-05-23 10:40:35.899 Debug] Creating dmReports.
+osago_new [2015-05-23 10:40:35.907 Debug] Creating Login form.
+osago_new [2015-05-23 10:40:45.433 Debug] Run...
+osago_new [2015-05-23 10:40:45.433 Debug] Terminated...
+osago_new [2015-05-23 10:40:45.433 Info] Try logging deactivation
+osago_new [2015-05-23 10:41:03.713 Info] Logging activation for "Z:\home\artiom\projects\CURRENT\lab_software\www\sites\artiomsoft\http\st\data\osago\src\bin\i386-win32\osago_new.exe"
+osago_new [2015-05-23 10:41:03.714 Debug] Initializing...
+osago_new [2015-05-23 10:41:03.736 Debug] Creating dmData.
+osago_new [2015-05-23 10:41:03.791 Debug] Creating dmCoefs.
+osago_new [2015-05-23 10:41:03.794 Debug] Creating dmReports.
+osago_new [2015-05-23 10:41:03.801 Debug] Creating Login form.
+osago_new [2015-05-23 10:41:19.833 Error] Func: ; src: ; line: 6411 (class: EConvertError [addr: 4AF431]): "" is an invalid integer)

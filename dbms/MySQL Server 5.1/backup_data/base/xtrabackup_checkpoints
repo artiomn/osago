@@ -1,0 +1,3 @@
+backup_type = full-backuped
+from_lsn = 0:0
+to_lsn = 0:25444024

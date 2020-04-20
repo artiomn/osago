@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registration_data version="1.0">
+	<environment>
+		<hostname>RA-01</hostname>
+		<hostId/>
+		<osName>Windows_NT</osName>
+		<osVersion>Microsoft Windows XP SP(2) (501.2600)</osVersion>
+		<osArchitecture>x86</osArchitecture>
+		<systemModel>System Name</systemModel>
+		<systemManufacturer>System Manufacturer</systemManufacturer>
+		<cpuManufacturer>GenuineIntel</cpuManufacturer>
+		<serialNumber>EVAL</serialNumber>
+	</environment>
+	<registry version="1.0" urn="urn:st:uuid:f8fbf73d-5f58-442e-a733-17a56de611b6">
+		<service_tag>
+			<instance_urn>urn:st:uuid:4062d7a1-4e32-48ed-a598-aa93debf18cd</instance_urn>
+			<product_name>MySQL Server 5.1</product_name>
+			<product_version>5.1.39</product_version>
+			<product_urn>MYSZ9-510-ZZZZ</product_urn>
+			<product_parent_urn>N/A</product_parent_urn>
+			<product_parent>N/A</product_parent>
+			<product_defined_inst_id>license=gpl</product_defined_inst_id>
+			<product_vendor>MySQL AB</product_vendor>
+			<platform_arch>Windows</platform_arch>
+			<timestamp>2009-10-07 15:33:51 UTC</timestamp>
+			<container/>
+			<source>mysql-essential-5.1.39-win32.msi</source>
+			<installer_uid>-1</installer_uid>
+		</service_tag>
+	</registry>
+</registration_data>

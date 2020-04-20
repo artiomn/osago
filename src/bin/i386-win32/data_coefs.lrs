@@ -1,0 +1,415 @@
+LazarusResources.Add('TdmCoefs','FORMDATA',[
+  'TPF0'#8'TdmCoefs'#7'dmCoefs'#14'OldCreateOrder'#8#6'Height'#3#190#1#16'Horiz'
+  +'ontalOffset'#3#246#0#14'VerticalOffset'#2'm'#5'Width'#3#157#2#0#8'TMyQuery'
+  +#15'myGetInsCoef_KT'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1
+  +#6'(select TERRITORY_KOEF from territory_use'#6#5'where'#6#22'GEO_GROUP = :g'
+  +'eo_group'#6#3'and'#6#26'ID_CAR_TYPE = :car_type_id'#0#14'AutoCalcFields'#8
+  +#13'FilterOptions'#11#0#4'left'#2'0'#3'top'#2'h'#9'ParamData'#14#1#8'DataTyp'
+  +'e'#7#9'ftUnknown'#4'Name'#6#9'geo_group'#0#1#8'DataType'#7#9'ftUnknown'#4'N'
+  +'ame'#6#11'car_type_id'#0#0#0#0#8'TMyQuery'#16'myGetInsCoefs_KT'#17'SQLInser'
+  +'t.Strings'#1#6#25'INSERT INTO territory_use'#6'G  (ID_TERRITORY_USE, ID_CAR'
+  +'_TYPE, GEO_GROUP, TERRITORY, TERRITORY_KOEF)'#6#6'VALUES'#6'L  (:ID_TERRITO'
+  +'RY_USE, :ID_CAR_TYPE, :GEO_GROUP, :TERRITORY, :TERRITORY_KOEF)'#0#17'SQLDel'
+  +'ete.Strings'#1#6#25'DELETE FROM territory_use'#6#5'WHERE'#6'*  ID_TERRITORY'
+  +'_USE = :Old_ID_TERRITORY_USE'#0#17'SQLUpdate.Strings'#1#6#20'UPDATE territo'
+  +'ry_use'#6#3'SET'#6#148'  ID_TERRITORY_USE = :ID_TERRITORY_USE, ID_CAR_TYPE '
+  +'= :ID_CAR_TYPE, GEO_GROUP = :GEO_GROUP, TERRITORY = :TERRITORY, TERRITORY_K'
+  +'OEF = :TERRITORY_KOEF'#6#5'WHERE'#6'*  ID_TERRITORY_USE = :Old_ID_TERRITORY'
+  +'_USE'#0#18'SQLRefresh.Strings'#1#6#163'SELECT territory_use.ID_TERRITORY_US'
+  +'E, territory_use.ID_CAR_TYPE, territory_use.GEO_GROUP, territory_use.TERRIT'
+  +'ORY, territory_use.TERRITORY_KOEF FROM territory_use'#6#5'WHERE'#6'4  terri'
+  +'tory_use.ID_TERRITORY_USE = :ID_TERRITORY_USE'#0#10'Connection'#7#17'dmData'
+  +'.myconnMain'#11'SQL.Strings'#1#6#28'select * from territory_use;'#0#14'Auto'
+  +'CalcFields'#8#13'FilterOptions'#11#0#10'BeforeOpen'#7#26'myGetInsCoefs_KTBe'
+  +'foreOpen'#4'left'#2'0'#3'top'#3#152#0#0#13'TLongintField myGetInsCoefs_KTID'
+  +'_TERRITORY_USE'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'
+  +#6#16'ID_TERRITORY_USE'#5'Index'#2#0#11'LookupCache'#8#6'Origin'#6#30'territ'
+  +'ory_use.ID_TERRITORY_USE'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0
+  +#8'ReadOnly'#8#8'Required'#8#7'Visible'#8#0#0#13'TLongintField'#27'myGetInsC'
+  +'oefs_KTID_CAR_TYPE'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldN'
+  +'ame'#6#11'ID_CAR_TYPE'#5'Index'#2#1#11'LookupCache'#8#6'Origin'#6#25'territ'
+  +'ory_use.ID_CAR_TYPE'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'R'
+  +'eadOnly'#8#8'Required'#8#7'Visible'#8#0#0#12'TStringField'#25'myGetInsCoefs'
+  +'_KTCAR_TYPE1'#12'DisplayLabel'#6#11#208#162#208#184#208#191' '#208#162#208
+  +#161#12'DisplayWidth'#3#253#2#9'FieldKind'#7#8'fkLookup'#9'FieldName'#6#11'F'
+  +'L_CAR_TYPE'#5'Index'#2#2#9'KeyFields'#6#11'ID_CAR_TYPE'#11'LookupCache'#9#13
+  +'LookupDataSet'#7#16'dmData.myCarType'#15'LookupKeyFields'#6#11'ID_CAR_TYPE'
+  +#17'LookupResultField'#6#8'CAR_TYPE'#13'ProviderFlags'#11#10'pfInUpdate'#9'p'
+  +'fInWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#12'TStringField'
+  +#25'myGetInsCoefs_KTTERRITORY'#12'DisplayLabel'#6#20#208#162#208#181#209#128
+  +#209#128#208#184#209#130#208#190#209#128#208#184#209#143#12'DisplayWidth'#3
+  +#253#2#9'FieldKind'#7#6'fkData'#9'FieldName'#6#9'TERRITORY'#5'Index'#2#3#11
+  +'LookupCache'#8#6'Origin'#6#23'territory_use.TERRITORY'#13'ProviderFlags'#11
+  +#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#7'Visible'#8#4'Si'
+  +'ze'#3#253#2#0#0#12'TStringField'#21'myGetInsCoefs_KTNAME1'#12'DisplayLabel'
+  +#6''''#208#147#209#128#209#131#208#191#208#191#208#176' '#208#186#208#190#209
+  +#141#209#132#209#132#208#184#209#134#208#184#208#181#208#189#209#130#208#190
+  +#208#178#12'DisplayWidth'#3#253#2#9'FieldKind'#7#8'fkLookup'#9'FieldName'#6
+  +#12'FL_GEO_GROUP'#5'Index'#2#4#9'KeyFields'#6#9'GEO_GROUP'#11'LookupCache'#9
+  +#13'LookupDataSet'#7#18'dmData.myGeoGroups'#15'LookupKeyFields'#6#9'GEO_GROU'
+  +'P'#17'LookupResultField'#6#4'NAME'#13'ProviderFlags'#11#10'pfInUpdate'#9'pf'
+  +'InWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#11'TFloatField'
+  +#30'myGetInsCoefs_KTTERRITORY_KOEF'#12'DisplayLabel'#6'.'#208#151#208#189#208
+  +#176#209#135#208#181#208#189#208#184#208#181' '#208#186#208#190#209#141#209
+  +#132#209#132#208#184#209#134#208#184#208#181#208#189#209#130#208#176' '#208
+  +#154#208#162#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#14
+  +'TERRITORY_KOEF'#5'Index'#2#5#11'LookupCache'#8#6'Origin'#6#28'territory_use'
+  +'.TERRITORY_KOEF'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadO'
+  +'nly'#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0
+  +#13'TLongintField'#25'myGetInsCoefs_KTGEO_GROUP'#12'DisplayLabel'#6''''#208
+  +#147#209#128#209#131#208#191#208#191#208#176' '#208#186#208#190#209#141#209
+  +#132#209#132#208#184#209#134#208#184#208#181#208#189#209#130#208#190#208#178
+  +#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#9'GEO_GROUP'#5
+  +'Index'#2#6#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWher'
+  +'e'#0#8'ReadOnly'#8#8'Required'#8#7'Visible'#8#0#0#0#8'TMyQuery'#20'myGetIns'
+  +'Coef_BaseSum'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6#31
+  ,'select BASE from base_sum where'#6')ID_CLIENT_TYPE_GROUP = :client_type_gro'
+  +'up'#6#3'and'#6#23'ID_CAR_TYPE = :car_type'#0#14'AutoCalcFields'#8#13'Filter'
+  +'Options'#11#0#4'left'#2'0'#3'top'#2#8#9'ParamData'#14#1#8'DataType'#7#9'ftU'
+  +'nknown'#4'Name'#6#17'client_type_group'#0#1#8'DataType'#7#9'ftUnknown'#4'Na'
+  +'me'#6#8'car_type'#0#0#0#0#13'TMyDataSource'#10'datasrcCKT'#7'DataSet'#7#16
+  +'myGetInsCoefs_KT'#4'left'#3#160#0#3'top'#3#152#0#0#0#8'TMyQuery'#16'myGetIn'
+  +'sCoefs_BS'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6#23'se'
+  +'lect * from base_sum;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0#10'Bef'
+  +'oreOpen'#7#26'myGetInsCoefs_BSBeforeOpen'#4'left'#2'0'#3'top'#2'8'#0#13'TLo'
+  +'ngintField$myGetInsCoefs_BSID_CLIENT_TYPE_GROUP'#12'DisplayLabel'#6#30'ID '
+  +#208#179#209#128#209#131#208#191#208#191#209#139' '#208#186#208#187#208#184
+  +#208#181#208#189#209#130#208#176#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkDa'
+  +'ta'#9'FieldName'#6#20'ID_CLIENT_TYPE_GROUP'#5'Index'#2#0#11'LookupCache'#8
+  +#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'
+  +#8#7'Visible'#8#0#0#12'TStringField!myGetInsCoefs_BSCLIENT_TYPE_GROUP'#12'Di'
+  +'splayLabel'#6#27#208#147#209#128#209#131#208#191#208#191#208#176' '#208#186
+  +#208#187#208#184#208#181#208#189#209#130#208#176#12'DisplayWidth'#3#253#2#9
+  +'FieldKind'#7#8'fkLookup'#9'FieldName'#6#20'FL_CLIENT_TYPE_GROUP'#5'Index'#2
+  +#1#9'KeyFields'#6#20'ID_CLIENT_TYPE_GROUP'#11'LookupCache'#9#13'LookupDataSe'
+  +'t'#7#24'dmData.myClientTypeGroup'#15'LookupKeyFields'#6#20'ID_CLIENT_TYPE_G'
+  +'ROUP'#17'LookupResultField'#6#17'CLIENT_TYPE_GROUP'#13'ProviderFlags'#11#10
+  +'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0
+  +#13'TLongintField'#27'myGetInsCoefs_BSID_CAR_TYPE'#12'DisplayWidth'#2#10#9'F'
+  +'ieldKind'#7#6'fkData'#9'FieldName'#6#11'ID_CAR_TYPE'#5'Index'#2#2#11'Lookup'
+  +'Cache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8
+  +'Required'#8#7'Visible'#8#0#0#12'TStringField'#24'myGetInsCoefs_BSCAR_TYPE'
+  +#12'DisplayLabel'#6#11#208#162#208#184#208#191' '#208#162#208#161#12'Display'
+  +'Width'#3#253#2#9'FieldKind'#7#8'fkLookup'#9'FieldName'#6#11'FL_CAR_TYPE'#5
+  +'Index'#2#3#9'KeyFields'#6#11'ID_CAR_TYPE'#11'LookupCache'#9#13'LookupDataSe'
+  +'t'#7#16'dmData.myCarType'#15'LookupKeyFields'#6#11'ID_CAR_TYPE'#17'LookupRe'
+  +'sultField'#6#8'CAR_TYPE'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0
+  +#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#11'TFloatField'#20'myGetIns'
+  +'Coefs_BSBASE'#12'DisplayLabel'#6#27#208#145#208#176#208#183#208#190#208#178
+  +#208#176#209#143' '#209#129#209#130#208#176#208#178#208#186#208#176#12'Displ'
+  +'ayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#4'BASE'#5'Index'#2#4
+  +#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'Read'
+  +'Only'#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0
+  +#0#8'TMyQuery'#16'myGetInsCoef_KBM'#10'Connection'#7#17'dmData.myconnMain'#11
+  +'SQL.Strings'#1#6#30'select * from insurance_class;'#0#14'AutoCalcFields'#8
+  +#13'FilterOptions'#11#0#4'left'#2'0'#3'top'#3#200#0#0#12'TStringField'#31'my'
+  +'GetInsCoef_KBMINSURANCE_CLASS'#12'DisplayLabel'#6#10#208#154#208#187#208#176
+  +#209#129#209#129#12'DisplayWidth'#3#253#2#9'FieldKind'#7#6'fkData'#9'FieldNa'
+  +'me'#6#15'INSURANCE_CLASS'#5'Index'#2#0#11'LookupCache'#8#6'Origin'#6#31'ins'
+  +'urance_class.INSURANCE_CLASS'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhe'
+  +'re'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#11'TFloatField'#20'my'
+  +'GetInsCoef_KBMKOEF'#12'DisplayLabel'#6'*'#208#154#208#190#209#141#209#132
+  +#208#184#209#134#208#184#208#181#208#189#209#130' '#208#177#208#190#208#189
+  +#209#131#209#129'-'#208#188#208#176#208#187#209#131#209#129#12'DisplayWidth'
+  +#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#4'KOEF'#5'Index'#2#1#11'Lookup'
+  +'Cache'#8#6'Origin'#6#20'insurance_class.KOEF'#13'ProviderFlags'#11#10'pfInU'
+  +'pdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8'MinValu'
+  +'e'#2#0#9'Precision'#2#12#0#0#13'TLongintField"myGetInsCoef_KBMID_INSURANCE_'
+  +'CLASS'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#18'ID_'
+  +'INSURANCE_CLASS'#5'Index'#2#2#11'LookupCache'#8#6'Origin'#6'"insurance_clas'
+  +'s.ID_INSURANCE_CLASS'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8
+  +'ReadOnly'#8#8'Required'#8#7'Visible'#8#0#0#0#13'TMyDataSource'#15'datasrcCB'
+  +'aseSum'#7'DataSet'#7#16'myGetInsCoefs_BS'#4'left'#3#160#0#3'top'#2'8'#0#0#13
+  +'TMyDataSource'#21'datasrcInsuranceClass'#7'DataSet'#7#16'myGetInsCoef_KBM'#4
+  +'left'#3#160#0#3'top'#3#200#0#0#0#8'TMyQuery'#16'myGetInsCoef_KVS'#10'Connec'
+  +'tion'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6'"call InsKoefKVS_Get(:sta'
+  +'ge, :age);'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0#4'left'#2'0'#3'to'
+  +'p'#3#248#0#9'ParamData'#14#1#8'DataType'#7#9'ftUnknown'#4'Name'#6#5'stage'#0
+  +#1#8'DataType'#7#9'ftUnknown'#4'Name'#6#3'age'#0#0#0#0#8'TMyQuery'#17'myGetI'
+  +'nsCoefs_KVS'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6#28
+  ,'select * from ins_koefs_kvs;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0
+  +#4'left'#2'0'#3'top'#3'('#1#0#11'TFloatField'#26'myGetInsCoefs_KVSMAX_STAGE'
+  +#12'DisplayLabel'#6#27#208#156#208#176#208#186#209#129'. '#209#129#209#130
+  +#208#176#208#182' ('#208#187#208#181#209#130')'#12'DisplayWidth'#2#10#9'Fiel'
+  +'dKind'#7#6'fkData'#9'FieldName'#6#9'MAX_STAGE'#5'Index'#2#0#11'LookupCache'
+  +#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Requir'
+  +'ed'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0#11'TFloatField'
+  +#24'myGetInsCoefs_KVSMAX_AGE'#12'DisplayLabel'#6'!'#208#156#208#176#208#186
+  +#209#129'. '#208#178#208#190#208#183#209#128#208#176#209#129#209#130' ('#208
+  +#187#208#181#209#130')'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'Fie'
+  +'ldName'#6#7'MAX_AGE'#5'Index'#2#1#11'LookupCache'#8#13'ProviderFlags'#11#10
+  +'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8'Mi'
+  +'nValue'#2#0#9'Precision'#2#12#0#0#11'TFloatField'#20'myGetInsCoefs_KVSKVS'
+  +#12'DisplayLabel'#6#29#208#154#208#190#209#141#209#132#209#132#208#184#209
+  +#134#208#184#208#181#208#189#209#130' '#208#154#208#146#208#161#12'DisplayWi'
+  +'dth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#3'KVS'#5'Index'#2#2#11'Lo'
+  +'okupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'
+  +#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0#0#8'T'
+  +'MyQuery'#15'myGetInsCoef_KO'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.'
+  +'Strings'#1#6#27'select * from ins_koefs_ko;'#0#14'AutoCalcFields'#8#13'Filt'
+  +'erOptions'#11#0#4'left'#2'0'#3'top'#3'X'#1#0#11'TFloatField'#25'myGetInsCoe'
+  +'f_KOKO_LIMITED'#12'DisplayLabel'#6';'#208#154#208#190#209#141#209#132'. '
+  +#208#154#208#158' '#208#180#208#187#209#143' '#208#190#208#179#209#128'. '
+  +#209#135#208#184#209#129#208#187#208#176' '#208#178#208#190#208#180#208#184
+  +#209#130#208#181#208#187#208#181#208#185#12'DisplayWidth'#2#10#9'FieldKind'#7
+  +#6'fkData'#9'FieldName'#6#10'KO_LIMITED'#5'Index'#2#0#11'LookupCache'#8#13'P'
+  +'roviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#8
+  +'MaxValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0#11'TFloatField'#23'myGe'
+  +'tInsCoef_KOKO_UNLIM'#12'DisplayLabel'#6'?'#208#154#208#190#209#141#209#132
+  +'. '#208#154#208#158' '#208#180#208#187#209#143' '#208#189#208#181#208#190
+  +#208#179#209#128'. '#209#135#208#184#209#129#208#187#208#176' '#208#178#208
+  +#190#208#180#208#184#209#130#208#181#208#187#208#181#208#185#12'DisplayWidth'
+  +#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#8'KO_UNLIM'#5'Index'#2#1#11'Lo'
+  +'okupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'
+  +#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0#0#8'T'
+  +'MyQuery'#15'myGetInsCoef_KM'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.'
+  +'Strings'#1#6'!select KM from ins_koefs_km where'#6#26'ID_CAR_TYPE = :id_car'
+  +'_type'#6#3'and'#6'.MAX_POWER = (select ifnull(min(if(MAX_POWER >='#6'>:powe'
+  +'r, MAX_POWER, NULL)), max(MAX_POWER)) from ins_koefs_km);'#0#14'AutoCalcFie'
+  +'lds'#8#13'FilterOptions'#11#0#4'left'#3#24#1#3'top'#3'X'#1#9'ParamData'#14#1
+  +#8'DataType'#7#9'ftUnknown'#4'Name'#6#11'id_car_type'#0#1#8'DataType'#7#9'ft'
+  +'Unknown'#4'Name'#6#5'power'#0#0#0#0#13'TMyDataSource'#11'datasrcCKVS'#7'Dat'
+  +'aSet'#7#17'myGetInsCoefs_KVS'#4'left'#3#160#0#3'top'#3'('#1#0#0#13'TMyDataS'
+  +'ource'#10'datasrcCKO'#7'DataSet'#7#15'myGetInsCoef_KO'#4'left'#3#160#0#3'to'
+  +'p'#3'X'#1#0#0#8'TMyQuery'#16'myGetInsCoefs_KM'#17'SQLInsert.Strings'#1#6#24
+  +'INSERT INTO ins_koefs_km'#6#30'  (ID_CAR_TYPE, MAX_POWER, KM)'#6#6'VALUES'#6
+  +'!  (:ID_CAR_TYPE, :MAX_POWER, :KM)'#0#17'SQLDelete.Strings'#1#6#24'DELETE F'
+  +'ROM ins_koefs_km'#6#5'WHERE'#6'?  ID_CAR_TYPE = :Old_ID_CAR_TYPE AND MAX_PO'
+  +'WER = :Old_MAX_POWER'#0#17'SQLUpdate.Strings'#1#6#19'UPDATE ins_koefs_km'#6
+  +#3'SET'#6'>  ID_CAR_TYPE = :ID_CAR_TYPE, MAX_POWER = :MAX_POWER, KM = :KM'#6
+  +#5'WHERE'#6'?  ID_CAR_TYPE = :Old_ID_CAR_TYPE AND MAX_POWER = :Old_MAX_POWER'
+  +#0#18'SQLRefresh.Strings'#1#6'ZSELECT ins_koefs_km.ID_CAR_TYPE, ins_koefs_km'
+  +'.MAX_POWER, ins_koefs_km.KM FROM ins_koefs_km'#6#5'WHERE'#6'Q  ins_koefs_km'
+  +'.ID_CAR_TYPE = :ID_CAR_TYPE AND ins_koefs_km.MAX_POWER = :MAX_POWER'#0#10'C'
+  +'onnection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6#27'select * from ins'
+  +'_koefs_km;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0#10'BeforeOpen'#7
+  +#26'myGetInsCoefs_KMBeforeOpen'#4'left'#3#24#1#3'top'#3#136#1#0#13'TLongintF'
+  +'ield'#27'myGetInsCoefs_KMID_CAR_TYPE'#12'DisplayWidth'#2#10#9'FieldKind'#7#6
+  +'fkData'#9'FieldName'#6#11'ID_CAR_TYPE'#5'Index'#2#0#11'LookupCache'#8#13'Pr'
+  +'oviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#7
+  +'Visible'#8#0#0#12'TStringField'#24'myGetInsCoefs_KMCAR_TYPE'#12'DisplayLabe'
+  +'l'#6#11#208#162#208#184#208#191' '#208#162#208#161#12'DisplayWidth'#3#253#2
+  +#9'FieldKind'#7#8'fkLookup'#9'FieldName'#6#11'FL_CAR_TYPE'#5'Index'#2#1#9'Ke'
+  +'yFields'#6#11'ID_CAR_TYPE'#11'LookupCache'#9#13'LookupDataSet'#7#16'dmData.'
+  ,'myCarType'#15'LookupKeyFields'#6#11'ID_CAR_TYPE'#17'LookupResultField'#6#8
+  +'CAR_TYPE'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8
+  +'Required'#8#4'Size'#3#253#2#0#0#11'TFloatField'#25'myGetInsCoefs_KMMAX_POWE'
+  +'R'#12'DisplayLabel'#6'6'#208#156#208#176#208#186#209#129'. '#208#188#208#190
+  +#209#137#208#189#208#190#209#129#209#130#209#140' ('#208#187#208#190#209#136
+  +#208#176#208#180#208#184#208#189#209#139#209#133' '#209#129#208#184#208#187
+  +')'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#9'MAX_POWE'
+  +'R'#5'Index'#2#2#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfI'
+  +'nWhere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Pre'
+  +'cision'#2#12#0#0#11'TFloatField'#18'myGetInsCoefs_KMKM'#12'DisplayLabel'#6
+  +#27#208#154#208#190#209#141#209#132#209#132#208#184#209#134#208#184#208#181
+  +#208#189#209#130' '#208#154#208#156#12'DisplayWidth'#2#10#9'FieldKind'#7#6'f'
+  +'kData'#9'FieldName'#6#2'KM'#5'Index'#2#3#11'LookupCache'#8#13'ProviderFlags'
+  +#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0
+  +#8'MinValue'#2#0#9'Precision'#2#12#0#0#0#8'TMyQuery'#15'myGetInsCoef_KS'#10
+  +'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6'Rselect KS from ins'
+  +'_koefs_ks where PERIOD_USE = (select ifnull(min(if(PERIOD_USE >='#6'A:perio'
+  +'d, PERIOD_USE, NULL)), max(PERIOD_USE)) from ins_koefs_ks);'#0#14'AutoCalcF'
+  +'ields'#8#13'FilterOptions'#11#0#4'left'#3#24#1#3'top'#2#8#9'ParamData'#14#1
+  +#8'DataType'#7#9'ftUnknown'#4'Name'#6#6'period'#0#0#0#0#8'TMyQuery'#16'myGet'
+  +'InsCoefs_KS'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6#27
+  +'select * from ins_koefs_ks;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0#4
+  +'left'#3#24#1#3'top'#2'8'#0#11'TFloatField'#26'myGetInsCoefs_KSPERIOD_USE'#12
+  +'DisplayLabel'#6'8'#208#159#208#181#209#128#208#184#208#190#208#180' '#208
+  +#184#209#129#208#191#208#190#208#187#209#140#208#183#208#190#208#178#208#176
+  +#208#189#208#184#209#143' ('#208#188#208#181#209#129#209#143#209#134#208#181
+  +#208#178')'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#10
+  +'PERIOD_USE'#5'Index'#2#0#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpda'
+  +'te'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2
+  +#0#9'Precision'#2#12#0#0#11'TFloatField'#18'myGetInsCoefs_KSKS'#12'DisplayLa'
+  +'bel'#6#27#208#154#208#190#209#141#209#132#209#132#208#184#209#134#208#184
+  +#208#181#208#189#209#130' '#208#154#208#161#12'DisplayWidth'#2#10#9'FieldKin'
+  +'d'#7#6'fkData'#9'FieldName'#6#2'KS'#5'Index'#2#1#11'LookupCache'#8#13'Provi'
+  +'derFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#8'Ma'
+  +'xValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0#0#8'TMyQuery'#15'myGetIns'
+  +'Coef_KP'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6'Rselect'
+  +' KP from ins_koefs_kp where PERIOD_INS = (select ifnull(min(if(PERIOD_INS >'
+  +'='#6'A:period, PERIOD_INS, NULL)), max(PERIOD_INS)) from ins_koefs_kp);'#0
+  +#14'AutoCalcFields'#8#13'FilterOptions'#11#0#4'left'#3#24#1#3'top'#2'h'#9'Pa'
+  +'ramData'#14#1#8'DataType'#7#9'ftUnknown'#4'Name'#6#6'period'#0#0#0#0#8'TMyQ'
+  +'uery'#16'myGetInsCoefs_KP'#17'SQLInsert.Strings'#1#6#24'INSERT INTO ins_koe'
+  +'fs_kp'#6#18'  (PERIOD_INS, KP)'#6#6'VALUES'#6#20'  (:PERIOD_INS, :KP)'#0#17
+  +'SQLDelete.Strings'#1#6#24'DELETE FROM ins_koefs_kp'#6#5'WHERE'#6#30'  PERIO'
+  +'D_INS = :Old_PERIOD_INS'#0#17'SQLUpdate.Strings'#1#6#19'UPDATE ins_koefs_kp'
+  +#6#3'SET'#6'$  PERIOD_INS = :PERIOD_INS, KP = :KP'#6#5'WHERE'#6#30'  PERIOD_'
+  +'INS = :Old_PERIOD_INS'#0#18'SQLRefresh.Strings'#1#6'ASELECT ins_koefs_kp.PE'
+  +'RIOD_INS, ins_koefs_kp.KP FROM ins_koefs_kp'#6#5'WHERE'#6'''  ins_koefs_kp.'
+  +'PERIOD_INS = :PERIOD_INS'#0#10'Connection'#7#17'dmData.myconnMain'#11'SQL.S'
+  +'trings'#1#6#27'select * from ins_koefs_kp;'#0#14'AutoCalcFields'#8#13'Filte'
+  +'rOptions'#11#0#4'left'#3#24#1#3'top'#3#152#0#0#11'TFloatField'#26'myGetInsC'
+  +'oefs_KPPERIOD_INS'#12'DisplayLabel'#6'0'#208#161#209#128#208#190#208#186' '
+  +#209#129#209#130#209#128#208#176#209#133#208#190#208#178#208#176#208#189#208
+  +#184#209#143' ('#208#188#208#181#209#129#209#143#209#134#208#181#208#178')'
+  +#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#10'PERIOD_INS'
+  +#5'Index'#2#0#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWh'
+  +'ere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precis'
+  +'ion'#2#12#0#0#11'TFloatField'#18'myGetInsCoefs_KPKP'#12'DisplayLabel'#6#27
+  +#208#154#208#190#209#141#209#132#209#132#208#184#209#134#208#184#208#181#208
+  +#189#209#130' '#208#154#208#159#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkDat'
+  +'a'#9'FieldName'#6#2'KP'#5'Index'#2#1#11'LookupCache'#8#13'ProviderFlags'#11
+  +#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8
+  +'MinValue'#2#0#9'Precision'#2#12#0#0#0#8'TMyQuery'#19'myGetInsCoefs_Other'#10
+  +'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6#30'select * from in'
+  +'s_koefs_other;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0#4'left'#3#24#1
+  ,#3'top'#3'('#1#0#11'TFloatField'#21'myGetInsCoefs_OtherKN'#12'DisplayLabel'#6
+  +#14#208#154#208#190#209#141#209#132'. '#208#154#208#157#12'DisplayWidth'#2#10
+  +#9'FieldKind'#7#6'fkData'#9'FieldName'#6#2'KN'#5'Index'#2#0#11'LookupCache'#8
+  +#6'Origin'#6#18'ins_koefs_other.KN'#13'ProviderFlags'#11#10'pfInUpdate'#9'pf'
+  +'InWhere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Pr'
+  +'ecision'#2#12#0#0#11'TFloatField'#29'myGetInsCoefs_OtherKP_TRANSIT'#12'Disp'
+  +'layLabel'#6'&'#208#154#208#190#209#141#209#132'. '#208#154#208#159' '#208
+  +#180#208#187#209#143' '#209#130#209#128#208#176#208#189#208#183#208#184#209
+  +#130#208#176#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#10
+  +'KP_TRANSIT'#5'Index'#2#1#11'LookupCache'#8#6'Origin'#6#26'ins_koefs_other.K'
+  +'P_TRANSIT'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8
+  +#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0#0#13'TM'
+  +'yDataSource'#10'datasrcCKM'#7'DataSet'#7#16'myGetInsCoefs_KM'#4'left'#3#128
+  +#1#3'top'#3#136#1#0#0#13'TMyDataSource'#10'datasrcCKS'#7'DataSet'#7#16'myGet'
+  +'InsCoefs_KS'#4'left'#3#128#1#3'top'#2'8'#0#0#13'TMyDataSource'#10'datasrcCK'
+  +'P'#7'DataSet'#7#16'myGetInsCoefs_KP'#4'left'#3#128#1#3'top'#3#152#0#0#0#13
+  +'TMyDataSource'#13'datasrcCOther'#7'DataSet'#7#19'myGetInsCoefs_Other'#4'lef'
+  +'t'#3#128#1#3'top'#3'('#1#0#0#8'TMyQuery'#21'myGetInsCoefs_Foreing'#17'SQLIn'
+  +'sert.Strings'#1#6#29'INSERT INTO ins_koefs_foreing'#6'1  (GEO_GROUP, ID_CLI'
+  +'ENT_TYPE_GROUP, KO, KVS, KBM)'#6#6'VALUES'#6'6  (:GEO_GROUP, :ID_CLIENT_TYP'
+  +'E_GROUP, :KO, :KVS, :KBM)'#0#17'SQLDelete.Strings'#1#6#29'DELETE FROM ins_k'
+  +'oefs_foreing'#6#5'WHERE'#6'Q  GEO_GROUP = :Old_GEO_GROUP AND ID_CLIENT_TYPE'
+  +'_GROUP = :Old_ID_CLIENT_TYPE_GROUP'#0#17'SQLUpdate.Strings'#1#6#24'UPDATE i'
+  +'ns_koefs_foreing'#6#3'SET'#6'h  GEO_GROUP = :GEO_GROUP, ID_CLIENT_TYPE_GROU'
+  +'P = :ID_CLIENT_TYPE_GROUP, KO = :KO, KVS = :KVS, KBM = :KBM'#6#5'WHERE'#6'Q'
+  +'  GEO_GROUP = :Old_GEO_GROUP AND ID_CLIENT_TYPE_GROUP = :Old_ID_CLIENT_TYPE'
+  +'_GROUP'#0#18'SQLRefresh.Strings'#1#6#165'SELECT ins_koefs_foreing.GEO_GROUP'
+  +', ins_koefs_foreing.ID_CLIENT_TYPE_GROUP, ins_koefs_foreing.KO, ins_koefs_f'
+  +'oreing.KVS, ins_koefs_foreing.KBM FROM ins_koefs_foreing'#6#5'WHERE'#6'm  i'
+  +'ns_koefs_foreing.GEO_GROUP = :GEO_GROUP AND ins_koefs_foreing.ID_CLIENT_TYP'
+  +'E_GROUP = :ID_CLIENT_TYPE_GROUP'#0#10'Connection'#7#17'dmData.myconnMain'#11
+  +'SQL.Strings'#1#6' select * from ins_koefs_foreing;'#0#14'AutoCalcFields'#8
+  +#13'FilterOptions'#11#0#10'BeforeOpen'#7#31'myGetInsCoefs_ForeingBeforeOpen'
+  +#4'left'#3#24#1#3'top'#3#248#0#0#13'TLongintField'#30'myGetInsCoefs_ForeingG'
+  +'EO_GROUP'#12'DisplayLabel'#6''''#208#147#209#128#209#131#208#191#208#191#208
+  +#176' '#208#186#208#190#209#141#209#132#209#132#208#184#209#134#208#184#208
+  +#181#208#189#209#130#208#190#208#178#12'DisplayWidth'#2#10#9'FieldKind'#7#6
+  +'fkData'#9'FieldName'#6#9'GEO_GROUP'#5'Index'#2#0#11'LookupCache'#8#13'Provi'
+  +'derFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#7'Vi'
+  +'sible'#8#0#0#12'TStringField'#26'myGetInsCoefs_ForeingNAME1'#12'DisplayLabe'
+  +'l'#6''''#208#147#209#128#209#131#208#191#208#191#208#176' '#208#186#208#190
+  +#209#141#209#132#209#132#208#184#209#134#208#184#208#181#208#189#209#130#208
+  +#190#208#178#12'DisplayWidth'#3#253#2#9'FieldKind'#7#8'fkLookup'#9'FieldName'
+  +#6#12'FL_GEO_GROUP'#5'Index'#2#1#9'KeyFields'#6#9'GEO_GROUP'#11'LookupCache'
+  +#9#13'LookupDataSet'#7#18'dmData.myGeoGroups'#15'LookupKeyFields'#6#9'GEO_GR'
+  +'OUP'#17'LookupResultField'#6#4'NAME'#13'ProviderFlags'#11#10'pfInUpdate'#9
+  +'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#13'TLongintFie'
+  +'ld)myGetInsCoefs_ForeingID_CLIENT_TYPE_GROUP'#12'DisplayWidth'#2#10#9'Field'
+  +'Kind'#7#6'fkData'#9'FieldName'#6#20'ID_CLIENT_TYPE_GROUP'#5'Index'#2#2#11'L'
+  +'ookupCache'#8#6'Origin'#6'&ins_koefs_foreing.ID_CLIENT_TYPE_GROUP'#13'Provi'
+  +'derFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#7'Vi'
+  +'sible'#8#0#0#12'TStringField''myGetInsCoefs_ForeingCLIENT_TYPE_GROUP1'#12'D'
+  +'isplayLabel'#6#27#208#147#209#128#209#131#208#191#208#191#208#176' '#208#186
+  +#208#187#208#184#208#181#208#189#209#130#208#176#12'DisplayWidth'#3#253#2#9
+  +'FieldKind'#7#8'fkLookup'#9'FieldName'#6#20'FL_CLIENT_TYPE_GROUP'#5'Index'#2
+  +#3#9'KeyFields'#6#20'ID_CLIENT_TYPE_GROUP'#11'LookupCache'#9#13'LookupDataSe'
+  +'t'#7#24'dmData.myClientTypeGroup'#15'LookupKeyFields'#6#20'ID_CLIENT_TYPE_G'
+  +'ROUP'#17'LookupResultField'#6#17'CLIENT_TYPE_GROUP'#13'ProviderFlags'#11#10
+  +'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0
+  +#11'TFloatField'#23'myGetInsCoefs_ForeingKO'#12'DisplayLabel'#6#14#208#154
+  +#208#190#209#141#209#132'. '#208#154#208#158#12'DisplayWidth'#2#10#9'FieldKi'
+  +'nd'#7#6'fkData'#9'FieldName'#6#2'KO'#5'Index'#2#4#11'LookupCache'#8#6'Origi'
+  +'n'#6#20'ins_koefs_foreing.KO'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhe'
+  +'re'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precisi'
+  ,'on'#2#12#0#0#11'TFloatField'#24'myGetInsCoefs_ForeingKVS'#12'DisplayLabel'#6
+  +#16#208#154#208#190#209#141#209#132'. '#208#154#208#146#208#161#12'DisplayWi'
+  +'dth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#3'KVS'#5'Index'#2#5#11'Lo'
+  +'okupCache'#8#6'Origin'#6#21'ins_koefs_foreing.KVS'#13'ProviderFlags'#11#10
+  +'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#8'MaxValue'#2#0#8'Mi'
+  +'nValue'#2#0#9'Precision'#2#12#0#0#11'TFloatField'#24'myGetInsCoefs_ForeingK'
+  +'BM'#12'DisplayLabel'#6#16#208#154#208#190#209#141#209#132'. '#208#154#208
+  +#145#208#156#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#3
+  +'KBM'#5'Index'#2#6#11'LookupCache'#8#6'Origin'#6#21'ins_koefs_foreing.KBM'#13
+  +'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8
+  +#8'MaxValue'#2#0#8'MinValue'#2#0#9'Precision'#2#12#0#0#0#13'TMyDataSource'#16
+  +'datasrcCsForeing'#7'DataSet'#7#21'myGetInsCoefs_Foreing'#4'left'#3#128#1#3
+  +'top'#3#248#0#0#0#8'TMyQuery'#20'myGetInsCoef_Foreing'#10'Connection'#7#17'd'
+  +'mData.myconnMain'#11'SQL.Strings'#1#6#31'select * from ins_koefs_foreing'#6
+  +#5'where'#6#22'GEO_GROUP = :geo_group'#6#3'and'#6'*ID_CLIENT_TYPE_GROUP = :c'
+  +'lient_type_group;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0#4'left'#3
+  +#24#1#3'top'#3#200#0#9'ParamData'#14#1#8'DataType'#7#9'ftUnknown'#4'Name'#6#9
+  +'geo_group'#0#1#8'DataType'#7#9'ftUnknown'#4'Name'#6#17'client_type_group'#0
+  +#0#0#0#8'TMyQuery'#13'myInsFormulas'#10'Connection'#7#17'dmData.myconnMain'
+  +#11'SQL.Strings'#1#6#26'select * from ins_formula;'#0#14'AutoCalcFields'#8#13
+  +'FilterOptions'#11#0#4'left'#3#216#1#3'top'#2'h'#0#14'TLargeintField'#23'myI'
+  +'nsFormulasID_FORMULA'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'Fiel'
+  +'dName'#6#10'ID_FORMULA'#5'Index'#2#0#11'LookupCache'#8#13'ProviderFlags'#11
+  +#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#7'Visible'#8#0#0
+  +#12'TStringField'#20'myInsFormulasFORMULA'#12'DisplayLabel'#6#14#208#164#208
+  +#190#209#128#208#188#209#131#208#187#208#176#12'DisplayWidth'#3#253#2#9'Fiel'
+  +'dKind'#7#6'fkData'#9'FieldName'#6#7'FORMULA'#5'Index'#2#1#11'LookupCache'#8
+  +#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'
+  +#8#4'Size'#3#253#2#0#0#12'TStringField'#18'myInsFormulasDESCR'#12'DisplayLab'
+  +'el'#6#16#208#158#208#191#208#184#209#129#208#176#208#189#208#184#208#181#12
+  +'DisplayWidth'#3#253#2#9'FieldKind'#7#6'fkData'#9'FieldName'#6#5'DESCR'#5'In'
+  +'dex'#2#2#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'
+  +#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#0#8'TMyQuery'#16'myInsFor'
+  +'mulaType'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6#31'sel'
+  +'ect * from ins_formula_type;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0
+  +#4'left'#3#216#1#3'top'#2#8#0#0#8'TMyQuery'#16'myInsFormulaConf'#10'Connecti'
+  +'on'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6#31'select * from ins_formul'
+  +'a_conf;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0#10'BeforeOpen'#7#26
+  +'myInsFormulaConfBeforeOpen'#4'left'#3#216#1#3'top'#3#152#0#0#14'TLargeintFi'
+  +'eld#myInsFormulaConfID_INS_FORMULA_TYPE'#12'DisplayWidth'#2#10#9'FieldKind'
+  +#7#6'fkData'#9'FieldName'#6#19'ID_INS_FORMULA_TYPE'#5'Index'#2#0#11'LookupCa'
+  +'che'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'R'
+  +'equired'#8#7'Visible'#8#0#0#13'TLongintField'#27'myInsFormulaConfID_CAR_TYP'
+  +'E'#12'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#11'ID_CAR_'
+  +'TYPE'#5'Index'#2#1#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9
+  +'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#7'Visible'#8#0#0#13'TLongintField$'
+  +'myInsFormulaConfID_CLIENT_TYPE_GROUP'#12'DisplayWidth'#2#10#9'FieldKind'#7#6
+  +'fkData'#9'FieldName'#6#20'ID_CLIENT_TYPE_GROUP'#5'Index'#2#2#11'LookupCache'
+  +#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8'ReadOnly'#8#8'Requir'
+  +'ed'#8#7'Visible'#8#0#0#14'TLargeintField'#26'myInsFormulaConfID_FORMULA'#12
+  +'DisplayWidth'#2#10#9'FieldKind'#7#6'fkData'#9'FieldName'#6#10'ID_FORMULA'#5
+  +'Index'#2#3#11'LookupCache'#8#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWher'
+  +'e'#0#8'ReadOnly'#8#8'Required'#8#7'Visible'#8#0#0#12'TStringField'#21'myIns'
+  +'FormulaConfNAME1'#12'DisplayLabel'#6#21#208#162#208#184#208#191' '#209#132
+  +#208#190#209#128#208#188#209#131#208#187#209#139#12'DisplayWidth'#3#253#2#9
+  +'FieldKind'#7#8'fkLookup'#9'FieldName'#6#19'FL_INS_FORMULA_TYPE'#5'Index'#2#4
+  +#9'KeyFields'#6#19'ID_INS_FORMULA_TYPE'#11'LookupCache'#9#13'LookupDataSet'#7
+  +#16'myInsFormulaType'#15'LookupKeyFields'#6#19'ID_INS_FORMULA_TYPE'#17'Looku'
+  +'pResultField'#6#4'NAME'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8
+  +'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#12'TStringField'#25'myInsForm'
+  +'ulaConfCAR_TYPE1'#12'DisplayLabel'#6#11#208#162#208#184#208#191' '#208#162
+  +#208#161#12'DisplayWidth'#3#253#2#9'FieldKind'#7#8'fkLookup'#9'FieldName'#6
+  +#11'FL_CAR_TYPE'#5'Index'#2#5#9'KeyFields'#6#11'ID_CAR_TYPE'#11'LookupCache'
+  +#9#13'LookupDataSet'#7#16'dmData.myCarType'#15'LookupKeyFields'#6#11'ID_CAR_'
+  ,'TYPE'#17'LookupResultField'#6#8'CAR_TYPE'#13'ProviderFlags'#11#10'pfInUpdat'
+  +'e'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#12'TStrin'
+  +'gField"myInsFormulaConfCLIENT_TYPE_GROUP1'#12'DisplayLabel'#6#27#208#147#209
+  +#128#209#131#208#191#208#191#208#176' '#208#186#208#187#208#184#208#181#208
+  +#189#209#130#208#176#12'DisplayWidth'#3#253#2#9'FieldKind'#7#8'fkLookup'#9'F'
+  +'ieldName'#6#20'FL_CLIENT_TYPE_GROUP'#5'Index'#2#6#9'KeyFields'#6#20'ID_CLIE'
+  +'NT_TYPE_GROUP'#11'LookupCache'#9#13'LookupDataSet'#7#24'dmData.myClientType'
+  +'Group'#15'LookupKeyFields'#6#20'ID_CLIENT_TYPE_GROUP'#17'LookupResultField'
+  +#6#17'CLIENT_TYPE_GROUP'#13'ProviderFlags'#11#10'pfInUpdate'#9'pfInWhere'#0#8
+  +'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#12'TStringField'#24'myInsForm'
+  +'ulaConfFORMULA1'#12'DisplayLabel'#6#14#208#164#208#190#209#128#208#188#209
+  +#131#208#187#208#176#12'DisplayWidth'#3#253#2#9'FieldKind'#7#8'fkLookup'#9'F'
+  +'ieldName'#6#10'FL_FORMULA'#5'Index'#2#7#9'KeyFields'#6#10'ID_FORMULA'#11'Lo'
+  +'okupCache'#9#13'LookupDataSet'#7#13'myInsFormulas'#15'LookupKeyFields'#6#10
+  +'ID_FORMULA'#17'LookupResultField'#6#7'FORMULA'#13'ProviderFlags'#11#10'pfIn'
+  +'Update'#9'pfInWhere'#0#8'ReadOnly'#8#8'Required'#8#4'Size'#3#253#2#0#0#0#13
+  +'TMyDataSource'#17'datasrcInsFormula'#7'DataSet'#7#13'myInsFormulas'#4'left'
+  +#3'@'#2#3'top'#2'h'#0#0#13'TMyDataSource'#21'datasrcInsFormulaConf'#7'DataSe'
+  +'t'#7#16'myInsFormulaConf'#4'left'#3'@'#2#3'top'#3#152#0#0#0#8'TMyQuery'#12
+  +'myInsFormula'#10'Connection'#7#17'dmData.myconnMain'#11'SQL.Strings'#1#6'$s'
+  +'elect FORMULA from ins_formula insf'#6'=join ins_formula_conf icf on insf.I'
+  +'D_FORMULA = icf.ID_FORMULA'#6'Njoin ins_formula_type ift on icf.ID_INS_FORM'
+  +'ULA_TYPE = ift.ID_INS_FORMULA_TYPE'#6#5'where'#6'1ift.TRANSIT = :transit an'
+  +'d ift.FOREING = :foreing'#6#3'and'#6'@icf.ID_CAR_TYPE = :car_type and icf.I'
+  +'D_CLIENT_TYPE_GROUP = :ctg;'#0#14'AutoCalcFields'#8#13'FilterOptions'#11#0#4
+  +'left'#3#216#1#3'top'#2'8'#9'ParamData'#14#1#8'DataType'#7#9'ftUnknown'#4'Na'
+  +'me'#6#7'transit'#0#1#8'DataType'#7#9'ftUnknown'#4'Name'#6#7'foreing'#0#1#8
+  +'DataType'#7#9'ftUnknown'#4'Name'#6#8'car_type'#0#1#8'DataType'#7#9'ftUnknow'
+  +'n'#4'Name'#6#3'ctg'#0#0#0#0#0
+]);

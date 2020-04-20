@@ -1,0 +1,7 @@
+/bin/myisamchk -o -f *.MYI
+regiones.sql
+tables_restruct.sql
+tables_fill.sql
+car_marks.sql
+procedures.sql
+add_admin.sql

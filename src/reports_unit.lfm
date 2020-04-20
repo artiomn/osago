@@ -1,0 +1,149 @@
+object dmReports: TdmReports
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 300
+  HorizontalOffset = 235
+  VerticalOffset = 210
+  Width = 632
+  object frreportPolis: TfrReport
+    InitialZoom = pzDefault
+    PreviewButtons = [pbZoom, pbLoad, pbSave, pbPrint, pbFind, pbHelp, pbExit]
+    DataType = dtDataSet
+    OnGetValue = frreportsGetValue
+    OnUserFunction = frreportRepsUserFunction
+    left = 25
+    top = 24
+    ReportForm = {
+      18000000
+    }
+  end
+  object frreportReceipt: TfrReport
+    InitialZoom = pzDefault
+    PreviewButtons = [pbZoom, pbLoad, pbSave, pbPrint, pbFind, pbHelp, pbExit]
+    DataType = dtDataSet
+    OnGetValue = frreportsGetValue
+    OnUserFunction = frreportRepsUserFunction
+    left = 96
+    top = 24
+    ReportForm = {
+      18000000
+    }
+  end
+  object frHTMExport: TfrHTMExport
+    left = 168
+    top = 216
+  end
+  object frTextExport: TfrTextExport
+    left = 96
+    top = 216
+  end
+  object frShape: TfrShapeObject
+    left = 96
+    top = 72
+  end
+  object frCheckBox: TfrCheckBoxObject
+    left = 176
+    top = 72
+  end
+  object frRoundRect: TfrRoundRectObject
+    left = 24
+    top = 72
+  end
+  object frdesignMain: TfrDesigner
+    left = 24
+    top = 136
+  end
+  object dlgSaveExport: TSaveDialog
+    Title = 'Выбрать файл для экспорта'
+    Options = [ofOverwritePrompt, ofEnableSizing, ofViewDetail]
+    left = 248
+    top = 216
+  end
+  object frreportReps: TfrReport
+    Dataset = frdbdsCBDReport
+    InitialZoom = pzDefault
+    PreviewButtons = [pbZoom, pbLoad, pbSave, pbPrint, pbFind, pbHelp, pbExit]
+    DataType = dtDataSet
+    Title = 'Бланк отчёта по датам. Компонент программного комплекса "ОСАГО".'
+    OnGetValue = frreportRepsGetValue
+    OnUserFunction = frreportRepsUserFunction
+    left = 272
+    top = 24
+    ReportForm = {
+      18000000
+    }
+  end
+  object myRepGeneral: TMyQuery
+    Connection = dmData.myconnMain
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 368
+    top = 72
+  end
+  object myRepContractsByDate: TMyQuery
+    Connection = dmData.myconnMain
+    SQL.Strings = (
+      '# Дин.'
+      'select'
+      'dogovor.ID_DOGOVOR,'
+      'dogovor.DOG_SER as CNT_DOG_SER, dogovor.DOGNUMB as CNT_DOGNUMB,'
+      'dogovor.START_USE as CNT_START_USE, dogovor.END_USE as CNT_END_USE,'
+      'dogovor.START_USE1 as CNT_START_USE1, dogovor.END_USE1 as CNT_END_USE1,'
+      'dogovor.START_USE2 as CNT_START_USE2, dogovor.END_USE2 as CNT_END_USE2,'
+      'dogovor.INS_PREM as CNT_INS_PREM,'
+      'dogovor.UNLIMITED_DRIVERS,'
+      'dogovor.USER_INSERT_NAME as CNT_INSERT_USER,'
+      'CONCAT_WS(" ", client.surname, client.name, client.middlename) as FULL_NAME,'
+      'CONCAT_WS(" ", carmark.MARK, car.CAR_MODEL) as FULL_MODEL'
+      'from'
+      '('
+      '  select'
+      '  dogovor.ID_DOGOVOR as CNT_ID,'
+      '  dogovor.ID_CAR as CAR_ID,'
+      '  dogovor.ID_CLIENT as CLN_ID from dogovor'
+      '  where ID_DOGOVOR_TYPE <> 4'
+      '  and DATE_START between ''2006-10-10'' and ''2006-12-20'''
+      ') subq'
+      'join dogovor on dogovor.ID_DOGOVOR = subq.CNT_ID'
+      'join car on car.ID_CAR = subq.CAR_ID'
+      'join client on client.ID_CLIENT = subq.CLN_ID'
+      'join car_type on car.ID_CAR_TYPE = car_type.ID_CAR_TYPE'
+      'join carmark on carmark.ID_CARMARK = car.CAR_MARK'
+    )
+    AutoCalcFields = False
+    FilterOptions = []
+    left = 368
+    top = 24
+  end
+  object frCSVExport: TfrCSVExport
+    left = 25
+    top = 216
+  end
+  object frdbdsDrivers: TfrDBDataSet
+    DataSet = dmData.myDrivers
+    DataSource = dmData.datasrcDriver
+    OpenDataSource = False
+    left = 568
+    top = 24
+  end
+  object frdbdsCBDReport: TfrDBDataSet
+    DataSet = myRepContractsByDate
+    OpenDataSource = False
+    OnFirst = frdsCBDReportFirst
+    OnNext = frdsCBDReportNext
+    left = 480
+    top = 24
+  end
+  object frreportTicket: TfrReport
+    InitialZoom = pzDefault
+    PreviewButtons = [pbZoom, pbLoad, pbSave, pbPrint, pbFind, pbHelp, pbExit]
+    DataType = dtDataSet
+    OnGetValue = frreportsGetValue
+    OnUserFunction = frreportRepsUserFunction
+    left = 176
+    top = 24
+    ReportForm = {
+      18000000
+    }
+  end
+end

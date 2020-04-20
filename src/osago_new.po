@@ -1,0 +1,4539 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+msgid "Для ООО \"Экспертный страховой центр\"."
+msgstr ""
+
+#: logger.serrlogfailed
+msgid "Failed to log entry (error %d)"
+msgstr ""
+
+#: logger.serrlogfailedmsg
+msgid "Failed to log entry (Error: %s)"
+msgstr ""
+
+#: logger.serrnosyslog
+msgid "Could not open system log (error %d)"
+msgstr ""
+
+#: logger.serroperationnotallowed
+msgid "Operation not allowed when eventlog is active."
+msgstr ""
+
+#: logger.slogcustom
+msgid "Custom (%d)"
+msgstr ""
+
+#: logger.slogdebug
+msgid "Debug"
+msgstr ""
+
+#: logger.slogerror
+msgid "Error"
+msgstr ""
+
+#: logger.slogfatal
+msgid "Fatal"
+msgstr ""
+
+#: logger.sloginfo
+msgid "Info"
+msgstr ""
+
+#: logger.slogwarning
+msgid "Warning"
+msgstr ""
+
+#: logger.smsgdeactivation
+msgid "Try logging deactivation"
+msgstr ""
+
+#: logger.smsgfirstactivation
+msgid "Logging activation for \"%s\""
+msgstr ""
+
+#: logger.smsgnextactivation
+msgid "Logging activation"
+msgstr ""
+
+#: strings_l10n.blank_sel_inscmp_hdr
+msgid "#202#238#236#239#224#237#232#232 "
+msgstr ""
+
+#: strings_l10n.car_mgr_carchange
+msgid " #208#229#228#224#234#242#232#240#238#226#224#237#232#229 #232#237#244#238#240#236#224#246#232#232 #238 #210#209"
+msgstr ""
+
+#: strings_l10n.car_mgr_carnew
+msgid " #196#238#225#224#226#235#229#237#232#229 #237#238#226#238#227#238 #210#209"
+msgstr ""
+
+#: strings_l10n.car_mgr_carsearch
+msgid " #207#238#232#241#234 #242#240#224#237#241#239#238#240#242#237#251#245 #241#240#229#228#241#242#226"
+msgstr ""
+
+#: strings_l10n.car_mgr_carview
+msgid " #207#240#238#241#236#238#242#240 #232#237#244#238#240#236#224#246#232#232 #238 #210#209"
+msgstr ""
+
+#: strings_l10n.car_mgr_msg_db_chg_err
+msgid ""
+"#207#240#238#232#231#238#248#235#224 #238#248#232#225#234#224, #239#240#232 #231#224#239#232#241#232 #232#237#244#238#240#236#224#246#232#232 #238 #242#240#224#237#241#239#238#240#242#237#238#236 #241#240#229#228#241#242#226#229.\n"
+"#206#225#237#238#226#235#229#237#232#229 #228#224#237#237#251#245 #237#229 #239#240#238#232#231#226#229#228#229#237#238.\n"
+msgstr ""
+
+#: strings_l10n.cln_mgr_birthdate
+msgid "#196#224#242#224 #240#238#230#228#229#237#232#255:"
+msgstr ""
+
+#: strings_l10n.cln_mgr_clientchange
+msgid " #208#229#228#224#234#242#232#240#238#226#224#237#232#229 #232#237#244#238#240#236#224#246#232#232 #238 #234#235#232#229#237#242#229"
+msgstr ""
+
+#: strings_l10n.cln_mgr_clientnew
+msgid " #196#238#225#224#226#235#229#237#232#229 #237#238#226#238#227#238 #234#235#232#229#237#242#224"
+msgstr ""
+
+#: strings_l10n.cln_mgr_clientsearch
+msgid " #207#238#232#241#234 #234#235#232#229#237#242#238#226"
+msgstr ""
+
+#: strings_l10n.cln_mgr_clientview
+msgid " #207#240#238#241#236#238#242#240 #232#237#244#238#240#236#224#246#232#232 #238 #234#235#232#229#237#242#229"
+msgstr ""
+
+#: strings_l10n.cln_mgr_msg_db_chg_err
+msgid ""
+"#207#240#238#232#231#238#248#235#224 #238#248#232#225#234#224, #239#240#232 #231#224#239#232#241#232 #232#237#244#238#240#236#224#246#232#232 #238 #234#235#232#229#237#242#229.\n"
+"#206#225#237#238#226#235#229#237#232#229 #228#224#237#237#251#245 #237#229 #239#240#238#232#231#226#229#228#229#237#238.\n"
+msgstr ""
+
+#: strings_l10n.cln_mgr_msg_no_phone
+msgid "#205#229 #225#251#235#238 #226#226#229#228#229#237#238 #237#232 #238#228#237#238#227#238 #242#229#235#229#244#238#237#224 #228#235#255 #234#235#232#229#237#242#224."
+msgstr ""
+
+#: strings_l10n.cln_mgr_regdate
+msgid "#196#224#242#224 #240#229#227#232#241#242#240#224#246#232#232:"
+msgstr ""
+
+#: strings_l10n.cls_address
+msgid "#192#228#240#229#241"
+msgstr ""
+
+#: strings_l10n.cls_cancel
+msgid "#206#242#236#229#237#224"
+msgstr ""
+
+#: strings_l10n.cls_comment
+msgid "#202#238#236#236#229#237#242#224#240#232#232"
+msgstr ""
+
+#: strings_l10n.cls_data_commit_q
+msgid "#196#224#237#237#251#229 #226 #225#224#231#229 #228#224#237#237#251#245 #225#243#228#243#242 #232#231#236#229#237#229#237#251. #205#224#230#224#242#232#229 #237#224 #234#237#238#239#234#243 \"#196#224\" #241#238#245#240#224#237#232#242 #228#224#237#237#251#229 #226 #225#224#231#229."
+msgstr ""
+
+#: strings_l10n.cls_data_refresh_q
+msgid ""
+"#196#224#237#237#251#229 #225#251#235#232 #232#231#236#229#237#229#237#251 #228#240#243#227#232#236 #239#238#235#252#231#238#226#224#242#229#235#229#236.\n"
+"#206#225#237#238#226#232#242#252 #228#224#237#237#251#229 (#232#231#236#229#237#229#237#232#255 #225#243#228#243#242 #239#238#242#229#240#255#237#251)?\n"
+msgstr ""
+
+#: strings_l10n.cls_error
+msgid "#206#248#232#225#234#224"
+msgstr ""
+
+#: strings_l10n.cls_fax
+msgid "#212#224#234#241"
+msgstr ""
+
+#: strings_l10n.cls_get_date
+msgid "#194#251#228#224#237"
+msgstr ""
+
+#: strings_l10n.cls_info
+msgid "#200#237#244#238#240#236#224#246#232#255"
+msgstr ""
+
+#: strings_l10n.cls_inn
+msgid "#200#205#205"
+msgstr ""
+
+#: strings_l10n.cls_lossdata_q
+msgid ""
+"#196#224#237#237#251#229 #225#251#235#232 #232#231#236#229#237#229#237#251!\n"
+"#194#241#229 #232#231#236#229#237#229#237#232#255 #225#243#228#243#242 #239#238#242#229#240#255#237#251.\n"
+msgstr ""
+
+#: strings_l10n.cls_name
+msgid "#200#236#255"
+msgstr ""
+
+#: strings_l10n.cls_no
+msgid "#205#229#242"
+msgstr ""
+
+#: strings_l10n.cls_noentity_msg
+msgid "#199#224#239#232#241#232 #241 #242#224#234#232#236 ID #237#229 #241#243#249#229#241#242#226#243#229#242!"
+msgstr ""
+
+#: strings_l10n.cls_number
+msgid "#185"
+msgstr ""
+
+#: strings_l10n.cls_pathronimyc
+msgid "#206#242#247#229#241#242#226#238"
+msgstr ""
+
+#: strings_l10n.cls_periods
+msgid "#207#229#240#232#238#228#251"
+msgstr ""
+
+#: strings_l10n.cls_phone
+msgid "#210#229#235#229#244#238#237"
+msgstr ""
+
+#: strings_l10n.cls_series
+msgid "#209#229#240#232#255"
+msgstr ""
+
+#: strings_l10n.cls_setts_svg_err_msg
+msgid "#205#229 #243#228#224#235#238#241#252 #241#238#245#240#224#237#232#242#252 #237#224#241#242#240#238#233#234#232 #239#238#235#252#231#238#226#224#242#229#235#255"
+msgstr ""
+
+#: strings_l10n.cls_sure_q
+msgid "#194#251 #245#238#242#232#242#229 #239#240#238#228#238#235#230#232#242#252?"
+msgstr ""
+
+#: strings_l10n.cls_surname
+msgid "#212#224#236#232#235#232#255"
+msgstr ""
+
+#: strings_l10n.cls_ticket_svg_err_msg
+msgid "#205#229 #243#228#224#235#238#241#252 #241#238#245#240#224#237#232#242#252 #234#226#232#242#224#237#246#232#254"
+msgstr ""
+
+#: strings_l10n.cls_title
+msgid "#205#224#231#226#224#237#232#229"
+msgstr ""
+
+#: strings_l10n.cls_warning
+msgid "#194#237#232#236#224#237#232#229!"
+msgstr ""
+
+#: strings_l10n.cls_yes
+msgid "#196#224"
+msgstr ""
+
+#: strings_l10n.contract_mgr_conchange
+msgid " #208#229#228#224#234#242#232#240#238#226#224#237#232#229 #228#238#227#238#226#238#240#224"
+msgstr ""
+
+#: strings_l10n.contract_mgr_connew
+msgid " #196#238#225#224#226#235#229#237#232#229 #237#238#226#238#227#238 #228#238#227#238#226#238#240#224"
+msgstr ""
+
+#: strings_l10n.contract_mgr_conprolong
+msgid " #207#240#238#235#238#237#227#224#246#232#255 #228#238#227#238#226#238#240#224"
+msgstr ""
+
+#: strings_l10n.contract_mgr_conreplace
+msgid " #199#224#236#229#237#224 #228#238#227#238#226#238#240#224"
+msgstr ""
+
+#: strings_l10n.contract_mgr_consearch
+msgid " #207#238#232#241#234 #228#238#227#238#226#238#240#238#226"
+msgstr ""
+
+#: strings_l10n.contract_mgr_conview
+msgid " #207#240#238#241#236#238#242#240 #232#237#244#238#240#236#224#246#232#232 #238 #228#238#227#238#226#238#240#229"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_bs
+msgid "#208#224#231#236#229#240 #225#224#231#238#226#238#233 #241#242#224#226#234#232"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_kbm
+msgid "#202#238#253#244#244#232#246#232#229#237#242 #225#238#237#243#241-#236#224#235#243#241 (#202#193#204)"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_km
+msgid "#202#204"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_kn
+msgid "#202#205"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_ko
+msgid "#202#206"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_kp
+msgid "#202#207"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_ks
+msgid "#202#209"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_kt
+msgid "#208#229#227#232#238#237#224#235#252#237#251#233 #234#238#253#244#244#232#246#232#229#237#242"
+msgstr ""
+
+#: strings_l10n.contract_mgr_koef_kvs
+msgid "#202#194#209"
+msgstr ""
+
+#: strings_l10n.contract_mgr_msg_blank_err
+msgid "#205#229 #243#228#224#235#238#241#252 #226#251#225#240#224#242#252 #225#235#224#237#234!"
+msgstr ""
+
+#: strings_l10n.contract_mgr_msg_cclosed
+msgid "#196#238#227#238#226#238#240 #225#251#235 #231#224#234#240#251#242"
+msgstr ""
+
+#: strings_l10n.contract_mgr_msg_db_chg_err
+msgid ""
+"#207#240#238#232#231#238#248#235#224 #238#248#232#225#234#224, #239#240#232 #231#224#239#232#241#232 #228#238#227#238#226#238#240#224.\n"
+"#206#225#237#238#226#235#229#237#232#229 #228#224#237#237#251#245 #237#229 #239#240#238#232#231#226#229#228#229#237#238.\n"
+msgstr ""
+
+#: strings_l10n.contract_mgr_msg_inputincor
+msgid "#226#226#229#228#184#237 #237#229#234#238#240#240#229#234#242#237#238"
+msgstr ""
+
+#: strings_l10n.contract_mgr_msg_inscalcerr
+msgid "#206#248#232#225#234#224 #240#224#241#247#184#242#224 #241#242#240#224#245#238#226#238#233 #239#240#229#236#232#232: "
+msgstr ""
+
+#: strings_l10n.contract_mgr_nm_hp
+msgid " #235.#241."
+msgstr ""
+
+#: strings_l10n.contract_mgr_nm_kwt
+msgid " #202#194#242"
+msgstr ""
+
+#: strings_l10n.cont_input_err_input
+msgid "#205#229 #243#228#224#235#238#241#252 #226#226#229#241#242#232 #225#235#224#237#234#232"
+msgstr ""
+
+#: strings_l10n.cont_input_err_range
+msgid "#199#224#239#240#238#248#229#237#237#238#229 #247#232#241#235#238 #239#238#235#232#241#238#226 #226#251#245#238#228#232#242 #231#224 #228#238#239#243#241#242#232#236#251#229 #239#240#229#228#229#235#251!"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_basesum
+msgid "#193#224#231#238#226#224#255 #241#242#224#226#234#224"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_carmk
+msgid "#204#224#240#234#232 #210#209"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_carml
+msgid "#204#238#228#229#235#232 #210#209"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_cartp
+msgid "#210#232#239#251 #210#209"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_cfrng
+msgid "#202#238#253#244#244#232#246#232#229#237#242#251 #228#235#255 #232#237#238#241#242#240#224#237#246#229#226"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_cities
+msgid "#195#238#240#238#228#224"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_ckbm
+msgid "#202#235#224#241#241 #241#242#240#224#245#238#226#224#237#232#255 (#202#193#204)"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_ckm
+msgid "#202#238#253#244#244#232#246#232#229#237#242 #202#204"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_cko
+msgid "#202#238#253#244#244#232#246#232#229#237#242 #202#206"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_ckp
+msgid "#202#238#253#244#244#232#246#232#229#237#242 #202#207"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_cks
+msgid "#202#238#253#244#244#232#246#232#229#237#242 #202#209"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_ckt
+msgid "#202#238#253#244#244#232#246#232#229#237#242 #202#210"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_ckvs
+msgid "#202#238#253#244#244#232#246#232#229#237#242 #202#194#209"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_clntp
+msgid "#210#232#239#251 #234#235#232#229#237#242#238#226"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_cntrs
+msgid "#209#242#240#224#237#251"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_cother
+msgid "#196#240#243#227#232#229 #234#238#253#244#244#232#246#232#229#237#242#251"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_csgrp
+msgid "#195#240#243#239#239#251 #234#238#253#244#244#232#246#232#229#237#242#238#226"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_famst
+msgid "#209#229#236#229#233#237#238#229 #239#238#235#238#230#229#237#232#229"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_formc
+msgid "#207#238#240#255#228#238#234 #239#240#232#236#229#237#229#237#232#255 #244#238#240#236#243#235"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_icmps
+msgid "#209#242#240#224#245#238#226#251#229 #234#238#236#239#224#237#232#232"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_iform
+msgid "#209#242#240#224#245#238#226#251#229 #244#238#240#236#243#235#251"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_lictp
+msgid "#210#232#239 #243#228#238#241#242#238#226#229#240#229#237#232#255 #235#232#247#237#238#241#242#232"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_rgns
+msgctxt "strings_l10n.info_mgr_tblnm_rgns"
+msgid "#208#229#227#232#238#237#251"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_socst
+msgid "#209#238#246#232#224#235#252#237#251#233 #241#242#224#242#243#241"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_tkoef
+msgid "#210#229#240#240#232#242#238#240#232#224#235#252#237#251#229 #234#238#253#244#232#246#232#229#237#242#251"
+msgstr ""
+
+#: strings_l10n.info_mgr_tblnm_usetg
+msgid "#214#229#235#232 #232#241#239#238#235#252#231#238#226#224#237#232#255 #210#209"
+msgstr ""
+
+#: strings_l10n.insp_calc_err_argcnt
+msgid "#212#243#237#234#246#232#232 %s #239#229#240#229#228#224#237#238 #237#229#226#229#240#237#238#229 #247#232#241#235#238 #224#240#227#243#236#229#237#242#238#226."
+msgstr ""
+
+#: strings_l10n.insp_calc_err_argmax
+msgid "#215#232#241#235#238 #224#240#227#243#236#229#237#242#238#226 #239#240#229#226#251#248#224#229#242 #239#240#229#228#229#235#252#237#238 #228#238#239#243#241#242#232#236#238#229 (#241#242#240. %d)."
+msgstr ""
+
+#: strings_l10n.insp_calc_err_ariph
+msgid "#194#251#247#232#241#235#232#242#229#235#252#237#224#255 #238#248#232#225#234#224."
+msgstr ""
+
+#: strings_l10n.insp_calc_err_nocomma
+msgid "#206#230#232#228#224#229#242#241#255 #231#224#239#255#242#224#255 #226 #239#238#231#232#246#232#232 %d"
+msgstr ""
+
+#: strings_l10n.insp_calc_err_nofunc
+msgid "#212#243#237#234#246#232#232 %s #226 #239#238#231#232#246#232#232 %d #237#229 #241#243#249#229#241#242#226#243#229#242."
+msgstr ""
+
+#: strings_l10n.insp_calc_err_nolbrkt
+msgctxt "strings_l10n.insp_calc_err_nolbrkt"
+msgid "#206#230#232#228#224#229#242#241#255 \"(\" #226 #239#238#231#232#246#232#232 %d"
+msgstr ""
+
+#: strings_l10n.insp_calc_err_nolexpr
+msgid "#206#230#232#228#224#229#242#241#255 #226#251#240#224#230#229#237#232#229 #226 #239#238#231#232#246#232#232 %d"
+msgstr ""
+
+#: strings_l10n.insp_calc_err_norbrkt
+msgctxt "strings_l10n.insp_calc_err_norbrkt"
+msgid "#206#230#232#228#224#229#242#241#255 \")\" #226 #239#238#231#232#246#232#232 %d"
+msgstr ""
+
+#: strings_l10n.insp_calc_err_symbol
+msgid "#205#229#232#231#226#229#241#242#237#251#233 #241#232#236#226#238#235 \"%s\" #226 #239#238#231#232#246#232#232 %d"
+msgstr ""
+
+#: strings_l10n.insp_calc_err_var
+msgid "#207#229#240#229#236#229#237#237#224#255 \"%s\" #237#229 #238#225#250#255#226#235#229#237#224"
+msgstr ""
+
+#: strings_l10n.insp_get_car_own_err
+msgid "#205#229#226#229#240#237#238 #226#237#229#241#229#237#251 #228#224#237#237#251#229 #226#235#224#228#229#235#252#246#224 #210#209"
+msgstr ""
+
+#: strings_l10n.insp_get_ph_err
+msgid "#205#229#226#229#240#237#238 #226#237#229#241#229#237#251 #228#224#237#237#251#229 #241#242#240#224#245#238#226#224#242#229#235#255"
+msgstr ""
+
+#: strings_l10n.mw_cal_title
+msgid " #207#238#234#224#231#224#242#252 #228#238#227#238#226#238#240#224, #237#224#247#232#237#224#255 #241"
+msgstr ""
+
+#: strings_l10n.rep_export_err
+msgid "#194#238 #226#240#229#236#255 #253#234#241#239#238#240#242#224 #239#240#238#232#231#238#248#235#224 #238#248#232#225#234#224."
+msgstr ""
+
+#: strings_l10n.rep_new_blank_msg
+msgid ""
+"#193#235#224#237#234 #237#229 #225#251#235 #237#224#233#228#229#237.\n"
+"#193#243#228#229#242 #241#238#231#228#224#237 #237#238#226#251#233 #225#235#224#237#234.\n"
+msgstr ""
+
+#: strings_l10n.rep_new_ps_blank_msg
+msgid ""
+"#193#235#224#237#234 #239#238#235#232#241#224 #237#229 #225#251#235 #237#224#233#228#229#237.\n"
+"#193#243#228#229#242 #241#238#231#228#224#237 #237#238#226#251#233 #225#235#224#237#234.\n"
+msgstr ""
+
+#: strings_l10n.rep_new_rt_blank_msg
+msgid ""
+"#193#235#224#237#234 #231#224#255#226#235#229#237#232#255 #237#229 #225#251#235 #237#224#233#228#229#237.\n"
+"#193#243#228#229#242 #241#238#231#228#224#237 #237#238#226#251#233 #225#235#224#237#234.\n"
+msgstr ""
+
+#: strings_l10n.user_mgr_del_confirm
+msgid "#211#228#224#235#229#237#232#229 #239#238#235#252#231#238#226#224#242#229#235#255 \"%s\" #237#229#238#225#240#224#242#232#236#238."
+msgstr ""
+
+#: strings_l10n.user_mgr_del_err
+msgid "#207#238#235#252#231#238#226#224#242#229#235#255 #237#229 #243#228#224#235#238#241#252 #243#228#224#235#232#242#252."
+msgstr ""
+
+#: strings_l10n.user_mgr_msg_db_chg_err
+msgid ""
+"#207#240#238#232#231#238#248#235#224 #238#248#232#225#234#224, #239#240#232 #231#224#239#232#241#232 #232#237#244#238#240#236#224#246#232#232 #238 #239#238#235#252#231#238#226#224#242#229#235#229.\n"
+"#206#225#237#238#226#235#229#237#232#229 #228#224#237#237#251#245 #237#229 #239#240#238#232#231#226#229#228#229#237#238.\n"
+msgstr ""
+
+#: strings_l10n.user_mgr_msg_it_psw_err
+msgid "#207#224#240#238#235#232 #237#229 #241#238#226#239#224#228#224#254#242!"
+msgstr ""
+
+#: strings_l10n.user_mgr_userchange
+msgid " #208#229#228#224#234#242#232#240#238#226#224#237#232#229 #232#237#244#238#240#236#224#246#232#232 #238 #239#238#235#252#231#238#226#224#242#229#235#229"
+msgstr ""
+
+#: strings_l10n.user_mgr_usernew
+msgid " #196#238#225#224#226#235#229#237#232#229 #237#238#226#238#227#238 #239#238#235#252#231#238#226#224#242#229#235#255"
+msgstr ""
+
+#: strings_l10n.user_mgr_usersearch
+msgid " #207#238#232#241#234 #239#238#235#252#231#238#226#224#242#229#235#229#233"
+msgstr ""
+
+#: strings_l10n.user_mgr_userview
+msgid " #207#240#238#241#236#238#242#240 #228#224#237#237#251#245 #239#238#235#252#231#238#226#224#242#229#235#255"
+msgstr ""
+
+#: TABSTRACTMANAGER.CAPTION
+msgid "AbstractManager"
+msgstr ""
+
+#: TFRMABOUT.BTNFORMCLOSE.CAPTION
+msgctxt "TFRMABOUT.BTNFORMCLOSE.CAPTION"
+msgid "Закрыть"
+msgstr ""
+
+#: TFRMABOUT.CAPTION
+msgctxt "TFRMABOUT.CAPTION"
+msgid "О программе"
+msgstr ""
+
+#: TFRMABOUT.LABEL1.CAPTION
+msgid "Feci, quod potui. Faciant meliora potentes."
+msgstr ""
+
+#: TFRMABOUT.LABELABOUT.CAPTION
+msgid "Разработчик Артём Н.."
+msgstr ""
+
+#: TFRMABOUT.LABELMAIL.CAPTION
+msgid "E-mail разработчика: artiomsoft@yandex.ru"
+msgstr ""
+
+#: TFRMABOUT.LABELURL.CAPTION
+msgid "Сайт: http://www.artiomsoft.ru"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.CAPTION
+msgid "Пустые бланки полисов"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.GBINSCOMPANYBLANKS.CAPTION
+msgid "Компании ``"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.PNHEAD.CAPTION
+msgid " Выбрать пустой бланк полиса"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.SBTNCANCEL.CAPTION
+msgctxt "TFRMBLANKCONTRACTS.SBTNCANCEL.CAPTION"
+msgid "Отменить"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.SBTNCANCEL.HINT
+msgctxt "TFRMBLANKCONTRACTS.SBTNCANCEL.HINT"
+msgid "Закрыть окно"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.SBTNOK.CAPTION
+msgctxt "TFRMBLANKCONTRACTS.SBTNOK.CAPTION"
+msgid "Ok"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.SBTNOK.HINT
+msgid "Выбрать и зарезервировать бланк"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.STRGRIDPOLISES.COLUMNS.TITLE.CAPTION
+msgctxt "TFRMBLANKCONTRACTS.STRGRIDPOLISES.COLUMNS.TITLE.CAPTION"
+msgid "Номер"
+msgstr ""
+
+#: TFRMBLANKCONTRACTS.STRGRIDPOLISES.HINT
+msgid "свободные бланки"
+msgstr ""
+
+#: TFRMCARMANAGER.CAPTION
+msgctxt "TFRMCARMANAGER.CAPTION"
+msgid "Менеджер транспортных средств"
+msgstr ""
+
+#: TFRMCARMANAGER.CBCARMARK.HINT
+msgctxt "TFRMCARMANAGER.CBCARMARK.HINT"
+msgid "Марка транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.CBCARMODEL.HINT
+msgid "Модель транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.CBCARTYPE.HINT
+msgctxt "TFRMCARMANAGER.CBCARTYPE.HINT"
+msgid "Тип транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.CBOXFOREING.CAPTION
+msgid "Зарегистрировано в иностранном государстве"
+msgstr ""
+
+#: TFRMCARMANAGER.CBOXFOREING.HINT
+msgid "Транспортное средство зарегистрировано в иностранном государстве"
+msgstr ""
+
+#: TFRMCARMANAGER.CBOXPOWERAUTOCONVERT.CAPTION
+msgid "Рассчитать"
+msgstr ""
+
+#: TFRMCARMANAGER.CBOXPOWERAUTOCONVERT.HINT
+msgid "Переключение автоматического пересчёта мощности транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.CBOXRENT.CAPTION
+msgid "Сдаётся в аренду"
+msgstr ""
+
+#: TFRMCARMANAGER.CBOXRENT.HINT
+msgid "Транспортное средство сдаётся в аренду"
+msgstr ""
+
+#: TFRMCARMANAGER.CBPURPOSETYPE.HINT
+msgid "Цель использования транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.CBSCLIENTTYPEGROUP.HINT
+msgid "владельца"
+msgstr ""
+
+#: TFRMCARMANAGER.DBGRIDSEARCH.HINT
+msgid "Найденные транспортные средства"
+msgstr ""
+
+#: TFRMCARMANAGER.DTEDPTSDATE.CANCELCAPTION
+msgctxt "TFRMCARMANAGER.DTEDPTSDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCARMANAGER.DTEDPTSDATE.HINT
+msgctxt "TFRMCARMANAGER.DTEDPTSDATE.HINT"
+msgid "Дата выдачи транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.DTEDPTSDATE.OKCAPTION
+msgctxt "TFRMCARMANAGER.DTEDPTSDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCARMANAGER.DTEDSPTSDATE.CANCELCAPTION
+msgctxt "TFRMCARMANAGER.DTEDSPTSDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCARMANAGER.DTEDSPTSDATE.HINT
+msgctxt "TFRMCARMANAGER.DTEDSPTSDATE.HINT"
+msgid "Дата выдачи транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.DTEDSPTSDATE.OKCAPTION
+msgctxt "TFRMCARMANAGER.DTEDSPTSDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCARMANAGER.EDCHASSINUM.HINT
+msgctxt "TFRMCARMANAGER.EDCHASSINUM.HINT"
+msgid "Номер шасси транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDKUSOVNUM.HINT
+msgctxt "TFRMCARMANAGER.EDKUSOVNUM.HINT"
+msgid "Номер кузова транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDMAXMASS.HINT
+msgid "Максимальная разрешённая масса транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDPASSENGERSCOUNT.HINT
+msgid "Число мест в транспортном средстве"
+msgstr ""
+
+#: TFRMCARMANAGER.EDPOWERHP.HINT
+msgid "Мощность двигателя транспортного средства в лошадиных силах"
+msgstr ""
+
+#: TFRMCARMANAGER.EDPOWERKWT.HINT
+msgid "Мощность двигателя транспортного средства в киловаттах"
+msgstr ""
+
+#: TFRMCARMANAGER.EDPRODUCTIONYEAR.HINT
+msgid "Год выпуска транспортного средства заводом-изготовителем"
+msgstr ""
+
+#: TFRMCARMANAGER.EDPTSNUM.HINT
+msgctxt "TFRMCARMANAGER.EDPTSNUM.HINT"
+msgid "Номер паспорта транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDPTSSER.HINT
+msgctxt "TFRMCARMANAGER.EDPTSSER.HINT"
+msgid "Серия паспорта транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDREGNUM.HINT
+msgctxt "TFRMCARMANAGER.EDREGNUM.HINT"
+msgid "Государственный регистрационный номер транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSCHASSINUM.HINT
+msgctxt "TFRMCARMANAGER.EDSCHASSINUM.HINT"
+msgid "Номер шасси транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSKUSOVNUM.HINT
+msgctxt "TFRMCARMANAGER.EDSKUSOVNUM.HINT"
+msgid "Номер кузова транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSLICENCENUM.HINT
+msgctxt "TFRMCARMANAGER.EDSLICENCENUM.HINT"
+msgid "Номер водительского удостоверения"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSLICENCESER.HINT
+msgctxt "TFRMCARMANAGER.EDSLICENCESER.HINT"
+msgid "Серия водительского удостоверения"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSNAME.HINT
+msgctxt "TFRMCARMANAGER.EDSNAME.HINT"
+msgid "Имя или ИНН клиента"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSPTSNUM.HINT
+msgctxt "TFRMCARMANAGER.EDSPTSNUM.HINT"
+msgid "Номер паспорта транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSPTSSER.HINT
+msgctxt "TFRMCARMANAGER.EDSPTSSER.HINT"
+msgid "Серия паспорта транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSREGNUM.HINT
+msgctxt "TFRMCARMANAGER.EDSREGNUM.HINT"
+msgid "Государственный регистрационный номер транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSSURNAME.HINT
+msgid "Фамилия или название (если юридическое лицо) владельца"
+msgstr ""
+
+#: TFRMCARMANAGER.EDSVIN.HINT
+msgctxt "TFRMCARMANAGER.EDSVIN.HINT"
+msgid "Vehicle Identification Number (заводской уникальный номер транспортного средства)"
+msgstr ""
+
+#: TFRMCARMANAGER.EDVIN.HINT
+msgctxt "TFRMCARMANAGER.EDVIN.HINT"
+msgid "Vehicle Identification Number (заводской уникальный номер транспортного средства)"
+msgstr ""
+
+#: TFRMCARMANAGER.GBCARINFO.CAPTION
+msgid "Характеристика транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.GBNUMBERS.CAPTION
+msgctxt "TFRMCARMANAGER.GBNUMBERS.CAPTION"
+msgid "Номера"
+msgstr ""
+
+#: TFRMCARMANAGER.GBOWNER.CAPTION
+msgctxt "TFRMCARMANAGER.GBOWNER.CAPTION"
+msgid "Собственник"
+msgstr ""
+
+#: TFRMCARMANAGER.GBPTS.CAPTION
+msgctxt "TFRMCARMANAGER.GBPTS.CAPTION"
+msgid "ПТС"
+msgstr ""
+
+#: TFRMCARMANAGER.GBSCLIENTDATA.CAPTION
+msgctxt "TFRMCARMANAGER.GBSCLIENTDATA.CAPTION"
+msgid "Данные о владельце транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.GBSNUMBERS.CAPTION
+msgctxt "TFRMCARMANAGER.GBSNUMBERS.CAPTION"
+msgid "Номера"
+msgstr ""
+
+#: TFRMCARMANAGER.GBSPTS.CAPTION
+msgctxt "TFRMCARMANAGER.GBSPTS.CAPTION"
+msgid "ПТС"
+msgstr ""
+
+#: TFRMCARMANAGER.GBTECHDATA.CAPTION
+msgid "Технические характеристики"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL1.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL1.CAPTION"
+msgid "Марка:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL10.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL10.CAPTION"
+msgid "Тип:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL11.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL11.CAPTION"
+msgid "Дата выдачи:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL12.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL12.CAPTION"
+msgid "Гос. рег. номер:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL13.CAPTION
+msgid "Цель использования:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL14.CAPTION
+msgid "Год выпуска:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL15.CAPTION
+msgid "кВт"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL16.CAPTION
+msgid "л/с"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL17.CAPTION
+msgid "Max. масса:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL18.CAPTION
+msgid "Число мест:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL19.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL19.CAPTION"
+msgid "Номер шасси:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL2.CAPTION
+msgid "Модель:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL20.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL20.CAPTION"
+msgid "Номер кузова:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL21.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL21.CAPTION"
+msgid "Гос. рег. номер:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL22.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL22.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL23.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL23.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL24.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL24.CAPTION"
+msgid "Дата выдачи:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL25.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL25.CAPTION"
+msgid "Документ:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL25.HINT
+msgctxt "TFRMCARMANAGER.LABEL25.HINT"
+msgid "Документы собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL26.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL26.CAPTION"
+msgid "Адрес:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL26.HINT
+msgctxt "TFRMCARMANAGER.LABEL26.HINT"
+msgid "Адрес собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL27.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL27.CAPTION"
+msgid "ФИО:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL27.HINT
+msgctxt "TFRMCARMANAGER.LABEL27.HINT"
+msgid "Данные собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL28.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL28.CAPTION"
+msgid "Тип клиента:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL29.CAPTION
+msgid "кг."
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL3.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL3.CAPTION"
+msgid "VIN:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL32.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL32.CAPTION"
+msgid "Серия ВУ:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL33.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL33.CAPTION"
+msgid "Ном. ВУ:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL4.CAPTION
+msgid "Мощность двигателя:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL5.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL5.CAPTION"
+msgid "Номер шасси:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL52.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL52.CAPTION"
+msgid "ИНН:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL52.HINT
+msgctxt "TFRMCARMANAGER.LABEL52.HINT"
+msgid "ИНН собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL6.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL6.CAPTION"
+msgid "Номер кузова:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL7.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL7.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL8.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL8.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABEL9.CAPTION
+msgctxt "TFRMCARMANAGER.LABEL9.CAPTION"
+msgid "VIN:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELOWNERADDRESS.CAPTION
+msgctxt "TFRMCARMANAGER.LABELOWNERADDRESS.CAPTION"
+msgid "labelOwnerAddress"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELOWNERADDRESS.HINT
+msgctxt "TFRMCARMANAGER.LABELOWNERADDRESS.HINT"
+msgid "Адрес собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELOWNERINN.CAPTION
+msgctxt "TFRMCARMANAGER.LABELOWNERINN.CAPTION"
+msgid "labelOwnerINN"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELOWNERINN.HINT
+msgctxt "TFRMCARMANAGER.LABELOWNERINN.HINT"
+msgid "ИНН собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELOWNERNAME.CAPTION
+msgctxt "TFRMCARMANAGER.LABELOWNERNAME.CAPTION"
+msgid "labelOwnerName"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELOWNERNAME.HINT
+msgctxt "TFRMCARMANAGER.LABELOWNERNAME.HINT"
+msgid "Данные собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELOWNERPASSPORT.CAPTION
+msgctxt "TFRMCARMANAGER.LABELOWNERPASSPORT.CAPTION"
+msgid "labelOwnerPassport"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELOWNERPASSPORT.HINT
+msgctxt "TFRMCARMANAGER.LABELOWNERPASSPORT.HINT"
+msgid "Документы собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELSNAME.CAPTION
+msgctxt "TFRMCARMANAGER.LABELSNAME.CAPTION"
+msgid "Фамилия:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELSPATHRONIMYC.CAPTION
+msgctxt "TFRMCARMANAGER.LABELSPATHRONIMYC.CAPTION"
+msgid "Отчество:"
+msgstr ""
+
+#: TFRMCARMANAGER.LABELSSURNAME.CAPTION
+msgctxt "TFRMCARMANAGER.LABELSSURNAME.CAPTION"
+msgid "Имя:"
+msgstr ""
+
+#: TFRMCARMANAGER.MEMOCOMMENTS.HINT
+msgctxt "TFRMCARMANAGER.MEMOCOMMENTS.HINT"
+msgid "Комментарии"
+msgstr ""
+
+#: TFRMCARMANAGER.PNHEAD.CAPTION
+msgid " Менеджер транспортных средств"
+msgstr ""
+
+#: TFRMCARMANAGER.RGSEARCHTYPE.CAPTION
+msgctxt "TFRMCARMANAGER.RGSEARCHTYPE.CAPTION"
+msgid "Тип совпадения"
+msgstr ""
+
+#: TFRMCARMANAGER.RGSEARCHTYPE.HINT
+msgctxt "TFRMCARMANAGER.RGSEARCHTYPE.HINT"
+msgid "Должно совпадать любое поля или все поля вместе"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNAPPLY.CAPTION
+msgctxt "TFRMCARMANAGER.SBTNAPPLY.CAPTION"
+msgid "Применить"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNAPPLY.HINT
+msgctxt "TFRMCARMANAGER.SBTNAPPLY.HINT"
+msgid "Применить сделанные изменения"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNCANCEL.CAPTION
+msgctxt "TFRMCARMANAGER.SBTNCANCEL.CAPTION"
+msgid "Отменить"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNCANCEL.HINT
+msgctxt "TFRMCARMANAGER.SBTNCANCEL.HINT"
+msgid "Отменить сделанные изменения и закончить работу с менеджером"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNCLEAR.CAPTION
+msgctxt "TFRMCARMANAGER.SBTNCLEAR.CAPTION"
+msgid "Очистить"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNCLEAR.HINT
+msgctxt "TFRMCARMANAGER.SBTNCLEAR.HINT"
+msgid "Очистить условия поиска"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNNEW.CAPTION
+msgctxt "TFRMCARMANAGER.SBTNNEW.CAPTION"
+msgid "Новый"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNNEW.HINT
+msgid "Добавить транспортное средство"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNOK.CAPTION
+msgctxt "TFRMCARMANAGER.SBTNOK.CAPTION"
+msgid "Ok"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNOK.HINT
+msgctxt "TFRMCARMANAGER.SBTNOK.HINT"
+msgid "Применить сделанные изменения и закончить работу с менеджером"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNOWNER.CAPTION
+msgid "Выбрать собственника"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNOWNER.HINT
+msgid "Выбрать собственника транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNSEARCH.CAPTION
+msgctxt "TFRMCARMANAGER.SBTNSEARCH.CAPTION"
+msgid "Найти"
+msgstr ""
+
+#: TFRMCARMANAGER.SBTNSEARCH.HINT
+msgid "Найти транспортные средства"
+msgstr ""
+
+#: TFRMCARMANAGER.TTSMAIN_CAREDITOR.CAPTION
+msgid "Редактор транспортного средства"
+msgstr ""
+
+#: TFRMCARMANAGER.TTSMAIN_CARLIST.CAPTION
+msgid "Поиск транспортных средств"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CAPTION
+msgctxt "TFRMCLIENTMANAGER.CAPTION"
+msgid "Менеджер клиентов"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBBONUSMALUS.HINT
+msgid "Класс страхования (бонус-малус)"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBCITY.HINT
+msgid "Город"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBCLIENTTYPE.HINT
+msgctxt "TFRMCLIENTMANAGER.CBCLIENTTYPE.HINT"
+msgid "Тип клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBCOUNTRY.HINT
+msgid "Страна регистрации клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBDOCTYPE.HINT
+msgctxt "TFRMCLIENTMANAGER.CBDOCTYPE.HINT"
+msgid "Вид документа, удостоверяющего личность или существование юридического лица"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBFAMILYSTATE.HINT
+msgid "Семейное положение (для физических лиц)"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBOXVIOLATIONS.CAPTION
+msgid "Грубо нарушал"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBOXVIOLATIONS.HINT
+msgid "Было зафиксировано наличие грубых нарушений условий страхования"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBREGION.HINT
+msgid "Регион"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBSCLIENTTYPEGROUP.HINT
+msgctxt "TFRMCLIENTMANAGER.CBSCLIENTTYPEGROUP.HINT"
+msgid "Тип клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBSDOCTYPE.HINT
+msgctxt "TFRMCLIENTMANAGER.CBSDOCTYPE.HINT"
+msgid "Вид документа, удостоверяющего личность или существование юридического лица"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.CBSOCIALSTATE.HINT
+msgid "Социальный статус (для физических лиц)"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.DBGRIDSEARCH.HINT
+msgid "Найденные клиенты"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.DTEDBIRTHDATE.CANCELCAPTION
+msgctxt "TFRMCLIENTMANAGER.DTEDBIRTHDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.DTEDBIRTHDATE.HINT
+msgid "Дата рождения физического лица или дата регистрации юридического лица"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.DTEDBIRTHDATE.OKCAPTION
+msgctxt "TFRMCLIENTMANAGER.DTEDBIRTHDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.DTEDTSTAGE.CANCELCAPTION
+msgctxt "TFRMCLIENTMANAGER.DTEDTSTAGE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.DTEDTSTAGE.HINT
+msgid "Год начала вождения клиентом"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.DTEDTSTAGE.OKCAPTION
+msgctxt "TFRMCLIENTMANAGER.DTEDTSTAGE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDBPHONEBUSINESS.HINT
+msgid "Рабочий телефон клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDBPHONECELL.HINT
+msgid "Сотовый телефон клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDBPHONEHOME.HINT
+msgid "Домашний телефон клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDCORPUS.HINT
+msgctxt "TFRMCLIENTMANAGER.EDCORPUS.HINT"
+msgid "Номер корпуса дома"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDDOCNUM.HINT
+msgctxt "TFRMCLIENTMANAGER.EDDOCNUM.HINT"
+msgid "Номер документа"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDDOCSER.HINT
+msgctxt "TFRMCLIENTMANAGER.EDDOCSER.HINT"
+msgid "Серия документа"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDFLAT.HINT
+msgctxt "TFRMCLIENTMANAGER.EDFLAT.HINT"
+msgid "Номер квартиры"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDHOME.HINT
+msgctxt "TFRMCLIENTMANAGER.EDHOME.HINT"
+msgid "Номер дома"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDINDEX.HINT
+msgid "Почтовый индекс клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDLICENSENUM.HINT
+msgctxt "TFRMCLIENTMANAGER.EDLICENSENUM.HINT"
+msgid "Номер водительского удостоверения"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDLICENSESER.HINT
+msgctxt "TFRMCLIENTMANAGER.EDLICENSESER.HINT"
+msgid "Серия водительского удостоверения"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDNAME.HINT
+msgctxt "TFRMCLIENTMANAGER.EDNAME.HINT"
+msgid "Имя или ИНН клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDPATHRONIMYC.HINT
+msgctxt "TFRMCLIENTMANAGER.EDPATHRONIMYC.HINT"
+msgid "Отчество клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSCORPUS.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSCORPUS.HINT"
+msgid "Номер корпуса дома"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSDOCNUM.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSDOCNUM.HINT"
+msgid "Номер документа"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSDOCSER.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSDOCSER.HINT"
+msgid "Серия документа"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSFLAT.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSFLAT.HINT"
+msgid "Номер квартиры"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSHOME.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSHOME.HINT"
+msgid "Номер дома"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSLICENSENUM.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSLICENSENUM.HINT"
+msgid "Номер водительского удостоверения"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSLICENSESER.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSLICENSESER.HINT"
+msgid "Серия водительского удостоверения"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSNAME.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSNAME.HINT"
+msgid "Имя или ИНН клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSPATHRONIMYC.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSPATHRONIMYC.HINT"
+msgid "Отчество клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSSTREET.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSSTREET.HINT"
+msgid "Название улицы"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSSURNAME.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSSURNAME.HINT"
+msgid "Фамилия или название (если юридическое лицо) клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSTOWN.HINT
+msgid "Прилежащий населённый пункт"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSTREET.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSTREET.HINT"
+msgid "Название улицы"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDSURNAME.HINT
+msgctxt "TFRMCLIENTMANAGER.EDSURNAME.HINT"
+msgid "Фамилия или название (если юридическое лицо) клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.EDTOWN.HINT
+msgid "Прилежащий населённый пункт (если есть)"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.GBADDRESS.CAPTION
+msgctxt "TFRMCLIENTMANAGER.GBADDRESS.CAPTION"
+msgid "Адрес"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.GBADDRESS1.CAPTION
+msgctxt "TFRMCLIENTMANAGER.GBADDRESS1.CAPTION"
+msgid "Адрес"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.GBCLIENTDATA.CAPTION
+msgctxt "TFRMCLIENTMANAGER.GBCLIENTDATA.CAPTION"
+msgid "Данные о клиенте"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.GBDOC.CAPTION
+msgctxt "TFRMCLIENTMANAGER.GBDOC.CAPTION"
+msgid "Документы"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.GBSCLIENTDATA.CAPTION
+msgctxt "TFRMCLIENTMANAGER.GBSCLIENTDATA.CAPTION"
+msgid "Данные о клиенте"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.GBSDOC.CAPTION
+msgctxt "TFRMCLIENTMANAGER.GBSDOC.CAPTION"
+msgid "Документы"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL10.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL10.CAPTION"
+msgid "Тип клиента:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL11.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL11.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL12.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL12.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL13.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL13.CAPTION"
+msgid "Серия ВУ:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL14.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL14.CAPTION"
+msgid "Ном. ВУ:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL15.CAPTION
+msgid "Стаж с:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL16.CAPTION
+msgid "Страна:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL17.CAPTION
+msgid "Индекс:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL18.CAPTION
+msgid "Регион:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL19.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL19.CAPTION"
+msgid "Населённый пункт:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL20.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL20.CAPTION"
+msgid "Улица:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL21.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL21.CAPTION"
+msgid "Дом:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL22.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL22.CAPTION"
+msgid "Корпус:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL23.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL23.CAPTION"
+msgid "Кв.:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL24.CAPTION
+msgid "Домашний телефон:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL25.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL25.CAPTION"
+msgid "Рабочий телефон:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL26.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL26.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL27.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL27.CAPTION"
+msgid "Серия ВУ:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL28.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL28.CAPTION"
+msgid "Ном. ВУ:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL29.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL29.CAPTION"
+msgid "Сотовый телефон:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL30.CAPTION
+msgid "Класс бонус-малус:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL31.CAPTION
+msgid "Город:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL32.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL32.CAPTION"
+msgid "Тип клиента:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL35.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL35.CAPTION"
+msgid "Населённый пункт:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL36.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL36.CAPTION"
+msgid "Улица:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL39.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL39.CAPTION"
+msgid "Дом:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL40.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL40.CAPTION"
+msgid "Корпус:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL41.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL41.CAPTION"
+msgid "Кв.:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL7.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL7.CAPTION"
+msgid "Вид документа:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL8.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL8.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABEL9.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABEL9.CAPTION"
+msgid "Вид документа:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELBIRTHDATE.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELBIRTHDATE.CAPTION"
+msgid "Дата рождения:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELFAMILYSTATE.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELFAMILYSTATE.CAPTION"
+msgid "Семейное положение:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELNAME.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELNAME.CAPTION"
+msgid "Имя:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELPATHRONIMYC.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELPATHRONIMYC.CAPTION"
+msgid "Отчество:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELSNAME.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELSNAME.CAPTION"
+msgid "Имя:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELSOCIALSTATE.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELSOCIALSTATE.CAPTION"
+msgid "Социальный статус:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELSPATHRONIMYC.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELSPATHRONIMYC.CAPTION"
+msgid "Отчество:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELSSURNAME.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELSSURNAME.CAPTION"
+msgid "Фамилия:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.LABELSURNAME.CAPTION
+msgctxt "TFRMCLIENTMANAGER.LABELSURNAME.CAPTION"
+msgid "Фамилия:"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.MEMOCOMMENTS.HINT
+msgctxt "TFRMCLIENTMANAGER.MEMOCOMMENTS.HINT"
+msgid "Комментарии"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.PNHEAD.CAPTION
+msgid " Менеджер клиентов"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.RGSEARCHTYPE.CAPTION
+msgctxt "TFRMCLIENTMANAGER.RGSEARCHTYPE.CAPTION"
+msgid "Тип совпадения"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.RGSEARCHTYPE.HINT
+msgctxt "TFRMCLIENTMANAGER.RGSEARCHTYPE.HINT"
+msgid "Должно совпадать любое поля или все поля вместе"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNAPPLY.CAPTION
+msgctxt "TFRMCLIENTMANAGER.SBTNAPPLY.CAPTION"
+msgid "Применить"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNAPPLY.HINT
+msgctxt "TFRMCLIENTMANAGER.SBTNAPPLY.HINT"
+msgid "Применить сделанные изменения"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNCANCEL.CAPTION
+msgctxt "TFRMCLIENTMANAGER.SBTNCANCEL.CAPTION"
+msgid "Отменить"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNCANCEL.HINT
+msgctxt "TFRMCLIENTMANAGER.SBTNCANCEL.HINT"
+msgid "Отменить сделанные изменения и закончить работу с менеджером"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNCLEAR.CAPTION
+msgctxt "TFRMCLIENTMANAGER.SBTNCLEAR.CAPTION"
+msgid "Очистить"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNCLEAR.HINT
+msgctxt "TFRMCLIENTMANAGER.SBTNCLEAR.HINT"
+msgid "Очистить условия поиска"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNNEW.CAPTION
+msgctxt "TFRMCLIENTMANAGER.SBTNNEW.CAPTION"
+msgid "Новый"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNNEW.HINT
+msgid "Добавить клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNOK.CAPTION
+msgctxt "TFRMCLIENTMANAGER.SBTNOK.CAPTION"
+msgid "Ok"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNOK.HINT
+msgctxt "TFRMCLIENTMANAGER.SBTNOK.HINT"
+msgid "Применить сделанные изменения и закончить работу с менеджером"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNSEARCH.CAPTION
+msgctxt "TFRMCLIENTMANAGER.SBTNSEARCH.CAPTION"
+msgid "Найти"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.SBTNSEARCH.HINT
+msgid "Найти клиентов"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.TTSMAIN_CLIENTEDITOR.CAPTION
+msgid "Редактор клиента"
+msgstr ""
+
+#: TFRMCLIENTMANAGER.TTSMAIN_CLIENTLIST.CAPTION
+msgid "Поиск клиентов"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.CALCEDAWARD.HINT
+msgctxt "TFRMCONTRACTEDITOR.CALCEDAWARD.HINT"
+msgid "Страховая премия"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.CAPTION
+msgid "Редактор договоров"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.CBOXADDPERIOD.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.CBOXADDPERIOD.CAPTION"
+msgid "Доп. период:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.CBOXADDPERIOD2.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.CBOXADDPERIOD2.CAPTION"
+msgid "Доп. период 2:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.CBOXBAD.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.CBOXBAD.CAPTION"
+msgid "Испорчен"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.CBOXTRANSIT.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.CBOXTRANSIT.CAPTION"
+msgid "Транзит"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.CBOXUNLIMDRVS.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.CBOXUNLIMDRVS.CAPTION"
+msgid "Неограниченный круг лиц"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDADDPERIOD2END.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDADDPERIOD2END.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDADDPERIOD2END.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDADDPERIOD2END.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDADDPERIOD2START.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDADDPERIOD2START.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDADDPERIOD2START.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDADDPERIOD2START.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDADDPERIODEND.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDADDPERIODEND.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDADDPERIODEND.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDADDPERIODEND.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDADDPERIODSTART.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDADDPERIODSTART.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDADDPERIODSTART.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDADDPERIODSTART.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDPERIODEND.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDPERIODEND.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDPERIODEND.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDPERIODEND.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDPERIODSTART.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDPERIODSTART.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDPERIODSTART.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDPERIODSTART.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDRECEIPTDATE.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDRECEIPTDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDRECEIPTDATE.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDRECEIPTDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDSIGNINGDATE.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDSIGNINGDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDSIGNINGDATE.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDSIGNINGDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDSTARTDATE.CANCELCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDSTARTDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.DTEDSTARTDATE.OKCAPTION
+msgctxt "TFRMCONTRACTEDITOR.DTEDSTARTDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDBS.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDBS.HINT"
+msgid "Базовый тариф"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDKBM.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDKBM.HINT"
+msgid "Коэффициент класса бонус-малус"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDKM.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDKM.HINT"
+msgid "Коэффициент мощности двигателя для категории B"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDKN.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDKN.HINT"
+msgid "Коэффициент нарушений"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDKO.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDKO.HINT"
+msgid "Коэффициент количества водителей"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDKP.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDKP.HINT"
+msgid "Коэффициент срока страхования"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDKS.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDKS.HINT"
+msgid "Сезонный коэффициент"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDKT.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDKT.HINT"
+msgid "Территориальный коэффициент"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.EDINSAWDKVS.HINT
+msgctxt "TFRMCONTRACTEDITOR.EDINSAWDKVS.HINT"
+msgid "Коэффициент возраста и стажа водителя"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBAGENT.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBAGENT.CAPTION"
+msgid "Страховой агент"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBCAR.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBCAR.CAPTION"
+msgid "Транспортное средство"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBDRIVERS.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBDRIVERS.CAPTION"
+msgid "Водители"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBINSCALCULATOR.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBINSCALCULATOR.CAPTION"
+msgid "Расчёт страховой премии"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBOWNER.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBOWNER.CAPTION"
+msgid "Собственник транспортного средства"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBPERIODS.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBPERIODS.CAPTION"
+msgid "Периоды"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBPOLICYHOLDER.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBPOLICYHOLDER.CAPTION"
+msgid "Страхователь"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBPOLIS.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBPOLIS.CAPTION"
+msgid "Полис"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBPRINT.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBPRINT.CAPTION"
+msgid "Печать"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBRECEIPT.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBRECEIPT.CAPTION"
+msgid "Квитанция"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBSCAR.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBSCAR.CAPTION"
+msgid "Транспортное средство"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBSPECIALNOTES.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBSPECIALNOTES.CAPTION"
+msgid "Особые отметки"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBSPOLICYHOLDER.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBSPOLICYHOLDER.CAPTION"
+msgid "Данные о страхователе"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBSPOLICYHOLDERDOC.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBSPOLICYHOLDERDOC.CAPTION"
+msgid "Документы страхователя"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.GBSPOLIS.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.GBSPOLIS.CAPTION"
+msgid "Полис"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL1.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL1.CAPTION"
+msgid "VIN-код:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL10.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL10.CAPTION"
+msgid "Страховая компания"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL11.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL11.CAPTION"
+msgid "Класс бонус-малус"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL12.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL12.CAPTION"
+msgid "Территориальный коэфициент"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL13.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL13.CAPTION"
+msgid "Начало страхования:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL14.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL14.CAPTION"
+msgid "Период использования:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL15.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL15.CAPTION"
+msgid "VIN:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL16.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL16.CAPTION"
+msgid "---"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL17.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL17.CAPTION"
+msgid "Вид документа:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL18.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL18.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL19.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL19.CAPTION"
+msgid "Номер шасси:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL2.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL2.CAPTION"
+msgid "Гос. номер:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL20.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL20.CAPTION"
+msgid "Номер кузова:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL21.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL21.CAPTION"
+msgid "Гос. рег. номер:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL22.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL22.CAPTION"
+msgid "Номер ПТС:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL23.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL23.CAPTION"
+msgid "Данные:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL26.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL26.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL27.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL27.CAPTION"
+msgid "Серия ВУ:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL28.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL28.CAPTION"
+msgid "Ном. ВУ:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL3.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL3.CAPTION"
+msgid "Документ:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL32.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL32.CAPTION"
+msgid "Тип клиента:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL4.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL4.CAPTION"
+msgid "Адрес:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL40.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL40.CAPTION"
+msgid "Дата подписания:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL41.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL41.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL42.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL42.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL43.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL43.CAPTION"
+msgid "Специальный знак"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL44.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL44.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL45.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL45.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL46.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL46.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL47.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL47.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL48.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL48.CAPTION"
+msgid "Дата выдачи квитанции:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL49.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL49.CAPTION"
+msgid "Кузов:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL5.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL5.CAPTION"
+msgid "Документ:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL50.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL50.CAPTION"
+msgid "Шасси:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL51.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL51.CAPTION"
+msgid "ИНН:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL52.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL52.CAPTION"
+msgid "ИНН:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL53.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL53.CAPTION"
+msgid "ФИО:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL55.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL55.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL56.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL56.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL6.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL6.CAPTION"
+msgid "Адрес:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL60.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL60.CAPTION"
+msgid "Базовая ставка (ТБ):"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL60.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL60.HINT"
+msgid "Базовый тариф"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL61.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL61.CAPTION"
+msgid "Регион (КТ):"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL61.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL61.HINT"
+msgid "Территориальный коэффициент"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL62.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL62.CAPTION"
+msgid "КБМ:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL62.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL62.HINT"
+msgid "Коэффициент класса бонус-малус"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL63.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL63.CAPTION"
+msgid "КО:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL63.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL63.HINT"
+msgid "Коэффициент количества водителей"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL64.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL64.CAPTION"
+msgid "КВС:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL64.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL64.HINT"
+msgid "Коэффициент возраста и стажа водителя"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL65.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL65.CAPTION"
+msgid "КМ:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL65.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL65.HINT"
+msgid "Коэффициент мощности двигателя для категории B"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL66.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL66.CAPTION"
+msgid "КС:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL66.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL66.HINT"
+msgid "Сезонный коэффициент"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL67.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL67.CAPTION"
+msgid "КП:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL67.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL67.HINT"
+msgid "Коэффициент срока страхования"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL68.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL68.CAPTION"
+msgid "КН:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL68.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL68.HINT"
+msgid "Коэффициент нарушений"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL69.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL69.CAPTION"
+msgid "ПР:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL69.HINT
+msgctxt "TFRMCONTRACTEDITOR.LABEL69.HINT"
+msgid "Коэффициент нарушений"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL7.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL7.CAPTION"
+msgid "Марка:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL70.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL70.CAPTION"
+msgid "Сумма:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL8.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL8.CAPTION"
+msgid "Тип:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABEL9.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABEL9.CAPTION"
+msgid "Серия ПТС:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELADDPERIOD2DELIM.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELADDPERIOD2DELIM.CAPTION"
+msgid "---"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELADDPERIODDELIM.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELADDPERIODDELIM.CAPTION"
+msgid "---"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELCARMARK.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELCARMARK.CAPTION"
+msgid "labelCarMark"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELCARTYPE.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELCARTYPE.CAPTION"
+msgid "labelCarType"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELGOSNUM.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELGOSNUM.CAPTION"
+msgid "labelGosNum"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELKUSOV.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELKUSOV.CAPTION"
+msgid "labelKusov"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELOWNERADDRESS.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELOWNERADDRESS.CAPTION"
+msgid "labelOwnerAddress"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELOWNERDATA.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELOWNERDATA.CAPTION"
+msgid "labelOwnerData"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELOWNERINN.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELOWNERINN.CAPTION"
+msgid "labelOwnerINN"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELOWNERPASSPORT.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELOWNERPASSPORT.CAPTION"
+msgid "labelOwnerPassport"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELPHADDRESS.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELPHADDRESS.CAPTION"
+msgid "labelPhAddress"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELPHINN.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELPHINN.CAPTION"
+msgid "labelPhINN"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELPHPASSPORT.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELPHPASSPORT.CAPTION"
+msgid "labelPhPassport"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELPTSNUM.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELPTSNUM.CAPTION"
+msgid "labelPTSNum"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELPTSSER.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELPTSSER.CAPTION"
+msgid "labelPTSSer"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELSHASSI.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELSHASSI.CAPTION"
+msgid "labelShassi"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELSNAME.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELSNAME.CAPTION"
+msgid "Имя:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELSPATHRONIMYC.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELSPATHRONIMYC.CAPTION"
+msgid "Отчество:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELSSURNAME.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELSSURNAME.CAPTION"
+msgid "Фамилия:"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELTERRITORYKOEF.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELTERRITORYKOEF.CAPTION"
+msgid "labelTerritoryKoef"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.LABELVIN.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.LABELVIN.CAPTION"
+msgid "labelVIN"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.MNDRIVERS_ADD.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.MNDRIVERS_ADD.CAPTION"
+msgid "Добавить"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.MNDRIVERS_CHG.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.MNDRIVERS_CHG.CAPTION"
+msgid "Изменить"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.MNDRIVERS_DEL.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.MNDRIVERS_DEL.CAPTION"
+msgid "Удалить"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.PNHEAD.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.PNHEAD.CAPTION"
+msgid " Поиск договора ОСАГО"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.RGSEARCHTYPE.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.RGSEARCHTYPE.CAPTION"
+msgid "Тип совпадения"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNAPPLY.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNAPPLY.CAPTION"
+msgid "Применить"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNCALCINSAWARD.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNCALCINSAWARD.HINT"
+msgid "Расчитать премию"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNCANCEL.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNCANCEL.CAPTION"
+msgid "Отменить"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNCAR.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNCAR.CAPTION"
+msgid "Выбрать транспортное средство"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNCLEAR.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNCLEAR.CAPTION"
+msgid "Очистить"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNCONTCLOSE.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNCONTCLOSE.HINT"
+msgid "Закрыть договор"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNCONTPROLONG.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNCONTPROLONG.HINT"
+msgid "Пролонгировать договор"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNCONTREPLACE.HINT
+msgid "Заменить полис"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNDRIVERADD.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNDRIVERADD.HINT"
+msgid "Добавить водителя"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNDRIVERDEL.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNDRIVERDEL.HINT"
+msgid "Удалить водителя"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNDRIVEREDIT.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNDRIVEREDIT.HINT"
+msgid "Редактировать данные водителя"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNGETACTUALCOEFS.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNGETACTUALCOEFS.HINT"
+msgid "Получить акутальные коэффициенты"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNGETCURRCOEFS.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNGETCURRCOEFS.HINT"
+msgid "Получить коэффициенты из договора"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNNEW.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNNEW.CAPTION"
+msgid "Новый"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNNEW.HINT
+msgid "Заключить договор"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNOK.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNOK.CAPTION"
+msgid "Ok"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNPOLISSELECT.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNPOLISSELECT.HINT"
+msgid "Выбрать пустой бланк полиса"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNPRNPOLIS.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNPRNPOLIS.CAPTION"
+msgid "Полис"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNPRNRECEIPT.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNPRNRECEIPT.CAPTION"
+msgid "Заявление"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNSEARCH.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNSEARCH.CAPTION"
+msgid "Найти"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNTIMENOW.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.SBTNTIMENOW.CAPTION"
+msgid "N"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.SBTNTIMENOW.HINT
+msgctxt "TFRMCONTRACTEDITOR.SBTNTIMENOW.HINT"
+msgid "Текущее время"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.STRGRIDDRIVERS.COLUMNS.TITLE.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.STRGRIDDRIVERS.COLUMNS.TITLE.CAPTION"
+msgid "Стаж"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.TTSMAIN_ADDINFO.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.TTSMAIN_ADDINFO.CAPTION"
+msgid "2: Заполнение дополнительной информации"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.TTSMAIN_SEARCH.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.TTSMAIN_SEARCH.CAPTION"
+msgid "0: Поиск договоров"
+msgstr ""
+
+#: TFRMCONTRACTEDITOR.TTSMAIN_STATEMENT.CAPTION
+msgctxt "TFRMCONTRACTEDITOR.TTSMAIN_STATEMENT.CAPTION"
+msgid "1: Заполнение заявления"
+msgstr ""
+
+#: TFRMCONTRACTHISTORY.CAPTION
+msgctxt "TFRMCONTRACTHISTORY.CAPTION"
+msgid "История договора"
+msgstr ""
+
+#: TFRMCONTRACTHISTORY.GBOXCONTRACTOPERS.CAPTION
+msgctxt "TFRMCONTRACTHISTORY.GBOXCONTRACTOPERS.CAPTION"
+msgid "Операции по договору"
+msgstr ""
+
+#: TFRMCONTRACTHISTORY.GBOXPREVCONTRACTS.CAPTION
+msgid "Предыдущие договора"
+msgstr ""
+
+#: TFRMCONTRACTHISTORY.PNHEAD.CAPTION
+msgid " История договора"
+msgstr ""
+
+#: TFRMCONTRACTHISTORY.SBTNCLOSE.CAPTION
+msgctxt "TFRMCONTRACTHISTORY.SBTNCLOSE.CAPTION"
+msgid "Закрыть"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.CAPTION
+msgid "Ввод новых бланков"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.CBINSCOMPANY.HINT
+msgid "Страховая компания, которой принадлежат бланки"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.EDPOLISENDNUM.HINT
+msgid "Номер последнего бланка"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.EDPOLISSER.HINT
+msgid "Серия бланков"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.EDPOLISSTARTNUM.HINT
+msgid "Номер первого бланка"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.GBPOLIS.CAPTION
+msgctxt "TFRMCONTRACTSINPUT.GBPOLIS.CAPTION"
+msgid "Полис"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.GBPOLISESNUMS.CAPTION
+msgid "Созданные номера полисов"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.LABEL10.CAPTION
+msgctxt "TFRMCONTRACTSINPUT.LABEL10.CAPTION"
+msgid "Страховая компания"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.LABEL55.CAPTION
+msgctxt "TFRMCONTRACTSINPUT.LABEL55.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.LABEL56.CAPTION
+msgid "Начальный номер:"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.LABEL57.CAPTION
+msgid "Конечный номер:"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.PNHEAD.CAPTION
+msgid " Ввод пустых бланков полисов"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNAPPLY.CAPTION
+msgctxt "TFRMCONTRACTSINPUT.SBTNAPPLY.CAPTION"
+msgid "Применить"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNAPPLY.HINT
+msgid "Ввести созданные бланки"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNCANCEL.CAPTION
+msgctxt "TFRMCONTRACTSINPUT.SBTNCANCEL.CAPTION"
+msgid "Закрыть"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNCANCEL.HINT
+msgctxt "TFRMCONTRACTSINPUT.SBTNCANCEL.HINT"
+msgid "Закрыть окно"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNOK.CAPTION
+msgctxt "TFRMCONTRACTSINPUT.SBTNOK.CAPTION"
+msgid "Ok"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNOK.HINT
+msgid "Ввести созданные бланки и закрыть окно"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNPOLISNUMADD.HINT
+msgid "Добавить бланк в список"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNPOLISNUMDEL.HINT
+msgid "Удалить бланк из списка"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.SBTNPOLISNUMGEN.HINT
+msgid "Генерировать номера бланков"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.STRGRIDPOLISES.COLUMNS.TITLE.CAPTION
+msgctxt "TFRMCONTRACTSINPUT.STRGRIDPOLISES.COLUMNS.TITLE.CAPTION"
+msgid "Номер"
+msgstr ""
+
+#: TFRMCONTRACTSINPUT.STRGRIDPOLISES.HINT
+msgid "Созданные бланки"
+msgstr ""
+
+#: TFRMINFOMANAGER.CAPTION
+msgctxt "TFRMINFOMANAGER.CAPTION"
+msgid "Менеджер справочников"
+msgstr ""
+
+#: TFRMINFOMANAGER.CBCATALOGS.HINT
+msgid "Список справочников"
+msgstr ""
+
+#: TFRMINFOMANAGER.DBGRIDCATALOG.HINT
+msgid "Данные выбранного справочника"
+msgstr ""
+
+#: TFRMINFOMANAGER.GBCATALOG.CAPTION
+msgid "Данные справочника"
+msgstr ""
+
+#: TFRMINFOMANAGER.LABEL1.CAPTION
+msgid "Справочник:"
+msgstr ""
+
+#: TFRMINFOMANAGER.PNHEAD.CAPTION
+msgid " Менеджер справочников"
+msgstr ""
+
+#: TFRMINFOMANAGER.SBTNCANCEL.CAPTION
+msgctxt "TFRMINFOMANAGER.SBTNCANCEL.CAPTION"
+msgid "Закрыть"
+msgstr ""
+
+#: TFRMINFOMANAGER.SBTNCANCEL.HINT
+msgid "Закончить работу с менеджером"
+msgstr ""
+
+#: TFRMINPUTPHONE.CAPTION
+msgid "frmInputPhone"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND0.CAPTION
+msgid "0"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND1.CAPTION
+msgid "1"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND2.CAPTION
+msgid "2"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND3.CAPTION
+msgid "3"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND4.CAPTION
+msgid "4"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND5.CAPTION
+msgid "5"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND6.CAPTION
+msgid "6"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND7.CAPTION
+msgid "7"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND8.CAPTION
+msgid "8"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTND9.CAPTION
+msgid "9"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLA.CAPTION
+msgid "A"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLB.CAPTION
+msgid "B"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLC.CAPTION
+msgid "C"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLD.CAPTION
+msgid "D"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLE.CAPTION
+msgid "E"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLF.CAPTION
+msgid "F"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLG.CAPTION
+msgid "G"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLH.CAPTION
+msgid "H"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLI.CAPTION
+msgid "I"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLJ.CAPTION
+msgid "J"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLK.CAPTION
+msgid "K"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLL.CAPTION
+msgid "L"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLM.CAPTION
+msgid "M"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLN.CAPTION
+msgctxt "TFRMINPUTPHONE.SBTNLN.CAPTION"
+msgid "N"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLO.CAPTION
+msgid "O"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLP.CAPTION
+msgid "P"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLR.CAPTION
+msgid "R"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLS.CAPTION
+msgid "S"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLT.CAPTION
+msgid "T"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLU.CAPTION
+msgid "U"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLV.CAPTION
+msgid "V"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLW.CAPTION
+msgid "W"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLX.CAPTION
+msgid "X"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNLY.CAPTION
+msgid "Y"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNS3.CAPTION
+msgid "#"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSASTERIKS.CAPTION
+msgid "*"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSBSP.CAPTION
+msgid " "
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSDEFIS.CAPTION
+msgctxt "TFRMINPUTPHONE.SBTNSDEFIS.CAPTION"
+msgid "-"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSDOT.CAPTION
+msgid "."
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSFSP.CAPTION
+msgid "_"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSPL.CAPTION
+msgid "("
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSPLUS.CAPTION
+msgid "+"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSPR.CAPTION
+msgid ")"
+msgstr ""
+
+#: TFRMINPUTPHONE.SBTNSSLASH.CAPTION
+msgid "/"
+msgstr ""
+
+#: TFRMLOGIN.CAPTION
+msgid "Вход в систему \"Автострахование\""
+msgstr ""
+
+#: TFRMLOGIN.CBGLOBALSAVING.CAPTION
+msgid "Сохранить настройки глобально"
+msgstr ""
+
+#: TFRMLOGIN.EDDBNAME.TEXT
+msgid "osago"
+msgstr ""
+
+#: TFRMLOGIN.GBCONNECTIONPARAMS.CAPTION
+msgid "Параметры подключения"
+msgstr ""
+
+#: TFRMLOGIN.LABEL1.CAPTION
+msgid "Адрес и порт:"
+msgstr ""
+
+#: TFRMLOGIN.LABEL3.CAPTION
+msgctxt "TFRMLOGIN.LABEL3.CAPTION"
+msgid "Логин:"
+msgstr ""
+
+#: TFRMLOGIN.LABEL4.CAPTION
+msgctxt "TFRMLOGIN.LABEL4.CAPTION"
+msgid "Пароль:"
+msgstr ""
+
+#: TFRMLOGIN.LABEL6.CAPTION
+msgid ":"
+msgstr ""
+
+#: TFRMLOGIN.LABELDBNAME.CAPTION
+msgctxt "TFRMLOGIN.LABELDBNAME.CAPTION"
+msgid "Имя базы данных:"
+msgstr ""
+
+#: TFRMLOGIN.SBTNCANCEL.CAPTION
+msgctxt "TFRMLOGIN.SBTNCANCEL.CAPTION"
+msgid "Закрыть"
+msgstr ""
+
+#: TFRMLOGIN.SBTNOK.CAPTION
+msgctxt "TFRMLOGIN.SBTNOK.CAPTION"
+msgid "Вход"
+msgstr ""
+
+#: TFRMMAIN.CALCEDAWARD.HINT
+msgctxt "TFRMMAIN.CALCEDAWARD.HINT"
+msgid "Страховая премия"
+msgstr ""
+
+#: TFRMMAIN.CAPTION
+msgid "Клиент ОСАГО"
+msgstr ""
+
+#: TFRMMAIN.CBBONUSMALUS.HINT
+msgid "Страховой класс (бонус-малус) договора"
+msgstr ""
+
+#: TFRMMAIN.CBINSCOMPANY.HINT
+msgid "Страховая компания, с которой заключается договор"
+msgstr ""
+
+#: TFRMMAIN.CBOXADDPERIOD.CAPTION
+msgctxt "TFRMMAIN.CBOXADDPERIOD.CAPTION"
+msgid "Доп. период:"
+msgstr ""
+
+#: TFRMMAIN.CBOXADDPERIOD.HINT
+msgid "Имеется второй период использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.CBOXADDPERIOD2.CAPTION
+msgctxt "TFRMMAIN.CBOXADDPERIOD2.CAPTION"
+msgid "Доп. период 2:"
+msgstr ""
+
+#: TFRMMAIN.CBOXADDPERIOD2.HINT
+msgid "Имеется третий период использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.CBOXTRANSIT.CAPTION
+msgctxt "TFRMMAIN.CBOXTRANSIT.CAPTION"
+msgid "Транзит"
+msgstr ""
+
+#: TFRMMAIN.CBOXTRANSIT.HINT
+msgid "Транпортное средство следует к месту регистрации"
+msgstr ""
+
+#: TFRMMAIN.CBOXUNLIMDRVS.CAPTION
+msgctxt "TFRMMAIN.CBOXUNLIMDRVS.CAPTION"
+msgid "Неограниченный круг лиц"
+msgstr ""
+
+#: TFRMMAIN.CBOXUNLIMDRVS.HINT
+msgid "Круг лиц, допущенных к управлению транспортным средством, неограничен"
+msgstr ""
+
+#: TFRMMAIN.CBSCLIENTTYPEGROUP.HINT
+msgctxt "TFRMMAIN.CBSCLIENTTYPEGROUP.HINT"
+msgid "Тип клиента"
+msgstr ""
+
+#: TFRMMAIN.CBSDOCTYPE.HINT
+msgctxt "TFRMMAIN.CBSDOCTYPE.HINT"
+msgid "Вид документа, удостоверяющего личность или существование юридического лица"
+msgstr ""
+
+#: TFRMMAIN.DBGRIDREMINDER.HINT
+msgid "Этим клиентам нужно позвонить"
+msgstr ""
+
+#: TFRMMAIN.DBGRIDSEARCH.HINT
+msgid "Найденные договора"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIOD2END.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDADDPERIOD2END.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIOD2END.HINT
+msgid "Дата окончания третьего периода использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIOD2END.OKCAPTION
+msgctxt "TFRMMAIN.DTEDADDPERIOD2END.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIOD2START.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDADDPERIOD2START.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIOD2START.HINT
+msgid "Дата начала третьего периода использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIOD2START.OKCAPTION
+msgctxt "TFRMMAIN.DTEDADDPERIOD2START.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIODEND.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDADDPERIODEND.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIODEND.HINT
+msgid "Дата окончания второго периода использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIODEND.OKCAPTION
+msgctxt "TFRMMAIN.DTEDADDPERIODEND.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIODSTART.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDADDPERIODSTART.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIODSTART.HINT
+msgid "Дата начала второго периода использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.DTEDADDPERIODSTART.OKCAPTION
+msgctxt "TFRMMAIN.DTEDADDPERIODSTART.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDBEGINDATE.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDBEGINDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDBEGINDATE.HINT
+msgid "Дата начала действия договора"
+msgstr ""
+
+#: TFRMMAIN.DTEDBEGINDATE.OKCAPTION
+msgctxt "TFRMMAIN.DTEDBEGINDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDENDDATE.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDENDDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDENDDATE.HINT
+msgid "Дата окончания страхования"
+msgstr ""
+
+#: TFRMMAIN.DTEDENDDATE.OKCAPTION
+msgctxt "TFRMMAIN.DTEDENDDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDPERIODEND.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDPERIODEND.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDPERIODEND.HINT
+msgid "Дата окончания первого периода использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.DTEDPERIODEND.OKCAPTION
+msgctxt "TFRMMAIN.DTEDPERIODEND.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDPERIODSTART.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDPERIODSTART.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDPERIODSTART.HINT
+msgid "Дата начала первого периода использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.DTEDPERIODSTART.OKCAPTION
+msgctxt "TFRMMAIN.DTEDPERIODSTART.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDSIGNINGDATE.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDSIGNINGDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDSIGNINGDATE.HINT
+msgid "Дата подписания договора"
+msgstr ""
+
+#: TFRMMAIN.DTEDSIGNINGDATE.OKCAPTION
+msgctxt "TFRMMAIN.DTEDSIGNINGDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDSTARTDATE.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDSTARTDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDSTARTDATE.HINT
+msgid "Дата начала страхования"
+msgstr ""
+
+#: TFRMMAIN.DTEDSTARTDATE.OKCAPTION
+msgctxt "TFRMMAIN.DTEDSTARTDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.DTEDTICKETDATE.CANCELCAPTION
+msgctxt "TFRMMAIN.DTEDTICKETDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMMAIN.DTEDTICKETDATE.HINT
+msgid "Дата выдачи квитанции"
+msgstr ""
+
+#: TFRMMAIN.DTEDTICKETDATE.OKCAPTION
+msgctxt "TFRMMAIN.DTEDTICKETDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMMAIN.EDAGENTNAME.HINT
+msgid "ФИО страхового агента"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDBS.HINT
+msgctxt "TFRMMAIN.EDINSAWDBS.HINT"
+msgid "Базовый тариф"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDKBM.HINT
+msgctxt "TFRMMAIN.EDINSAWDKBM.HINT"
+msgid "Коэффициент класса страхования (бонус-малус)"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDKM.HINT
+msgctxt "TFRMMAIN.EDINSAWDKM.HINT"
+msgid "Коэффициент мощности двигателя для категории B"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDKN.HINT
+msgctxt "TFRMMAIN.EDINSAWDKN.HINT"
+msgid "Коэффициент грубых нарушений условий страхования"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDKO.HINT
+msgctxt "TFRMMAIN.EDINSAWDKO.HINT"
+msgid "Коэффициент количества водителей"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDKP.HINT
+msgctxt "TFRMMAIN.EDINSAWDKP.HINT"
+msgid "Коэффициент срока страхования"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDKS.HINT
+msgctxt "TFRMMAIN.EDINSAWDKS.HINT"
+msgid "Коэффициент сезонного использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDKT.HINT
+msgctxt "TFRMMAIN.EDINSAWDKT.HINT"
+msgid "Территориальный коэффициент"
+msgstr ""
+
+#: TFRMMAIN.EDINSAWDKVS.HINT
+msgctxt "TFRMMAIN.EDINSAWDKVS.HINT"
+msgid "Коэффициент возраста и стажа водителя"
+msgstr ""
+
+#: TFRMMAIN.EDINSSUM.HINT
+msgid "Страховая сумма по договору"
+msgstr ""
+
+#: TFRMMAIN.EDPOLISNUM.HINT
+msgctxt "TFRMMAIN.EDPOLISNUM.HINT"
+msgid "Номер бланка страхового полиса"
+msgstr ""
+
+#: TFRMMAIN.EDPOLISSER.HINT
+msgctxt "TFRMMAIN.EDPOLISSER.HINT"
+msgid "Серия бланка страхового полиса"
+msgstr ""
+
+#: TFRMMAIN.EDSCHASSINUM.HINT
+msgctxt "TFRMMAIN.EDSCHASSINUM.HINT"
+msgid "Номер шасси транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.EDSDOCNUM.HINT
+msgctxt "TFRMMAIN.EDSDOCNUM.HINT"
+msgid "Номер документа"
+msgstr ""
+
+#: TFRMMAIN.EDSDOCSER.HINT
+msgctxt "TFRMMAIN.EDSDOCSER.HINT"
+msgid "Серия документа"
+msgstr ""
+
+#: TFRMMAIN.EDSKUSOVNUM.HINT
+msgctxt "TFRMMAIN.EDSKUSOVNUM.HINT"
+msgid "Номер кузова транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.EDSLICENCENUM.HINT
+msgctxt "TFRMMAIN.EDSLICENCENUM.HINT"
+msgid "Номер водительского удостоверения"
+msgstr ""
+
+#: TFRMMAIN.EDSLICENCESER.HINT
+msgctxt "TFRMMAIN.EDSLICENCESER.HINT"
+msgid "Серия водительского удостоверения"
+msgstr ""
+
+#: TFRMMAIN.EDSNAME.HINT
+msgctxt "TFRMMAIN.EDSNAME.HINT"
+msgid "Имя или ИНН клиента"
+msgstr ""
+
+#: TFRMMAIN.EDSPATHRONIMYC.HINT
+msgctxt "TFRMMAIN.EDSPATHRONIMYC.HINT"
+msgid "Отчество клиента"
+msgstr ""
+
+#: TFRMMAIN.EDSPECIALSIGNNUM.HINT
+msgid "Номер специального знака (устарело)"
+msgstr ""
+
+#: TFRMMAIN.EDSPECIALSIGNSER.HINT
+msgid "Серия специального знака (устарело)"
+msgstr ""
+
+#: TFRMMAIN.EDSPOLISNUM.HINT
+msgctxt "TFRMMAIN.EDSPOLISNUM.HINT"
+msgid "Номер бланка страхового полиса"
+msgstr ""
+
+#: TFRMMAIN.EDSPOLISSER.HINT
+msgctxt "TFRMMAIN.EDSPOLISSER.HINT"
+msgid "Серия бланка страхового полиса"
+msgstr ""
+
+#: TFRMMAIN.EDSREGNUM.HINT
+msgctxt "TFRMMAIN.EDSREGNUM.HINT"
+msgid "Государственный регистрационный номер транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.EDSSURNAME.HINT
+msgctxt "TFRMMAIN.EDSSURNAME.HINT"
+msgid "Фамилия или название (если юридическое лицо) клиента"
+msgstr ""
+
+#: TFRMMAIN.EDSVIN.HINT
+msgctxt "TFRMMAIN.EDSVIN.HINT"
+msgid "Vehicle Identification Number (заводской уникальный номер транспортного средства)"
+msgstr ""
+
+#: TFRMMAIN.EDTICKETNUM.HINT
+msgid "Номер квитанции"
+msgstr ""
+
+#: TFRMMAIN.EDTICKETSER.HINT
+msgid "Серия квитанции"
+msgstr ""
+
+#: TFRMMAIN.GBAGENT.CAPTION
+msgctxt "TFRMMAIN.GBAGENT.CAPTION"
+msgid "Страховой агент"
+msgstr ""
+
+#: TFRMMAIN.GBCAR.CAPTION
+msgctxt "TFRMMAIN.GBCAR.CAPTION"
+msgid "Транспортное средство"
+msgstr ""
+
+#: TFRMMAIN.GBDRIVERS.CAPTION
+msgctxt "TFRMMAIN.GBDRIVERS.CAPTION"
+msgid "Водители"
+msgstr ""
+
+#: TFRMMAIN.GBINSCALCULATOR.CAPTION
+msgctxt "TFRMMAIN.GBINSCALCULATOR.CAPTION"
+msgid "Расчёт страховой премии"
+msgstr ""
+
+#: TFRMMAIN.GBINSCALCULATOR.HINT
+msgctxt "TFRMMAIN.GBINSCALCULATOR.HINT"
+msgid "Расчёт страховой премии"
+msgstr ""
+
+#: TFRMMAIN.GBOWNER.CAPTION
+msgctxt "TFRMMAIN.GBOWNER.CAPTION"
+msgid "Собственник транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.GBPERIODS.CAPTION
+msgctxt "TFRMMAIN.GBPERIODS.CAPTION"
+msgid "Периоды"
+msgstr ""
+
+#: TFRMMAIN.GBPOLICYHOLDER.CAPTION
+msgctxt "TFRMMAIN.GBPOLICYHOLDER.CAPTION"
+msgid "Страхователь"
+msgstr ""
+
+#: TFRMMAIN.GBPOLIS.CAPTION
+msgctxt "TFRMMAIN.GBPOLIS.CAPTION"
+msgid "Полис"
+msgstr ""
+
+#: TFRMMAIN.GBRECEIPT.CAPTION
+msgctxt "TFRMMAIN.GBRECEIPT.CAPTION"
+msgid "Квитанция"
+msgstr ""
+
+#: TFRMMAIN.GBSCAR.CAPTION
+msgctxt "TFRMMAIN.GBSCAR.CAPTION"
+msgid "Транспортное средство"
+msgstr ""
+
+#: TFRMMAIN.GBSPECIALNOTES.CAPTION
+msgctxt "TFRMMAIN.GBSPECIALNOTES.CAPTION"
+msgid "Особые отметки"
+msgstr ""
+
+#: TFRMMAIN.GBSPOLICYHOLDER.CAPTION
+msgctxt "TFRMMAIN.GBSPOLICYHOLDER.CAPTION"
+msgid "Данные о страхователе"
+msgstr ""
+
+#: TFRMMAIN.GBSPOLICYHOLDERDOC.CAPTION
+msgctxt "TFRMMAIN.GBSPOLICYHOLDERDOC.CAPTION"
+msgid "Документы страхователя"
+msgstr ""
+
+#: TFRMMAIN.GBSPOLIS.CAPTION
+msgctxt "TFRMMAIN.GBSPOLIS.CAPTION"
+msgid "Полис"
+msgstr ""
+
+#: TFRMMAIN.LABEL10.CAPTION
+msgctxt "TFRMMAIN.LABEL10.CAPTION"
+msgid "Страховая компания"
+msgstr ""
+
+#: TFRMMAIN.LABEL11.CAPTION
+msgctxt "TFRMMAIN.LABEL11.CAPTION"
+msgid "Класс бонус-малус"
+msgstr ""
+
+#: TFRMMAIN.LABEL13.CAPTION
+msgctxt "TFRMMAIN.LABEL13.CAPTION"
+msgid "Адрес:"
+msgstr ""
+
+#: TFRMMAIN.LABEL13.HINT
+msgctxt "TFRMMAIN.LABEL13.HINT"
+msgid "Адрес собственника транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL14.CAPTION
+msgctxt "TFRMMAIN.LABEL14.CAPTION"
+msgid "Начало страхования:"
+msgstr ""
+
+#: TFRMMAIN.LABEL15.CAPTION
+msgctxt "TFRMMAIN.LABEL15.CAPTION"
+msgid "VIN:"
+msgstr ""
+
+#: TFRMMAIN.LABEL16.CAPTION
+msgctxt "TFRMMAIN.LABEL16.CAPTION"
+msgid "Период использования:"
+msgstr ""
+
+#: TFRMMAIN.LABEL17.CAPTION
+msgctxt "TFRMMAIN.LABEL17.CAPTION"
+msgid "Вид документа:"
+msgstr ""
+
+#: TFRMMAIN.LABEL18.CAPTION
+msgctxt "TFRMMAIN.LABEL18.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMMAIN.LABEL19.CAPTION
+msgctxt "TFRMMAIN.LABEL19.CAPTION"
+msgid "Номер шасси:"
+msgstr ""
+
+#: TFRMMAIN.LABEL2.CAPTION
+msgctxt "TFRMMAIN.LABEL2.CAPTION"
+msgid "VIN-код:"
+msgstr ""
+
+#: TFRMMAIN.LABEL2.HINT
+msgctxt "TFRMMAIN.LABEL2.HINT"
+msgid "Vehicle Identification Number (заводской уникальный номер транспортного средства)"
+msgstr ""
+
+#: TFRMMAIN.LABEL20.CAPTION
+msgctxt "TFRMMAIN.LABEL20.CAPTION"
+msgid "Номер кузова:"
+msgstr ""
+
+#: TFRMMAIN.LABEL21.CAPTION
+msgctxt "TFRMMAIN.LABEL21.CAPTION"
+msgid "Гос. рег. номер:"
+msgstr ""
+
+#: TFRMMAIN.LABEL22.CAPTION
+msgctxt "TFRMMAIN.LABEL22.CAPTION"
+msgid "Номер ПТС:"
+msgstr ""
+
+#: TFRMMAIN.LABEL22.HINT
+msgctxt "TFRMMAIN.LABEL22.HINT"
+msgid "Номер паспорта транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL23.CAPTION
+msgctxt "TFRMMAIN.LABEL23.CAPTION"
+msgid "Данные:"
+msgstr ""
+
+#: TFRMMAIN.LABEL23.HINT
+msgctxt "TFRMMAIN.LABEL23.HINT"
+msgid "Данные собственника транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL24.CAPTION
+msgctxt "TFRMMAIN.LABEL24.CAPTION"
+msgid "---"
+msgstr ""
+
+#: TFRMMAIN.LABEL25.CAPTION
+msgid "Конец страхования:"
+msgstr ""
+
+#: TFRMMAIN.LABEL26.CAPTION
+msgctxt "TFRMMAIN.LABEL26.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMMAIN.LABEL27.CAPTION
+msgctxt "TFRMMAIN.LABEL27.CAPTION"
+msgid "Серия ВУ:"
+msgstr ""
+
+#: TFRMMAIN.LABEL28.CAPTION
+msgctxt "TFRMMAIN.LABEL28.CAPTION"
+msgid "Ном. ВУ:"
+msgstr ""
+
+#: TFRMMAIN.LABEL3.CAPTION
+msgctxt "TFRMMAIN.LABEL3.CAPTION"
+msgid "Гос. номер:"
+msgstr ""
+
+#: TFRMMAIN.LABEL3.HINT
+msgctxt "TFRMMAIN.LABEL3.HINT"
+msgid "Государственный регистрационный номер транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL32.CAPTION
+msgctxt "TFRMMAIN.LABEL32.CAPTION"
+msgid "Тип клиента:"
+msgstr ""
+
+#: TFRMMAIN.LABEL4.CAPTION
+msgctxt "TFRMMAIN.LABEL4.CAPTION"
+msgid "Документ:"
+msgstr ""
+
+#: TFRMMAIN.LABEL4.HINT
+msgctxt "TFRMMAIN.LABEL4.HINT"
+msgid "Документы страхователя по договору"
+msgstr ""
+
+#: TFRMMAIN.LABEL40.CAPTION
+msgctxt "TFRMMAIN.LABEL40.CAPTION"
+msgid "Дата заключения:"
+msgstr ""
+
+#: TFRMMAIN.LABEL43.CAPTION
+msgctxt "TFRMMAIN.LABEL43.CAPTION"
+msgid "Специальный знак"
+msgstr ""
+
+#: TFRMMAIN.LABEL44.CAPTION
+msgid "Начало действия:"
+msgstr ""
+
+#: TFRMMAIN.LABEL46.CAPTION
+msgctxt "TFRMMAIN.LABEL46.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMMAIN.LABEL47.CAPTION
+msgctxt "TFRMMAIN.LABEL47.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMMAIN.LABEL48.CAPTION
+msgctxt "TFRMMAIN.LABEL48.CAPTION"
+msgid "Дата выдачи квитанции:"
+msgstr ""
+
+#: TFRMMAIN.LABEL49.CAPTION
+msgctxt "TFRMMAIN.LABEL49.CAPTION"
+msgid "Кузов:"
+msgstr ""
+
+#: TFRMMAIN.LABEL49.HINT
+msgctxt "TFRMMAIN.LABEL49.HINT"
+msgid "Номер кузова транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL5.CAPTION
+msgctxt "TFRMMAIN.LABEL5.CAPTION"
+msgid "Адрес:"
+msgstr ""
+
+#: TFRMMAIN.LABEL5.HINT
+msgctxt "TFRMMAIN.LABEL5.HINT"
+msgid "Адрес страхователя по договору"
+msgstr ""
+
+#: TFRMMAIN.LABEL50.CAPTION
+msgctxt "TFRMMAIN.LABEL50.CAPTION"
+msgid "Шасси:"
+msgstr ""
+
+#: TFRMMAIN.LABEL50.HINT
+msgctxt "TFRMMAIN.LABEL50.HINT"
+msgid "Номер шасси транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL51.CAPTION
+msgctxt "TFRMMAIN.LABEL51.CAPTION"
+msgid "ИНН:"
+msgstr ""
+
+#: TFRMMAIN.LABEL51.HINT
+msgctxt "TFRMMAIN.LABEL51.HINT"
+msgid "ИНН страхователя по договору"
+msgstr ""
+
+#: TFRMMAIN.LABEL52.CAPTION
+msgctxt "TFRMMAIN.LABEL52.CAPTION"
+msgid "ИНН:"
+msgstr ""
+
+#: TFRMMAIN.LABEL52.HINT
+msgctxt "TFRMMAIN.LABEL52.HINT"
+msgid "ИНН собственника транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL55.CAPTION
+msgctxt "TFRMMAIN.LABEL55.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMMAIN.LABEL56.CAPTION
+msgctxt "TFRMMAIN.LABEL56.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMMAIN.LABEL6.CAPTION
+msgctxt "TFRMMAIN.LABEL6.CAPTION"
+msgid "Документ:"
+msgstr ""
+
+#: TFRMMAIN.LABEL6.HINT
+msgctxt "TFRMMAIN.LABEL6.HINT"
+msgid "Документы собственника транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL60.CAPTION
+msgctxt "TFRMMAIN.LABEL60.CAPTION"
+msgid "Базовая ставка (ТБ):"
+msgstr ""
+
+#: TFRMMAIN.LABEL60.HINT
+msgctxt "TFRMMAIN.LABEL60.HINT"
+msgid "Базовый тариф"
+msgstr ""
+
+#: TFRMMAIN.LABEL61.CAPTION
+msgctxt "TFRMMAIN.LABEL61.CAPTION"
+msgid "Регион (КТ):"
+msgstr ""
+
+#: TFRMMAIN.LABEL61.HINT
+msgctxt "TFRMMAIN.LABEL61.HINT"
+msgid "Территориальный коэффициент"
+msgstr ""
+
+#: TFRMMAIN.LABEL62.CAPTION
+msgctxt "TFRMMAIN.LABEL62.CAPTION"
+msgid "КБМ:"
+msgstr ""
+
+#: TFRMMAIN.LABEL62.HINT
+msgctxt "TFRMMAIN.LABEL62.HINT"
+msgid "Коэффициент класса страхования (бонус-малус)"
+msgstr ""
+
+#: TFRMMAIN.LABEL63.CAPTION
+msgctxt "TFRMMAIN.LABEL63.CAPTION"
+msgid "КО:"
+msgstr ""
+
+#: TFRMMAIN.LABEL63.HINT
+msgctxt "TFRMMAIN.LABEL63.HINT"
+msgid "Коэффициент количества водителей"
+msgstr ""
+
+#: TFRMMAIN.LABEL64.CAPTION
+msgctxt "TFRMMAIN.LABEL64.CAPTION"
+msgid "КВС:"
+msgstr ""
+
+#: TFRMMAIN.LABEL64.HINT
+msgctxt "TFRMMAIN.LABEL64.HINT"
+msgid "Коэффициент возраста и стажа водителя"
+msgstr ""
+
+#: TFRMMAIN.LABEL65.CAPTION
+msgctxt "TFRMMAIN.LABEL65.CAPTION"
+msgid "КМ:"
+msgstr ""
+
+#: TFRMMAIN.LABEL65.HINT
+msgctxt "TFRMMAIN.LABEL65.HINT"
+msgid "Коэффициент мощности двигателя для категории B"
+msgstr ""
+
+#: TFRMMAIN.LABEL66.CAPTION
+msgctxt "TFRMMAIN.LABEL66.CAPTION"
+msgid "КС:"
+msgstr ""
+
+#: TFRMMAIN.LABEL66.HINT
+msgctxt "TFRMMAIN.LABEL66.HINT"
+msgid "Коэффициент сезонного использования транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL67.CAPTION
+msgctxt "TFRMMAIN.LABEL67.CAPTION"
+msgid "КП:"
+msgstr ""
+
+#: TFRMMAIN.LABEL67.HINT
+msgctxt "TFRMMAIN.LABEL67.HINT"
+msgid "Коэффициент срока страхования"
+msgstr ""
+
+#: TFRMMAIN.LABEL68.CAPTION
+msgctxt "TFRMMAIN.LABEL68.CAPTION"
+msgid "КН:"
+msgstr ""
+
+#: TFRMMAIN.LABEL68.HINT
+msgctxt "TFRMMAIN.LABEL68.HINT"
+msgid "Коэффициент грубых нарушений условий страхования"
+msgstr ""
+
+#: TFRMMAIN.LABEL69.CAPTION
+msgctxt "TFRMMAIN.LABEL69.CAPTION"
+msgid "ПР:"
+msgstr ""
+
+#: TFRMMAIN.LABEL69.HINT
+msgctxt "TFRMMAIN.LABEL69.HINT"
+msgid "Коэффициент нарушений"
+msgstr ""
+
+#: TFRMMAIN.LABEL7.CAPTION
+msgctxt "TFRMMAIN.LABEL7.CAPTION"
+msgid "Марка:"
+msgstr ""
+
+#: TFRMMAIN.LABEL7.HINT
+msgctxt "TFRMMAIN.LABEL7.HINT"
+msgid "Марка транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL70.CAPTION
+msgctxt "TFRMMAIN.LABEL70.CAPTION"
+msgid "Страховая сумма:"
+msgstr ""
+
+#: TFRMMAIN.LABEL8.CAPTION
+msgctxt "TFRMMAIN.LABEL8.CAPTION"
+msgid "Тип:"
+msgstr ""
+
+#: TFRMMAIN.LABEL8.HINT
+msgctxt "TFRMMAIN.LABEL8.HINT"
+msgid "Тип транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABEL9.CAPTION
+msgctxt "TFRMMAIN.LABEL9.CAPTION"
+msgid "Серия ПТС:"
+msgstr ""
+
+#: TFRMMAIN.LABEL9.HINT
+msgctxt "TFRMMAIN.LABEL9.HINT"
+msgid "Серия паспорта транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELADDPERIOD2DELIM.CAPTION
+msgctxt "TFRMMAIN.LABELADDPERIOD2DELIM.CAPTION"
+msgid "---"
+msgstr ""
+
+#: TFRMMAIN.LABELADDPERIODDELIM.CAPTION
+msgctxt "TFRMMAIN.LABELADDPERIODDELIM.CAPTION"
+msgid "---"
+msgstr ""
+
+#: TFRMMAIN.LABELAGENT.CAPTION
+msgctxt "TFRMMAIN.LABELAGENT.CAPTION"
+msgid "ФИО:"
+msgstr ""
+
+#: TFRMMAIN.LABELCARMARK.CAPTION
+msgctxt "TFRMMAIN.LABELCARMARK.CAPTION"
+msgid "labelCarMark"
+msgstr ""
+
+#: TFRMMAIN.LABELCARMARK.HINT
+msgctxt "TFRMMAIN.LABELCARMARK.HINT"
+msgid "Марка транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELCARTYPE.CAPTION
+msgctxt "TFRMMAIN.LABELCARTYPE.CAPTION"
+msgid "labelCarType"
+msgstr ""
+
+#: TFRMMAIN.LABELCARTYPE.HINT
+msgctxt "TFRMMAIN.LABELCARTYPE.HINT"
+msgid "Тип транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELGOSNUM.CAPTION
+msgctxt "TFRMMAIN.LABELGOSNUM.CAPTION"
+msgid "labelGosNum"
+msgstr ""
+
+#: TFRMMAIN.LABELGOSNUM.HINT
+msgctxt "TFRMMAIN.LABELGOSNUM.HINT"
+msgid "Государственный регистрационный номер транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELKUSOV.CAPTION
+msgctxt "TFRMMAIN.LABELKUSOV.CAPTION"
+msgid "labelKusov"
+msgstr ""
+
+#: TFRMMAIN.LABELKUSOV.HINT
+msgctxt "TFRMMAIN.LABELKUSOV.HINT"
+msgid "Номер кузова транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELOWNERADDRESS.CAPTION
+msgctxt "TFRMMAIN.LABELOWNERADDRESS.CAPTION"
+msgid "labelOwnerAddress"
+msgstr ""
+
+#: TFRMMAIN.LABELOWNERADDRESS.HINT
+msgctxt "TFRMMAIN.LABELOWNERADDRESS.HINT"
+msgid "Адрес собственника транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELOWNERDATA.CAPTION
+msgctxt "TFRMMAIN.LABELOWNERDATA.CAPTION"
+msgid "labelOwnerData"
+msgstr ""
+
+#: TFRMMAIN.LABELOWNERDATA.HINT
+msgctxt "TFRMMAIN.LABELOWNERDATA.HINT"
+msgid "Данные собственника транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELOWNERINN.CAPTION
+msgctxt "TFRMMAIN.LABELOWNERINN.CAPTION"
+msgid "labelOwnerINN"
+msgstr ""
+
+#: TFRMMAIN.LABELOWNERINN.HINT
+msgctxt "TFRMMAIN.LABELOWNERINN.HINT"
+msgid "ИНН собственника транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELOWNERPASSPORT.CAPTION
+msgctxt "TFRMMAIN.LABELOWNERPASSPORT.CAPTION"
+msgid "labelOwnerPassport"
+msgstr ""
+
+#: TFRMMAIN.LABELOWNERPASSPORT.HINT
+msgctxt "TFRMMAIN.LABELOWNERPASSPORT.HINT"
+msgid "Документы собственника транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELPHADDRESS.CAPTION
+msgctxt "TFRMMAIN.LABELPHADDRESS.CAPTION"
+msgid "labelPhAddress"
+msgstr ""
+
+#: TFRMMAIN.LABELPHADDRESS.HINT
+msgctxt "TFRMMAIN.LABELPHADDRESS.HINT"
+msgid "Адрес страхователя по договору"
+msgstr ""
+
+#: TFRMMAIN.LABELPHINN.CAPTION
+msgctxt "TFRMMAIN.LABELPHINN.CAPTION"
+msgid "labelPhINN"
+msgstr ""
+
+#: TFRMMAIN.LABELPHINN.HINT
+msgctxt "TFRMMAIN.LABELPHINN.HINT"
+msgid "ИНН страхователя по договору"
+msgstr ""
+
+#: TFRMMAIN.LABELPHPASSPORT.CAPTION
+msgctxt "TFRMMAIN.LABELPHPASSPORT.CAPTION"
+msgid "labelPhPassport"
+msgstr ""
+
+#: TFRMMAIN.LABELPHPASSPORT.HINT
+msgctxt "TFRMMAIN.LABELPHPASSPORT.HINT"
+msgid "Документы страхователя по договору"
+msgstr ""
+
+#: TFRMMAIN.LABELPOLISNUM.CAPTION
+msgctxt "TFRMMAIN.LABELPOLISNUM.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMMAIN.LABELPOLISSER.CAPTION
+msgctxt "TFRMMAIN.LABELPOLISSER.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMMAIN.LABELPTSNUM.CAPTION
+msgctxt "TFRMMAIN.LABELPTSNUM.CAPTION"
+msgid "labelPTSNum"
+msgstr ""
+
+#: TFRMMAIN.LABELPTSNUM.HINT
+msgctxt "TFRMMAIN.LABELPTSNUM.HINT"
+msgid "Номер паспорта транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELPTSSER.CAPTION
+msgctxt "TFRMMAIN.LABELPTSSER.CAPTION"
+msgid "labelPTSSer"
+msgstr ""
+
+#: TFRMMAIN.LABELPTSSER.HINT
+msgctxt "TFRMMAIN.LABELPTSSER.HINT"
+msgid "Серия паспорта транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELSHASSI.CAPTION
+msgctxt "TFRMMAIN.LABELSHASSI.CAPTION"
+msgid "labelShassi"
+msgstr ""
+
+#: TFRMMAIN.LABELSHASSI.HINT
+msgctxt "TFRMMAIN.LABELSHASSI.HINT"
+msgid "Номер шасси транспортного средства"
+msgstr ""
+
+#: TFRMMAIN.LABELSNAME.CAPTION
+msgctxt "TFRMMAIN.LABELSNAME.CAPTION"
+msgid "Имя:"
+msgstr ""
+
+#: TFRMMAIN.LABELSPATHRONIMYC.CAPTION
+msgctxt "TFRMMAIN.LABELSPATHRONIMYC.CAPTION"
+msgid "Отчество:"
+msgstr ""
+
+#: TFRMMAIN.LABELSSNUM.CAPTION
+msgctxt "TFRMMAIN.LABELSSNUM.CAPTION"
+msgid "Номер:"
+msgstr ""
+
+#: TFRMMAIN.LABELSSSER.CAPTION
+msgctxt "TFRMMAIN.LABELSSSER.CAPTION"
+msgid "Серия:"
+msgstr ""
+
+#: TFRMMAIN.LABELSSURNAME.CAPTION
+msgctxt "TFRMMAIN.LABELSSURNAME.CAPTION"
+msgid "Фамилия:"
+msgstr ""
+
+#: TFRMMAIN.LABELVIN.CAPTION
+msgctxt "TFRMMAIN.LABELVIN.CAPTION"
+msgid "labelVIN"
+msgstr ""
+
+#: TFRMMAIN.LABELVIN.HINT
+msgctxt "TFRMMAIN.LABELVIN.HINT"
+msgid "Vehicle Identification Number (заводской уникальный номер транспортного средства)"
+msgstr ""
+
+#: TFRMMAIN.MEMOSPECIALNOTES.HINT
+msgid "Особые отметки в полисе"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN.CAPTION
+msgid "Администрирование"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_INPUTBLANKS.CAPTION
+msgid "Ввести пустые бланки полисов"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_REPORTS.CAPTION
+msgid "Отчёты"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_REPORTSFORM.CAPTION
+msgid "Изменить формы бланков"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_REPORTSFORM_POLIS.CAPTION
+msgctxt "TFRMMAIN.MMNMAIN_ADMIN_REPORTSFORM_POLIS.CAPTION"
+msgid "Изменить бланк полиса"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_REPORTSFORM_RECEIPT.CAPTION
+msgid "Изменить бланк заявления"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_REPORTSFORM_REPBYDATE.CAPTION
+msgid "Бланк отчёта по датам"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_REPORTSFORM_REPGENERAL.CAPTION
+msgid "Бланк общего отчёта"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_REPORTS_REPBYDATE.CAPTION
+msgid "Полисы по датам"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_REPORTS_REPGENERAL.CAPTION
+msgid "Общий отчёт"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_SEP0.CAPTION
+msgctxt "TFRMMAIN.MMNMAIN_ADMIN_SEP0.CAPTION"
+msgid "-"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_ADMIN_SQLTOOL.CAPTION
+msgctxt "TFRMMAIN.MMNMAIN_ADMIN_SQLTOOL.CAPTION"
+msgid "Инструмент SQL"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_FILE.CAPTION
+msgid "Файл"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_FILE_CLOSE.CAPTION
+msgctxt "TFRMMAIN.MMNMAIN_FILE_CLOSE.CAPTION"
+msgid "Выход"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_HELP.CAPTION
+msgid "Помощь"
+msgstr ""
+
+#: TFRMMAIN.MMNMAIN_HELP_ABOUT.CAPTION
+msgctxt "TFRMMAIN.MMNMAIN_HELP_ABOUT.CAPTION"
+msgid "О программе"
+msgstr ""
+
+#: TFRMMAIN.MNDRIVERS_ADD.CAPTION
+msgctxt "TFRMMAIN.MNDRIVERS_ADD.CAPTION"
+msgid "Добавить"
+msgstr ""
+
+#: TFRMMAIN.MNDRIVERS_CHG.CAPTION
+msgctxt "TFRMMAIN.MNDRIVERS_CHG.CAPTION"
+msgid "Изменить"
+msgstr ""
+
+#: TFRMMAIN.MNDRIVERS_DEL.CAPTION
+msgctxt "TFRMMAIN.MNDRIVERS_DEL.CAPTION"
+msgid "Удалить"
+msgstr ""
+
+#: TFRMMAIN.MNREMINDER_OPEN.CAPTION
+msgid "Открыть"
+msgstr ""
+
+#: TFRMMAIN.MNREMINDER_REMIND.CAPTION
+msgid "Напомнить"
+msgstr ""
+
+#: TFRMMAIN.MNTRAY_CLOSEAPP.CAPTION
+msgctxt "TFRMMAIN.MNTRAY_CLOSEAPP.CAPTION"
+msgid "Закрыть"
+msgstr ""
+
+#: TFRMMAIN.MNTRAY_MINIMIZE.CAPTION
+msgid "Свернуть"
+msgstr ""
+
+#: TFRMMAIN.MNTRAY_MININTRAY.CAPTION
+msgid "Свернуть в трэй"
+msgstr ""
+
+#: TFRMMAIN.MNTRAY_SEP0.CAPTION
+msgctxt "TFRMMAIN.MNTRAY_SEP0.CAPTION"
+msgid "-"
+msgstr ""
+
+#: TFRMMAIN.MNTRAY_SHOWAPP.CAPTION
+msgid "Показать"
+msgstr ""
+
+#: TFRMMAIN.MNTREE_BLANKDAMAGE.CAPTION
+msgid "Испортить бланк"
+msgstr ""
+
+#: TFRMMAIN.MNTREE_BLANKRESERVE.CAPTION
+msgid "Зарезервировать бланк"
+msgstr ""
+
+#: TFRMMAIN.MNTREE_BLANKUNRESERVE.CAPTION
+msgid "Освободить бланк"
+msgstr ""
+
+#: TFRMMAIN.MNTREE_COMPANYINFO.CAPTION
+msgid "Информация о компании"
+msgstr ""
+
+#: TFRMMAIN.MNTREE_SEP0.CAPTION
+msgctxt "TFRMMAIN.MNTREE_SEP0.CAPTION"
+msgid "-"
+msgstr ""
+
+#: TFRMMAIN.MNTREE_TICKETEDIT.CAPTION
+msgid "Изменить квитанцию"
+msgstr ""
+
+#: TFRMMAIN.PNHEAD.CAPTION
+msgctxt "TFRMMAIN.PNHEAD.CAPTION"
+msgid " Поиск договора ОСАГО"
+msgstr ""
+
+#: TFRMMAIN.RGPRINT.CAPTION
+msgctxt "TFRMMAIN.RGPRINT.CAPTION"
+msgid "Печать"
+msgstr ""
+
+#: TFRMMAIN.RGPRINT.HINT
+msgid "Печать документов"
+msgstr ""
+
+#: TFRMMAIN.RGSEARCHTYPE.CAPTION
+msgctxt "TFRMMAIN.RGSEARCHTYPE.CAPTION"
+msgid "Тип совпадения"
+msgstr ""
+
+#: TFRMMAIN.RGSEARCHTYPE.HINT
+msgctxt "TFRMMAIN.RGSEARCHTYPE.HINT"
+msgid "Должно совпадать любое поля или все поля вместе"
+msgstr ""
+
+#: TFRMMAIN.SBARMAIN.HINT
+msgid "Панель состояния"
+msgstr ""
+
+#: TFRMMAIN.SBTNCALCINSAWARD.HINT
+msgctxt "TFRMMAIN.SBTNCALCINSAWARD.HINT"
+msgid "Расчитать страховую премию"
+msgstr ""
+
+#: TFRMMAIN.SBTNCAR.CAPTION
+msgctxt "TFRMMAIN.SBTNCAR.CAPTION"
+msgid "Выбрать транспортное средство"
+msgstr ""
+
+#: TFRMMAIN.SBTNCAR.HINT
+msgid "Выбрать транспортное средство по договору"
+msgstr ""
+
+#: TFRMMAIN.SBTNCARMANAGER.HINT
+msgctxt "TFRMMAIN.SBTNCARMANAGER.HINT"
+msgid "Менеджер транспортных средств"
+msgstr ""
+
+#: TFRMMAIN.SBTNCLEAR.CAPTION
+msgctxt "TFRMMAIN.SBTNCLEAR.CAPTION"
+msgid "Очистить"
+msgstr ""
+
+#: TFRMMAIN.SBTNCLEAR.HINT
+msgctxt "TFRMMAIN.SBTNCLEAR.HINT"
+msgid "Очистить условия поиска"
+msgstr ""
+
+#: TFRMMAIN.SBTNCLIENTMANAGER.HINT
+msgctxt "TFRMMAIN.SBTNCLIENTMANAGER.HINT"
+msgid "Менеджер клиентов"
+msgstr ""
+
+#: TFRMMAIN.SBTNCONTRACTADD.HINT
+msgctxt "TFRMMAIN.SBTNCONTRACTADD.HINT"
+msgid "Создать договор"
+msgstr ""
+
+#: TFRMMAIN.SBTNCONTRACTCLOSE.HINT
+msgctxt "TFRMMAIN.SBTNCONTRACTCLOSE.HINT"
+msgid "Закрыть договор"
+msgstr ""
+
+#: TFRMMAIN.SBTNCONTRACTHISTORY.HINT
+msgctxt "TFRMMAIN.SBTNCONTRACTHISTORY.HINT"
+msgid "История договора"
+msgstr ""
+
+#: TFRMMAIN.SBTNCONTRACTPROLONG.HINT
+msgctxt "TFRMMAIN.SBTNCONTRACTPROLONG.HINT"
+msgid "Пролонгировать договор"
+msgstr ""
+
+#: TFRMMAIN.SBTNCONTRACTREPLACE.HINT
+msgctxt "TFRMMAIN.SBTNCONTRACTREPLACE.HINT"
+msgid "Заменить договор"
+msgstr ""
+
+#: TFRMMAIN.SBTNCONTRACTROLLBACK.HINT
+msgctxt "TFRMMAIN.SBTNCONTRACTROLLBACK.HINT"
+msgid "Отменить изменения"
+msgstr ""
+
+#: TFRMMAIN.SBTNCONTRACTSAVE.HINT
+msgctxt "TFRMMAIN.SBTNCONTRACTSAVE.HINT"
+msgid "Сохранить договор"
+msgstr ""
+
+#: TFRMMAIN.SBTNDRIVERADD.HINT
+msgctxt "TFRMMAIN.SBTNDRIVERADD.HINT"
+msgid "Добавить водителя в договор"
+msgstr ""
+
+#: TFRMMAIN.SBTNDRIVERDEL.HINT
+msgctxt "TFRMMAIN.SBTNDRIVERDEL.HINT"
+msgid "Удалить водителя из договора"
+msgstr ""
+
+#: TFRMMAIN.SBTNDRIVEREDIT.HINT
+msgctxt "TFRMMAIN.SBTNDRIVEREDIT.HINT"
+msgid "Изменить данные водителя"
+msgstr ""
+
+#: TFRMMAIN.SBTNGETACTUALCOEFS.HINT
+msgctxt "TFRMMAIN.SBTNGETACTUALCOEFS.HINT"
+msgid "Получить акутальные коэффициенты"
+msgstr ""
+
+#: TFRMMAIN.SBTNGETCURRCOEFS.HINT
+msgctxt "TFRMMAIN.SBTNGETCURRCOEFS.HINT"
+msgid "Получить коэффициенты из договора"
+msgstr ""
+
+#: TFRMMAIN.SBTNINFOMANAGER.HINT
+msgctxt "TFRMMAIN.SBTNINFOMANAGER.HINT"
+msgid "Менеджер справочников"
+msgstr ""
+
+#: TFRMMAIN.SBTNNOW.HINT
+msgid "Установить время на настоящее"
+msgstr ""
+
+#: TFRMMAIN.SBTNPOLICYHOLDER.CAPTION
+msgid "Выбрать страхователя"
+msgstr ""
+
+#: TFRMMAIN.SBTNPOLICYHOLDER.HINT
+msgid "Выбрать страхователя по договору"
+msgstr ""
+
+#: TFRMMAIN.SBTNPOLISSELECT.HINT
+msgctxt "TFRMMAIN.SBTNPOLISSELECT.HINT"
+msgid "Выбрать пустой бланк полиса"
+msgstr ""
+
+#: TFRMMAIN.SBTNPRINT.HINT
+msgctxt "TFRMMAIN.SBTNPRINT.HINT"
+msgid "Распечатать выбранный документ"
+msgstr ""
+
+#: TFRMMAIN.SBTNREMIND.HINT
+msgctxt "TFRMMAIN.SBTNREMIND.HINT"
+msgid "Убрать выбранного клиента из списка напоминаний"
+msgstr ""
+
+#: TFRMMAIN.SBTNSEARCH.CAPTION
+msgctxt "TFRMMAIN.SBTNSEARCH.CAPTION"
+msgid "Найти"
+msgstr ""
+
+#: TFRMMAIN.SBTNSEARCH.HINT
+msgid "Найти договора"
+msgstr ""
+
+#: TFRMMAIN.SBTNSETINSCLASS.HINT
+msgid "Определить страховой класс (бонус-малус) договора"
+msgstr ""
+
+#: TFRMMAIN.SBTNUSERMANAGER.HINT
+msgctxt "TFRMMAIN.SBTNUSERMANAGER.HINT"
+msgid "Менеджер пользователей"
+msgstr ""
+
+#: TFRMMAIN.STRGRIDDRIVERS.COLUMNS.TITLE.CAPTION
+msgctxt "TFRMMAIN.STRGRIDDRIVERS.COLUMNS.TITLE.CAPTION"
+msgid "Стаж"
+msgstr ""
+
+#: TFRMMAIN.STRGRIDDRIVERS.HINT
+msgid "Список водителей по договору"
+msgstr ""
+
+#: TFRMMAIN.STXTFORMULA.HINT
+msgid "Формула для рассчёта страховой премии"
+msgstr ""
+
+#: TFRMMAIN.TRVLEFT.HINT
+msgid "Список компаний и свободных бланков"
+msgstr ""
+
+#: TFRMMAIN.TTSMAIN_ADDINFO.CAPTION
+msgctxt "TFRMMAIN.TTSMAIN_ADDINFO.CAPTION"
+msgid "2: Заполнение дополнительной информации"
+msgstr ""
+
+#: TFRMMAIN.TTSMAIN_SEARCH.CAPTION
+msgctxt "TFRMMAIN.TTSMAIN_SEARCH.CAPTION"
+msgid "0: Поиск договоров"
+msgstr ""
+
+#: TFRMMAIN.TTSMAIN_STATEMENT.CAPTION
+msgctxt "TFRMMAIN.TTSMAIN_STATEMENT.CAPTION"
+msgid "1: Заполнение заявления"
+msgstr ""
+
+#: TFRMMAIN.ZVDTPSTARTTIME.HINT
+msgid "Время начала страхования"
+msgstr ""
+
+#: TFRMREPFILTER.CAPTION
+msgid "Фильтр"
+msgstr ""
+
+#: TFRMREPFILTER.CBENDDATE.CAPTION
+msgid "Конечная дата"
+msgstr ""
+
+#: TFRMREPFILTER.CBSTARTDATE.CAPTION
+msgid "Начальная дата"
+msgstr ""
+
+#: TFRMREPFILTER.DTEDENDDATE.CANCELCAPTION
+msgctxt "TFRMREPFILTER.DTEDENDDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMREPFILTER.DTEDENDDATE.OKCAPTION
+msgctxt "TFRMREPFILTER.DTEDENDDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMREPFILTER.DTEDSTARTDATE.CANCELCAPTION
+msgctxt "TFRMREPFILTER.DTEDSTARTDATE.CANCELCAPTION"
+msgid "Cancel"
+msgstr ""
+
+#: TFRMREPFILTER.DTEDSTARTDATE.OKCAPTION
+msgctxt "TFRMREPFILTER.DTEDSTARTDATE.OKCAPTION"
+msgid "OK"
+msgstr ""
+
+#: TFRMREPFILTER.SBTNCANCEL.CAPTION
+msgctxt "TFRMREPFILTER.SBTNCANCEL.CAPTION"
+msgid "Отменить"
+msgstr ""
+
+#: TFRMREPFILTER.SBTNOK.CAPTION
+msgctxt "TFRMREPFILTER.SBTNOK.CAPTION"
+msgid "Ok"
+msgstr ""
+
+#: TFRMSQLTOOL.CAPTION
+msgctxt "TFRMSQLTOOL.CAPTION"
+msgid "Инструмент SQL"
+msgstr ""
+
+#: TFRMSQLTOOL.GBQUERYRESULT.CAPTION
+msgid "Результат запроса"
+msgstr ""
+
+#: TFRMSQLTOOL.GBSQLEDITOR.CAPTION
+msgid "Текст запроса"
+msgstr ""
+
+#: TFRMSQLTOOL.SBTNCANCEL.CAPTION
+msgctxt "TFRMSQLTOOL.SBTNCANCEL.CAPTION"
+msgid "Закрыть"
+msgstr ""
+
+#: TFRMSQLTOOL.SBTNEXECQUERY.CAPTION
+msgid "Выполнить"
+msgstr ""
+
+#: TFRMUSERMANAGER.CAPTION
+msgctxt "TFRMUSERMANAGER.CAPTION"
+msgid "Менеджер пользователей и групп"
+msgstr ""
+
+#: TFRMUSERMANAGER.CBUSERGROUPS.HINT
+msgid "Группа, к которой будет принадлежать выбранный пользователь"
+msgstr ""
+
+#: TFRMUSERMANAGER.CHKGRPGROUPPRIVS.CAPTION
+msgctxt "TFRMUSERMANAGER.CHKGRPGROUPPRIVS.CAPTION"
+msgid "Права группы"
+msgstr ""
+
+#: TFRMUSERMANAGER.DBGRIDUSERS.HINT
+msgid "Все пользователи"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDADDRESS.HINT
+msgid "Адрес проживания выбранного пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDBPHONECELL.HINT
+msgid "Сотовый телефон выбранного пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDBPHONEHOME.HINT
+msgid "Домашний телефон выбранного пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDHOST.HINT
+msgid "Хост выбранного пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDHOST.TEXT
+msgid "%"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDLOGIN.HINT
+msgid "Имя выбранного пользователя в системе"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDNAME.HINT
+msgid "Имя выбранного пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDPASSWORD.HINT
+msgid "Пароль"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDPASSWORDCONFIRM.HINT
+msgid "Подтверждение пароля"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDPATHRONIMYC.HINT
+msgid "Отчество выбранного пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.EDSURNAME.HINT
+msgid "Фамилия выбранного пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.GBGROUPPARAMS.CAPTION
+msgid "Параметры группы"
+msgstr ""
+
+#: TFRMUSERMANAGER.GBSELUSER.CAPTION
+msgctxt "TFRMUSERMANAGER.GBSELUSER.CAPTION"
+msgid "Список пользователей"
+msgstr ""
+
+#: TFRMUSERMANAGER.GBUSERDATA.CAPTION
+msgid "Данные пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELNAME.CAPTION
+msgctxt "TFRMUSERMANAGER.LABELNAME.CAPTION"
+msgid "Имя:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELPATHRONIMYC.CAPTION
+msgctxt "TFRMUSERMANAGER.LABELPATHRONIMYC.CAPTION"
+msgid "Отчество:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELPATHRONIMYC1.CAPTION
+msgid "Домашний тел.:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELPATHRONIMYC2.CAPTION
+msgid "Сотовый тел.:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELPATHRONIMYC4.CAPTION
+msgctxt "TFRMUSERMANAGER.LABELPATHRONIMYC4.CAPTION"
+msgid "Группа:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELPATHRONIMYC5.CAPTION
+msgctxt "TFRMUSERMANAGER.LABELPATHRONIMYC5.CAPTION"
+msgid "Группа:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELPATHRONIMYC6.CAPTION
+msgctxt "TFRMUSERMANAGER.LABELPATHRONIMYC6.CAPTION"
+msgid "Адрес:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELPATHRONIMYC7.CAPTION
+msgid "Описание:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELSURNAME.CAPTION
+msgctxt "TFRMUSERMANAGER.LABELSURNAME.CAPTION"
+msgid "Фамилия:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELSURNAME1.CAPTION
+msgctxt "TFRMUSERMANAGER.LABELSURNAME1.CAPTION"
+msgid "Логин:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELSURNAME2.CAPTION
+msgid "Хост:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELSURNAME3.CAPTION
+msgctxt "TFRMUSERMANAGER.LABELSURNAME3.CAPTION"
+msgid "Пароль:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELSURNAME4.CAPTION
+msgid "Подтверждение:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELSURNAME5.CAPTION
+msgid "Комментарии:"
+msgstr ""
+
+#: TFRMUSERMANAGER.LABELSURNAME6.CAPTION
+msgid "Название группы:"
+msgstr ""
+
+#: TFRMUSERMANAGER.MEMOUSERCOMMENTS.HINT
+msgid "Краткий комментарий"
+msgstr ""
+
+#: TFRMUSERMANAGER.PNHEAD.CAPTION
+msgid " Менеджер пользователей и групп"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNAPPLY.CAPTION
+msgctxt "TFRMUSERMANAGER.SBTNAPPLY.CAPTION"
+msgid "Применить"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNAPPLY.HINT
+msgctxt "TFRMUSERMANAGER.SBTNAPPLY.HINT"
+msgid "Применить сделанные изменения"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNCANCEL.CAPTION
+msgctxt "TFRMUSERMANAGER.SBTNCANCEL.CAPTION"
+msgid "Отменить"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNCANCEL.HINT
+msgctxt "TFRMUSERMANAGER.SBTNCANCEL.HINT"
+msgid "Отменить сделанные изменения и закончить работу с менеджером"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNDEL.CAPTION
+msgctxt "TFRMUSERMANAGER.SBTNDEL.CAPTION"
+msgid "Удалить"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNDEL.HINT
+msgid "Удалить выбранного пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNNEW.CAPTION
+msgctxt "TFRMUSERMANAGER.SBTNNEW.CAPTION"
+msgid "Новый"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNNEW.HINT
+msgid "Создать нового пользователя"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNOK.CAPTION
+msgctxt "TFRMUSERMANAGER.SBTNOK.CAPTION"
+msgid "Ok"
+msgstr ""
+
+#: TFRMUSERMANAGER.SBTNOK.HINT
+msgctxt "TFRMUSERMANAGER.SBTNOK.HINT"
+msgid "Применить сделанные изменения и закончить работу с менеджером"
+msgstr ""
+
+#: TFRMUSERMANAGER.TTSMAIN_GROUPS.CAPTION
+msgid "Группы"
+msgstr ""
+
+#: TFRMUSERMANAGER.TTSMAIN_USERS.CAPTION
+msgctxt "TFRMUSERMANAGER.TTSMAIN_USERS.CAPTION"
+msgid "Пользователи"
+msgstr ""
+
+#: TFRMWAITER.CAPTION
+msgid "Идёт выполнение операции..."
+msgstr ""
+
+#: TFRMWAITER.LABELWAITING.CAPTION
+msgid "Подождите. Операция выполняется..."
+msgstr ""
+
